@@ -143,12 +143,12 @@ IV - Software tools and usages
 |**Synopsis**	|**./apk2url.sh <packagelist> auto**							
 |:--------------|:-------------- 						
 |**Description**| find the equivalent website address for for a list of android package names via google	
-|			
+|		|	
 |**Options**	|<packagelist>
 |		|		a text file containing android package names
 |		|the auto flag is optional:
-|               |		if present, the script will automatically pick the first website address from 	|		|	google candidate search results		|
-|               |		if not present, the script will let testers pick a website manually from the 	|		|	google candidate search results		|
+|               |		if present, the script will automatically pick the first website address from 	|		|	google candidate search results		
+|               |		if not present, the script will let testers pick a website manually from the 	|		|	google candidate search results		
 |**Dependencies**|url.py					
 |		|
 |		|
