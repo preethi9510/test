@@ -124,7 +124,7 @@ IV - Software tools and usages
 |**Synopsis**	|**./apk2web.sh**							
 |:--------------|:-------------- 						
 |**Description**| find the equivalent website address for an apk file by looking into the manifest	
-|		|	
+|---------------|---------------------		|	
 |**Options**	|<apkfile>
 |               |	an apk file
 |               |	given an apk file, the script will return the equivalent website address
@@ -143,7 +143,7 @@ IV - Software tools and usages
 |**Synopsis**	|**./apk2url.sh <packagelist> auto**							
 |:--------------|:-------------- 						
 |**Description**| find the equivalent website address for for a list of android package names via google	
-|		|	
+|-----------	|--------		
 |**Options**	|<packagelist>
 |		|		a text file containing android package names
 |		|the auto flag is optional:
