@@ -124,7 +124,7 @@ IV - Software tools and usages
 |**Synopsis**	|**./apk2web.sh**							
 |:--------------|:-------------- 						
 |**Description**| find the equivalent website address for an apk file by looking into the manifest	
-|---------------|---------------------		|	
+|		|	
 |**Options**	|<apkfile>
 |               |	an apk file
 |               |	given an apk file, the script will return the equivalent website address
@@ -147,8 +147,8 @@ IV - Software tools and usages
 |**Options**	|<packagelist>
 |		|		a text file containing android package names
 |		|the auto flag is optional:
-|               |		if present, the script will automatically pick the first website address from 	|		|	google candidate search results
-|               |		if not present, the script will let testers pick a website manually from the 	|		|	google candidate search results
+|               |		if present, the script will automatically pick the first website address from 	|		|	google candidate search results		|
+|               |		if not present, the script will let testers pick a website manually from the 	|		|	google candidate search results		|
 |**Dependencies**|url.py					
 |		|
 |		|
@@ -156,13 +156,12 @@ IV - Software tools and usages
 |**Packages**   |lai_web								
 |		|	
 |		|	
-|**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129268108-f69c6b99-811a-4c0e-be43-|2b70f33262a9.png)|
-|		|![image](https://user-images.githubusercontent.com/84356922/129268285-081cd838-46f2-498c-82bf-|b1be1adc7efa.png)
-
-		
-
-
-
+|**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129268832-4c5ccef3-ee98-403a-ae3a-	|		|c61b5653991d.png)
+|		|
+|		|
+|		|
+|		|
+|
 
 
 
