@@ -107,7 +107,8 @@ IV - Software tools and usages
 |:--------------|:-------------- 						|
 |**Description**| scrape all the android package names from a website		|
 |		|								|
-|**Options**	|the input website is already hardcoded as apk-dl.com		|				|		|the script will return a list of android package names	
+|**Options**	|the input website is already hardcoded as apk-dl.com		|
+|		| the script will return a list of android package names	
 |		|	
 |		|
 |		|
@@ -158,13 +159,7 @@ IV - Software tools and usages
 |		|	
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129269450-1bae1183-f101-4d18-b716-e80b1ea36bd6.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129270158-b7cd68c3-1a1f-46dc-8a5f-48b6cee3e966.png)|
-|		|
-|		|
-|		|
-|		|
-|		|
-|		|
-|
+
 
 
 
