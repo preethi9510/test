@@ -99,7 +99,9 @@ III – Notations
 	___		optional
 	
 	
-	
+IV - Software tools and usages	
+
+			apkdl.sh:
 	
 |**Synopsis**	|**./apkdl.sh**							|
 |:--------------|:-------------- 						|
@@ -115,29 +117,34 @@ III – Notations
 |**Packages**	|lai_web							|
 |		|						
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129245423-43c2be09-904b-4230-9fd5-1558a27a0ba6.png)
-								|
+								
+
+			apk2web.sh:
+	
+|**Synopsis**	|**./apk2web.sh**							
+|:--------------|:-------------- 						
+|**Description**| find the equivalent website address for an apk file by looking into the manifest	
+|		|	
+|**Options**	|<apkfile>
+|               |	an apk file
+               	|	given an apk file, the script will return the equivalent website address
+|**Dependencies**|aapt					
+|		|dos2unix
+|		|grep
+|		|
+|**Packages**   |lai_web								
+|		|	
+|		|	
+|**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129247712-19fa98e7-659f-4151-9fb1-23c1f84bf347.png)
+							
 
 
 
 
-IV - Software tools and usages
 
-apkdl.sh
 
-synopsis	./apkdl.sh
 
-description	scrape all the android package names from a website
 
-options	none
-the input website is already hardcoded as apk-dl.com
-the script will return a list of android package names
-
-dependencies	curl
-awk
-
-packages
-	lai_web
-examples	 
 
 
 apk2web.sh
