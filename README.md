@@ -169,21 +169,21 @@ IV - Software tools and usages
 
 
 
-|**Synopsis**	|**./apkdl.sh**							|
-|:--------------|:-------------- 						|
-|**Description**| scrape all the android package names from a website		|
-|		|								|
-|**Options**	|the input website is already hardcoded as apk-dl.com		|
-|		| the script will return a list of android package names	
+|**Synopsis**	|****								
+|:--------------|:-------------- 						
+|**Description**| 								
+|		|								
+|**Options**	|		
+|		| 	
 |		|	
 |		|
 |		|
-|**Dependencies**|curl								|
-|		|awk	
+|**Dependencies**|								
 |		|	
-|**Packages**	|lai_web							|
+|		|	
+|**Packages**	|										
 |		|						
-|**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129245423-43c2be09-904b-4230-9fd5-1558a27a0ba6.png)
+|**Examples**	|
 	
 	
 	
