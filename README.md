@@ -143,7 +143,7 @@ IV - Software tools and usages
 |**Synopsis**	|**./apk2url.sh <packagelist> auto**							
 |:--------------|:-------------- 						
 |**Description**| find the equivalent website address for for a list of android package names via google	
-|-----------	|--------		
+|			
 |**Options**	|<packagelist>
 |		|		a text file containing android package names
 |		|the auto flag is optional:
@@ -157,6 +157,7 @@ IV - Software tools and usages
 |		|	
 |		|	
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129269141-8ab2b7be-8617-4f8e-bac2-bfc68ca2ea0f.png)|
+|		|![image](https://user-images.githubusercontent.com/84356922/129269245-43f10099-2b1c-4527-aa61-|047dcf62060c.png)|
 |		|
 |		|
 |		|
