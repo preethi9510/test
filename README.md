@@ -114,7 +114,8 @@ III – Notations
 |		|	
 |Packages	|lai_web							|
 |		|						
-|Examples	|								|
+|Examples	|![image](https://user-images.githubusercontent.com/84356922/129245423-43c2be09-904b-4230-9fd5-1558a27a0ba6.png)
+								|
 
 
 
