@@ -101,7 +101,7 @@ III – Notations
 	
 IV - Software tools and usages	
 
-			##**apkdl.sh:**
+			#apkdl.sh:
 	
 |**Synopsis**	|**./apkdl.sh**							|
 |:--------------|:-------------- 						|
