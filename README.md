@@ -107,9 +107,9 @@ IV - Software tools and usages
 |:--------------|:-------------- 						|
 |**Description**| scrape all the android package names from a website		|
 |		|	
-|**Options**	|none								|
-|		|the input website is already hardcoded as apk-dl.com		|
-|		|the script will return a list of android package names
+|**Options**	|the input website is already hardcoded as apk-dl.com						|		|the script will return a list of android package names	
+|		|	
+|		|
 |		|
 |**Dependencies**|curl								|
 |		|awk	
@@ -156,7 +156,7 @@ IV - Software tools and usages
 |**Packages**   |lai_web								
 |		|	
 |		|	
-|**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129269450-1bae1183-f101-4d18-b716-|e80b1ea36bd6.png)|
+|**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129269450-1bae1183-f101-4d18-b716-e80b1ea36bd6.png)|
 |		|
 |		|
 |		|
