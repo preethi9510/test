@@ -156,8 +156,8 @@ IV - Software tools and usages
 |**Packages**   |lai_web								
 |		|	
 |		|	
-|**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129269141-8ab2b7be-8617-4f8e-bac2-|bfc68ca2ea0f.png)|
-|		|![image](https://user-images.githubusercontent.com/84356922/129269245-43f10099-2b1c-4527-aa61-|047dcf62060c.png)|
+|**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129269450-1bae1183-f101-4d18-b716-|e80b1ea36bd6.png)|
+|		|
 |		|
 |		|
 |		|
