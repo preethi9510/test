@@ -127,7 +127,7 @@ IV - Software tools and usages
 |		|	
 |**Options**	|<apkfile>
 |               |	an apk file
-               	|	given an apk file, the script will return the equivalent website address
+|               |	given an apk file, the script will return the equivalent website address
 |**Dependencies**|aapt					
 |		|dos2unix
 |		|grep
