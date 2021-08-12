@@ -120,6 +120,8 @@ IV - Software tools and usages
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129245423-43c2be09-904b-4230-9fd5-1558a27a0ba6.png)
 								
 
+
+
 			apk2web.sh:
 	
 |**Synopsis**	|**./apk2web.sh**							
@@ -140,6 +142,8 @@ IV - Software tools and usages
 							
 
 
+	
+	
 	
 |**Synopsis**	|**./apk2url.sh <packagelist> auto**							
 |:--------------|:-------------- 						
@@ -164,3 +168,669 @@ IV - Software tools and usages
 
 
 
+
+|**Synopsis**	|**./apkdl.sh**							|
+|:--------------|:-------------- 						|
+|**Description**| scrape all the android package names from a website		|
+|		|								|
+|**Options**	|the input website is already hardcoded as apk-dl.com		|
+|		| the script will return a list of android package names	
+|		|	
+|		|
+|		|
+|**Dependencies**|curl								|
+|		|awk	
+|		|	
+|**Packages**	|lai_web							|
+|		|						
+|**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129245423-43c2be09-904b-4230-9fd5-1558a27a0ba6.png)
+	
+	
+	
+	
+	
+
+|**Synopsis**	|**./apkdl.sh**							|
+|:--------------|:-------------- 						|
+|**Description**| scrape all the android package names from a website		|
+|		|								|
+|**Options**	|the input website is already hardcoded as apk-dl.com		|
+|		| the script will return a list of android package names	
+|		|	
+|		|
+|		|
+|**Dependencies**|curl								|
+|		|awk	
+|		|	
+|**Packages**	|lai_web							|
+|		|						
+|**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129245423-43c2be09-904b-4230-9fd5-1558a27a0ba6.png)
+	
+	
+	
+
+	
+|**Synopsis**	|**./apkdl.sh**							|
+|:--------------|:-------------- 						|
+|**Description**| scrape all the android package names from a website		|
+|		|								|
+|**Options**	|the input website is already hardcoded as apk-dl.com		|
+|		| the script will return a list of android package names	
+|		|	
+|		|
+|		|
+|**Dependencies**|curl								|
+|		|awk	
+|		|	
+|**Packages**	|lai_web							|
+|		|						
+|**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129245423-43c2be09-904b-4230-9fd5-1558a27a0ba6.png)
+	
+	
+
+	
+|**Synopsis**	|**./apkdl.sh**							|
+|:--------------|:-------------- 						|
+|**Description**| scrape all the android package names from a website		|
+|		|								|
+|**Options**	|the input website is already hardcoded as apk-dl.com		|
+|		| the script will return a list of android package names	
+|		|	
+|		|
+|		|
+|**Dependencies**|curl								|
+|		|awk	
+|		|	
+|**Packages**	|lai_web							|
+|		|						
+|**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129245423-43c2be09-904b-4230-9fd5-1558a27a0ba6.png)
+	
+	
+	
+
+|**Synopsis**	|**./apkdl.sh**							|
+|:--------------|:-------------- 						|
+|**Description**| scrape all the android package names from a website		|
+|		|								|
+|**Options**	|the input website is already hardcoded as apk-dl.com		|
+|		| the script will return a list of android package names	
+|		|	
+|		|
+|		|
+|**Dependencies**|curl								|
+|		|awk	
+|		|	
+|**Packages**	|lai_web							|
+|		|						
+|**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129245423-43c2be09-904b-4230-9fd5-1558a27a0ba6.png)
+	
+	
+	
+	
+
+|**Synopsis**	|**./apkdl.sh**							|
+|:--------------|:-------------- 						|
+|**Description**| scrape all the android package names from a website		|
+|		|								|
+|**Options**	|the input website is already hardcoded as apk-dl.com		|
+|		| the script will return a list of android package names	
+|		|	
+|		|
+|		|
+|**Dependencies**|curl								|
+|		|awk	
+|		|	
+|**Packages**	|lai_web							|
+|		|						
+|**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129245423-43c2be09-904b-4230-9fd5-1558a27a0ba6.png)
+	
+	
+
+	
+
+|**Synopsis**	|**./apkdl.sh**							|
+|:--------------|:-------------- 						|
+|**Description**| scrape all the android package names from a website		|
+|		|								|
+|**Options**	|the input website is already hardcoded as apk-dl.com		|
+|		| the script will return a list of android package names	
+|		|	
+|		|
+|		|
+|**Dependencies**|curl								|
+|		|awk	
+|		|	
+|**Packages**	|lai_web							|
+|		|						
+|**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129245423-43c2be09-904b-4230-9fd5-1558a27a0ba6.png)
+								
+	
+	
+
+	
+|**Synopsis**	|**./apkdl.sh**							|
+|:--------------|:-------------- 						|
+|**Description**| scrape all the android package names from a website		|
+|		|								|
+|**Options**	|the input website is already hardcoded as apk-dl.com		|
+|		| the script will return a list of android package names	
+|		|	
+|		|
+|		|
+|**Dependencies**|curl								|
+|		|awk	
+|		|	
+|**Packages**	|lai_web							|
+|		|						
+|**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129245423-43c2be09-904b-4230-9fd5-1558a27a0ba6.png)
+	
+	
+
+
+|**Synopsis**	|**./apkdl.sh**							|
+|:--------------|:-------------- 						|
+|**Description**| scrape all the android package names from a website		|
+|		|								|
+|**Options**	|the input website is already hardcoded as apk-dl.com		|
+|		| the script will return a list of android package names	
+|		|	
+|		|
+|		|
+|**Dependencies**|curl								|
+|		|awk	
+|		|	
+|**Packages**	|lai_web							|
+|		|						
+|**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129245423-43c2be09-904b-4230-9fd5-1558a27a0ba6.png)
+	
+	
+	
+	
+
+|**Synopsis**	|**./apkdl.sh**							|
+|:--------------|:-------------- 						|
+|**Description**| scrape all the android package names from a website		|
+|		|								|
+|**Options**	|the input website is already hardcoded as apk-dl.com		|
+|		| the script will return a list of android package names	
+|		|	
+|		|
+|		|
+|**Dependencies**|curl								|
+|		|awk	
+|		|	
+|**Packages**	|lai_web							|
+|		|						
+|**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129245423-43c2be09-904b-4230-9fd5-1558a27a0ba6.png)
+								
+	
+	
+
+|**Synopsis**	|**./apkdl.sh**							|
+|:--------------|:-------------- 						|
+|**Description**| scrape all the android package names from a website		|
+|		|								|
+|**Options**	|the input website is already hardcoded as apk-dl.com		|
+|		| the script will return a list of android package names	
+|		|	
+|		|
+|		|
+|**Dependencies**|curl								|
+|		|awk	
+|		|	
+|**Packages**	|lai_web							|
+|		|						
+|**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129245423-43c2be09-904b-4230-9fd5-1558a27a0ba6.png)
+								
+	
+	
+
+	
+|**Synopsis**	|**./apkdl.sh**							|
+|:--------------|:-------------- 						|
+|**Description**| scrape all the android package names from a website		|
+|		|								|
+|**Options**	|the input website is already hardcoded as apk-dl.com		|
+|		| the script will return a list of android package names	
+|		|	
+|		|
+|		|
+|**Dependencies**|curl								|
+|		|awk	
+|		|	
+|**Packages**	|lai_web							|
+|		|						
+|**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129245423-43c2be09-904b-4230-9fd5-1558a27a0ba6.png)
+								
+	
+	
+
+
+|**Synopsis**	|**./apkdl.sh**							|
+|:--------------|:-------------- 						|
+|**Description**| scrape all the android package names from a website		|
+|		|								|
+|**Options**	|the input website is already hardcoded as apk-dl.com		|
+|		| the script will return a list of android package names	
+|		|	
+|		|
+|		|
+|**Dependencies**|curl								|
+|		|awk	
+|		|	
+|**Packages**	|lai_web							|
+|		|						
+|**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129245423-43c2be09-904b-4230-9fd5-1558a27a0ba6.png)
+								
+								
+								
+	
+
+|**Synopsis**	|**./apkdl.sh**							|
+|:--------------|:-------------- 						|
+|**Description**| scrape all the android package names from a website		|
+|		|								|
+|**Options**	|the input website is already hardcoded as apk-dl.com		|
+|		| the script will return a list of android package names	
+|		|	
+|		|
+|		|
+|**Dependencies**|curl								|
+|		|awk	
+|		|	
+|**Packages**	|lai_web							|
+|		|						
+|**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129245423-43c2be09-904b-4230-9fd5-1558a27a0ba6.png)
+								
+	
+	
+
+	
+|**Synopsis**	|**./apkdl.sh**							|
+|:--------------|:-------------- 						|
+|**Description**| scrape all the android package names from a website		|
+|		|								|
+|**Options**	|the input website is already hardcoded as apk-dl.com		|
+|		| the script will return a list of android package names	
+|		|	
+|		|
+|		|
+|**Dependencies**|curl								|
+|		|awk	
+|		|	
+|**Packages**	|lai_web							|
+|		|						
+|**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129245423-43c2be09-904b-4230-9fd5-1558a27a0ba6.png)
+								
+	
+	
+	
+
+|**Synopsis**	|**./apkdl.sh**							|
+|:--------------|:-------------- 						|
+|**Description**| scrape all the android package names from a website		|
+|		|								|
+|**Options**	|the input website is already hardcoded as apk-dl.com		|
+|		| the script will return a list of android package names	
+|		|	
+|		|
+|		|
+|**Dependencies**|curl								|
+|		|awk	
+|		|	
+|**Packages**	|lai_web							|
+|		|						
+|**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129245423-43c2be09-904b-4230-9fd5-1558a27a0ba6.png)
+								
+	
+	
+	
+
+|**Synopsis**	|**./apkdl.sh**							|
+|:--------------|:-------------- 						|
+|**Description**| scrape all the android package names from a website		|
+|		|								|
+|**Options**	|the input website is already hardcoded as apk-dl.com		|
+|		| the script will return a list of android package names	
+|		|	
+|		|
+|		|
+|**Dependencies**|curl								|
+|		|awk	
+|		|	
+|**Packages**	|lai_web							|
+|		|						
+|**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129245423-43c2be09-904b-4230-9fd5-1558a27a0ba6.png)
+								
+	
+	
+	
+
+|**Synopsis**	|**./apkdl.sh**							|
+|:--------------|:-------------- 						|
+|**Description**| scrape all the android package names from a website		|
+|		|								|
+|**Options**	|the input website is already hardcoded as apk-dl.com		|
+|		| the script will return a list of android package names	
+|		|	
+|		|
+|		|
+|**Dependencies**|curl								|
+|		|awk	
+|		|	
+|**Packages**	|lai_web							|
+|		|						
+|**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129245423-43c2be09-904b-4230-9fd5-1558a27a0ba6.png)
+								
+	
+	
+	
+
+|**Synopsis**	|**./apkdl.sh**							|
+|:--------------|:-------------- 						|
+|**Description**| scrape all the android package names from a website		|
+|		|								|
+|**Options**	|the input website is already hardcoded as apk-dl.com		|
+|		| the script will return a list of android package names	
+|		|	
+|		|
+|		|
+|**Dependencies**|curl								|
+|		|awk	
+|		|	
+|**Packages**	|lai_web							|
+|		|						
+|**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129245423-43c2be09-904b-4230-9fd5-1558a27a0ba6.png)
+								
+	
+	
+
+|**Synopsis**	|**./apkdl.sh**							|
+|:--------------|:-------------- 						|
+|**Description**| scrape all the android package names from a website		|
+|		|								|
+|**Options**	|the input website is already hardcoded as apk-dl.com		|
+|		| the script will return a list of android package names	
+|		|	
+|		|
+|		|
+|**Dependencies**|curl								|
+|		|awk	
+|		|	
+|**Packages**	|lai_web							|
+|		|						
+|**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129245423-43c2be09-904b-4230-9fd5-1558a27a0ba6.png)
+								
+	
+	
+	
+
+|**Synopsis**	|**./apkdl.sh**							|
+|:--------------|:-------------- 						|
+|**Description**| scrape all the android package names from a website		|
+|		|								|
+|**Options**	|the input website is already hardcoded as apk-dl.com		|
+|		| the script will return a list of android package names	
+|		|	
+|		|
+|		|
+|**Dependencies**|curl								|
+|		|awk	
+|		|	
+|**Packages**	|lai_web							|
+|		|						
+|**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129245423-43c2be09-904b-4230-9fd5-1558a27a0ba6.png)
+								
+	
+	
+	
+
+|**Synopsis**	|**./apkdl.sh**							|
+|:--------------|:-------------- 						|
+|**Description**| scrape all the android package names from a website		|
+|		|								|
+|**Options**	|the input website is already hardcoded as apk-dl.com		|
+|		| the script will return a list of android package names	
+|		|	
+|		|
+|		|
+|**Dependencies**|curl								|
+|		|awk	
+|		|	
+|**Packages**	|lai_web							|
+|		|						
+|**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129245423-43c2be09-904b-4230-9fd5-1558a27a0ba6.png)
+								
+	
+	
+	
+
+|**Synopsis**	|**./apkdl.sh**							|
+|:--------------|:-------------- 						|
+|**Description**| scrape all the android package names from a website		|
+|		|								|
+|**Options**	|the input website is already hardcoded as apk-dl.com		|
+|		| the script will return a list of android package names	
+|		|	
+|		|
+|		|
+|**Dependencies**|curl								|
+|		|awk	
+|		|	
+|**Packages**	|lai_web							|
+|		|						
+|**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129245423-43c2be09-904b-4230-9fd5-1558a27a0ba6.png)
+								
+	
+	
+	
+	
+
+|**Synopsis**	|**./apkdl.sh**							|
+|:--------------|:-------------- 						|
+|**Description**| scrape all the android package names from a website		|
+|		|								|
+|**Options**	|the input website is already hardcoded as apk-dl.com		|
+|		| the script will return a list of android package names	
+|		|	
+|		|
+|		|
+|**Dependencies**|curl								|
+|		|awk	
+|		|	
+|**Packages**	|lai_web							|
+|		|						
+|**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129245423-43c2be09-904b-4230-9fd5-1558a27a0ba6.png)
+								
+	
+	
+	
+	
+
+|**Synopsis**	|**./apkdl.sh**							|
+|:--------------|:-------------- 						|
+|**Description**| scrape all the android package names from a website		|
+|		|								|
+|**Options**	|the input website is already hardcoded as apk-dl.com		|
+|		| the script will return a list of android package names	
+|		|	
+|		|
+|		|
+|**Dependencies**|curl								|
+|		|awk	
+|		|	
+|**Packages**	|lai_web							|
+|		|						
+|**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129245423-43c2be09-904b-4230-9fd5-1558a27a0ba6.png)
+								
+	
+	
+	
+	
+
+|**Synopsis**	|**./apkdl.sh**							|
+|:--------------|:-------------- 						|
+|**Description**| scrape all the android package names from a website		|
+|		|								|
+|**Options**	|the input website is already hardcoded as apk-dl.com		|
+|		| the script will return a list of android package names	
+|		|	
+|		|
+|		|
+|**Dependencies**|curl								|
+|		|awk	
+|		|	
+|**Packages**	|lai_web							|
+|		|						
+|**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129245423-43c2be09-904b-4230-9fd5-1558a27a0ba6.png)
+								
+	
+	
+
+	
+
+|**Synopsis**	|**./apkdl.sh**							|
+|:--------------|:-------------- 						|
+|**Description**| scrape all the android package names from a website		|
+|		|								|
+|**Options**	|the input website is already hardcoded as apk-dl.com		|
+|		| the script will return a list of android package names	
+|		|	
+|		|
+|		|
+|**Dependencies**|curl								|
+|		|awk	
+|		|	
+|**Packages**	|lai_web							|
+|		|						
+|**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129245423-43c2be09-904b-4230-9fd5-1558a27a0ba6.png)
+								
+	
+	
+	
+
+|**Synopsis**	|**./apkdl.sh**							|
+|:--------------|:-------------- 						|
+|**Description**| scrape all the android package names from a website		|
+|		|								|
+|**Options**	|the input website is already hardcoded as apk-dl.com		|
+|		| the script will return a list of android package names	
+|		|	
+|		|
+|		|
+|**Dependencies**|curl								|
+|		|awk	
+|		|	
+|**Packages**	|lai_web							|
+|		|						
+|**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129245423-43c2be09-904b-4230-9fd5-1558a27a0ba6.png)
+								
+	
+	
+	
+
+
+|**Synopsis**	|**./apkdl.sh**							|
+|:--------------|:-------------- 						|
+|**Description**| scrape all the android package names from a website		|
+|		|								|
+|**Options**	|the input website is already hardcoded as apk-dl.com		|
+|		| the script will return a list of android package names	
+|		|	
+|		|
+|		|
+|**Dependencies**|curl								|
+|		|awk	
+|		|	
+|**Packages**	|lai_web							|
+|		|						
+|**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129245423-43c2be09-904b-4230-9fd5-1558a27a0ba6.png)
+								
+	
+	
+	
+
+|**Synopsis**	|**./apkdl.sh**							|
+|:--------------|:-------------- 						|
+|**Description**| scrape all the android package names from a website		|
+|		|								|
+|**Options**	|the input website is already hardcoded as apk-dl.com		|
+|		| the script will return a list of android package names	
+|		|	
+|		|
+|		|
+|**Dependencies**|curl								|
+|		|awk	
+|		|	
+|**Packages**	|lai_web							|
+|		|						
+|**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129245423-43c2be09-904b-4230-9fd5-1558a27a0ba6.png)
+								
+	
+	
+	
+	
+
+|**Synopsis**	|**./apkdl.sh**							|
+|:--------------|:-------------- 						|
+|**Description**| scrape all the android package names from a website		|
+|		|								|
+|**Options**	|the input website is already hardcoded as apk-dl.com		|
+|		| the script will return a list of android package names	
+|		|	
+|		|
+|		|
+|**Dependencies**|curl								|
+|		|awk	
+|		|	
+|**Packages**	|lai_web							|
+|		|						
+|**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129245423-43c2be09-904b-4230-9fd5-1558a27a0ba6.png)
+								
+	
+	
+	
+	
+
+|**Synopsis**	|**./apkdl.sh**							|
+|:--------------|:-------------- 						|
+|**Description**| scrape all the android package names from a website		|
+|		|								|
+|**Options**	|the input website is already hardcoded as apk-dl.com		|
+|		| the script will return a list of android package names	
+|		|	
+|		|
+|		|
+|**Dependencies**|curl								|
+|		|awk	
+|		|	
+|**Packages**	|lai_web							|
+|		|						
+|**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129245423-43c2be09-904b-4230-9fd5-1558a27a0ba6.png)
+								
+	
+	
+	
+
+|**Synopsis**	|**./apkdl.sh**							|
+|:--------------|:-------------- 						|
+|**Description**| scrape all the android package names from a website		|
+|		|								|
+|**Options**	|the input website is already hardcoded as apk-dl.com		|
+|		| the script will return a list of android package names	
+|		|	
+|		|
+|		|
+|**Dependencies**|curl								|
+|		|awk	
+|		|	
+|**Packages**	|lai_web							|
+|		|						
+|**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129245423-43c2be09-904b-4230-9fd5-1558a27a0ba6.png)
+								
+								
+								
+								
+								
+									
+								
