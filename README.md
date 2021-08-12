@@ -102,18 +102,18 @@ III – Notations
 	
 	
 |Synopsis	|./apkdl.sh							|
-|--------------	|-------------- 						|
+|--------------	|:-------------- 						|
 |Description	| scrape all the android package names from a website		|
-|---		|------		
+|		|	
 |Options	|none								|
 |		|the input website is already hardcoded as apk-dl.com		|
 |		|the script will return a list of android package names
-|-------	|----
+|	
 |Dependencies	|curl								|
 |		|awk	
-|---		|---	
+|		|	
 |Packages	|lai_web							|
-|---		|---						
+|		|						
 |Examples	|								|
 
 
