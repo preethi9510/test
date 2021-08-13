@@ -171,8 +171,8 @@ IV - Software tools and usages
 
 |**Synopsis**	|**auto.sh**								
 |:--------------|:-------------- 						
-|**Description**| ./auto.sh  [ <apklist-directory> <server-username> <server-password> <wait-time-in-secs> collect	   | 
-|               | 	     \|<apkdir> apk2web ]
+|**Description**| ./auto.sh  [ <apklist-directory> <server-username> <server-password> <wait-time-in-secs> collect	 | 
+|               | 	     
 |		|						
 |		|								
 |**Options**	|		
