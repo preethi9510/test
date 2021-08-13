@@ -377,9 +377,11 @@ IV - Software tools and usages
 |		|	
 |**Packages**	|										
 |		|						
-|**Examples**	|
-	
-	
+|**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129374950-1889937e-1b98-4f7d-bd40-a12c673c77fb.png)|
+|		|![image](https://user-images.githubusercontent.com/84356922/129375030-23aa567d-1997-424a-bf4d-7cf59b345a7e.png)|
+|		|![image](https://user-images.githubusercontent.com/84356922/129375094-7b98d440-0650-41d1-a34f-fa7b595b84d2.png)|
+|		|
+				
 						adf.sh:
 	
 |**Synopsis**	|****								
@@ -396,7 +398,18 @@ IV - Software tools and usages
 |		|	
 |**Packages**	|										
 |		|						
-|**Examples**	|
+|**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129375266-9457d6ab-447e-4e4d-9de8-76d5cbe8d905.png)|
+|		|![image](https://user-images.githubusercontent.com/84356922/129375329-57bbe8c5-df8b-490e-ad84-e304a59e7c35.png)|
+|		|![image](https://user-images.githubusercontent.com/84356922/129375427-4d299895-5a6e-408c-aa16-37b64aeaed12.png)|
+|		|![image](https://user-images.githubusercontent.com/84356922/129375517-8fdbc9e8-e06a-4854-a828-5a60caecee86.png)|
+|		|![image](https://user-images.githubusercontent.com/84356922/129375570-2963318d-740b-40ba-967a-4757c72d7287.png)|
+|		|![image](https://user-images.githubusercontent.com/84356922/129375652-992d187b-52e5-41ae-8fb1-213eb80d59f0.png)|
+|		|![image](https://user-images.githubusercontent.com/84356922/129375730-0a4af2e0-e4eb-46fb-8a25-0aa05a48b817.png)|
+|		|
+
+	
+	
+	
 	
 	
 						parallel.sh:
