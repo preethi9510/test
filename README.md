@@ -171,7 +171,7 @@ IV - Software tools and usages
 
 |**Synopsis**	|**auto.sh**								
 |:--------------|:-------------- 						
-|**Description**| ./auto.sh  [<apklist-directory>
+|**Description**| ./auto.sh  [\<apklist-directory\>
 |               | 	     
 |		|						
 |		|								
