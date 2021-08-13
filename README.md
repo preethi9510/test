@@ -973,7 +973,7 @@ IV - Software tools and usages
 |		|						
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129383387-6cc7b996-3cc8-4795-a97f-def17d55778f.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129383418-792976f5-89bd-4c86-bb14-7443bb5c2556.png)|
-
+|
 	
 	
 	
