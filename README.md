@@ -141,7 +141,7 @@ IV - Software tools and usages
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129247712-19fa98e7-659f-4151-9fb1-23c1f84bf347.png)
 							
 
-
+			apk2url.sh:
 	
 	
 	
@@ -265,7 +265,26 @@ IV - Software tools and usages
 |**Examples**	|
 	
 	
+						lac_batch.sh:
 	
+	
+|**Synopsis**	|****								
+|:--------------|:-------------- 						
+|**Description**| 								
+|		|								
+|**Options**	|		
+|		| 	
+|		|	
+|		|
+|		|
+|**Dependencies**|								
+|		|	
+|		|	
+|**Packages**	|										
+|		|						
+|**Examples**	|
+	
+						upload.sh:
 	
 	
 |**Synopsis**	|****								
@@ -285,6 +304,26 @@ IV - Software tools and usages
 |**Examples**	|
 	
 	
+						lac_adf.sh:
+	
+	
+|**Synopsis**	|****								
+|:--------------|:-------------- 						
+|**Description**| 								
+|		|								
+|**Options**	|		
+|		| 	
+|		|	
+|		|
+|		|
+|**Dependencies**|								
+|		|	
+|		|	
+|**Packages**	|										
+|		|						
+|**Examples**	|
+	
+						stats2.sh:
 	
 	
 |**Synopsis**	|****								
@@ -304,27 +343,7 @@ IV - Software tools and usages
 |**Examples**	|
 	
 	
-	
-	
-	
-|**Synopsis**	|****								
-|:--------------|:-------------- 						
-|**Description**| 								
-|		|								
-|**Options**	|		
-|		| 	
-|		|	
-|		|
-|		|
-|**Dependencies**|								
-|		|	
-|		|	
-|**Packages**	|										
-|		|						
-|**Examples**	|
-	
-	
-	
+						stats2_web.sh:
 	
 |**Synopsis**	|****								
 |:--------------|:-------------- 						
@@ -343,26 +362,7 @@ IV - Software tools and usages
 |**Examples**	|
 	
 	
-	
-	
-|**Synopsis**	|****								
-|:--------------|:-------------- 						
-|**Description**| 								
-|		|								
-|**Options**	|		
-|		| 	
-|		|	
-|		|
-|		|
-|**Dependencies**|								
-|		|	
-|		|	
-|**Packages**	|										
-|		|						
-|**Examples**	|
-	
-	
-	
+						adf.sh:
 	
 |**Synopsis**	|****								
 |:--------------|:-------------- 						
@@ -381,7 +381,7 @@ IV - Software tools and usages
 |**Examples**	|
 	
 	
-	
+						parallel.sh:
 	
 |**Synopsis**	|****								
 |:--------------|:-------------- 						
@@ -400,7 +400,7 @@ IV - Software tools and usages
 |**Examples**	|
 	
 	
-	
+						adf_fp.sh:
 
 |**Synopsis**	|****								
 |:--------------|:-------------- 						
@@ -419,6 +419,251 @@ IV - Software tools and usages
 |**Examples**	|
 	
 	
+						parallel_fp.sh:
+	
+	
+|**Synopsis**	|****								
+|:--------------|:-------------- 						
+|**Description**| 								
+|		|								
+|**Options**	|		
+|		| 	
+|		|	
+|		|
+|		|
+|**Dependencies**|								
+|		|	
+|		|	
+|**Packages**	|										
+|		|						
+|**Examples**	|
+	
+	
+						stats.sh:
+	
+	
+|**Synopsis**	|****								
+|:--------------|:-------------- 						
+|**Description**| 								
+|		|								
+|**Options**	|		
+|		| 	
+|		|	
+|		|
+|		|
+|**Dependencies**|								
+|		|	
+|		|	
+|**Packages**	|										
+|		|						
+|**Examples**	|
+	
+	
+						concat.sh:
+	
+	
+|**Synopsis**	|****								
+|:--------------|:-------------- 						
+|**Description**| 								
+|		|								
+|**Options**	|		
+|		| 	
+|		|	
+|		|
+|		|
+|**Dependencies**|								
+|		|	
+|		|	
+|**Packages**	|										
+|		|						
+|**Examples**	|
+	
+	
+						semantics.py:
+	
+	
+|**Synopsis**	|****								
+|:--------------|:-------------- 						
+|**Description**| 								
+|		|								
+|**Options**	|		
+|		| 	
+|		|	
+|		|
+|		|
+|**Dependencies**|								
+|		|	
+|		|	
+|**Packages**	|										
+|		|						
+|**Examples**	|
+	
+	
+						context.py:
+	
+|**Synopsis**	|****								
+|:--------------|:-------------- 						
+|**Description**| 								
+|		|								
+|**Options**	|		
+|		| 	
+|		|	
+|		|
+|		|
+|**Dependencies**|								
+|		|	
+|		|	
+|**Packages**	|										
+|		|						
+|**Examples**	|
+	
+	
+				apktool to extract retention period from apps:
+	
+	
+|**Synopsis**	|****								
+|:--------------|:-------------- 						
+|**Description**| 								
+|		|								
+|**Options**	|		
+|		| 	
+|		|	
+|		|
+|		|
+|**Dependencies**|								
+|		|	
+|		|	
+|**Packages**	|										
+|		|						
+|**Examples**	|
+	
+	
+	
+				Web tool to extract retention period from websites:
+	
+|**Synopsis**	|****								
+|:--------------|:-------------- 						
+|**Description**| 								
+|		|								
+|**Options**	|		
+|		| 	
+|		|	
+|		|
+|		|
+|**Dependencies**|								
+|		|	
+|		|	
+|**Packages**	|										
+|		|						
+|**Examples**	|
+	
+	
+	
+	
+				url.py:
+	
+|**Synopsis**	|****								
+|:--------------|:-------------- 						
+|**Description**| 								
+|		|								
+|**Options**	|		
+|		| 	
+|		|	
+|		|
+|		|
+|**Dependencies**|								
+|		|	
+|		|	
+|**Packages**	|										
+|		|						
+|**Examples**	|
+	
+	
+	
+	
+				store.py:
+	
+|**Synopsis**	|****								
+|:--------------|:-------------- 						
+|**Description**| 								
+|		|								
+|**Options**	|		
+|		| 	
+|		|	
+|		|
+|		|
+|**Dependencies**|								
+|		|	
+|		|	
+|**Packages**	|										
+|		|						
+|**Examples**	|
+	
+	
+				my_apps.py:
+	
+	
+|**Synopsis**	|****								
+|:--------------|:-------------- 						
+|**Description**| 								
+|		|								
+|**Options**	|		
+|		| 	
+|		|	
+|		|
+|		|
+|**Dependencies**|								
+|		|	
+|		|	
+|**Packages**	|										
+|		|						
+|**Examples**	|
+	
+	
+	
+				manual.py:
+	
+	
+|**Synopsis**	|****								
+|:--------------|:-------------- 						
+|**Description**| 								
+|		|								
+|**Options**	|		
+|		| 	
+|		|	
+|		|
+|		|
+|**Dependencies**|								
+|		|	
+|		|	
+|**Packages**	|										
+|		|						
+|**Examples**	|
+	
+	
+	
+				signup.py:
+	
+	
+|**Synopsis**	|****								
+|:--------------|:-------------- 						
+|**Description**| 								
+|		|								
+|**Options**	|		
+|		| 	
+|		|	
+|		|
+|		|
+|**Dependencies**|								
+|		|	
+|		|	
+|**Packages**	|										
+|		|						
+|**Examples**	|
+	
+	
+	
+				login.py:
 	
 	
 	
@@ -441,25 +686,7 @@ IV - Software tools and usages
 	
 	
 	
-	
-|**Synopsis**	|****								
-|:--------------|:-------------- 						
-|**Description**| 								
-|		|								
-|**Options**	|		
-|		| 	
-|		|	
-|		|
-|		|
-|**Dependencies**|								
-|		|	
-|		|	
-|**Packages**	|										
-|		|						
-|**Examples**	|
-	
-	
-	
+				delete.py:
 	
 	
 |**Synopsis**	|****								
@@ -480,6 +707,7 @@ IV - Software tools and usages
 	
 	
 	
+				cleanup.py:
 	
 	
 |**Synopsis**	|****								
@@ -500,25 +728,7 @@ IV - Software tools and usages
 	
 	
 	
-	
-|**Synopsis**	|****								
-|:--------------|:-------------- 						
-|**Description**| 								
-|		|								
-|**Options**	|		
-|		| 	
-|		|	
-|		|
-|		|
-|**Dependencies**|								
-|		|	
-|		|	
-|**Packages**	|										
-|		|						
-|**Examples**	|
-	
-	
-	
+				commons.py:
 	
 	
 |**Synopsis**	|****								
@@ -538,27 +748,7 @@ IV - Software tools and usages
 |**Examples**	|
 	
 	
-	
-	
-	
-|**Synopsis**	|****								
-|:--------------|:-------------- 						
-|**Description**| 								
-|		|								
-|**Options**	|		
-|		| 	
-|		|	
-|		|
-|		|
-|**Dependencies**|								
-|		|	
-|		|	
-|**Packages**	|										
-|		|						
-|**Examples**	|
-	
-	
-	
+				commons_web.py:
 	
 	
 	
@@ -579,9 +769,7 @@ IV - Software tools and usages
 |**Examples**	|
 	
 	
-	
-	
-	
+				random_scraper.py:
 	
 |**Synopsis**	|****								
 |:--------------|:-------------- 						
@@ -602,6 +790,8 @@ IV - Software tools and usages
 	
 	
 	
+				capture.py:
+	
 	
 |**Synopsis**	|****								
 |:--------------|:-------------- 						
@@ -621,7 +811,28 @@ IV - Software tools and usages
 	
 	
 	
+				DefUseChain.java:
 	
+	
+|**Synopsis**	|****								
+|:--------------|:-------------- 						
+|**Description**| 								
+|		|								
+|**Options**	|		
+|		| 	
+|		|	
+|		|
+|		|
+|**Dependencies**|								
+|		|	
+|		|	
+|**Packages**	|										
+|		|						
+|**Examples**	|
+	
+	
+	
+				pystatparser:
 	
 	
 |**Synopsis**	|****								
@@ -643,239 +854,7 @@ IV - Software tools and usages
 	
 	
 	
-	
-	
-|**Synopsis**	|****								
-|:--------------|:-------------- 						
-|**Description**| 								
-|		|								
-|**Options**	|		
-|		| 	
-|		|	
-|		|
-|		|
-|**Dependencies**|								
-|		|	
-|		|	
-|**Packages**	|										
-|		|						
-|**Examples**	|
-	
-	
-	
-	
-	
-	
-	
-|**Synopsis**	|****								
-|:--------------|:-------------- 						
-|**Description**| 								
-|		|								
-|**Options**	|		
-|		| 	
-|		|	
-|		|
-|		|
-|**Dependencies**|								
-|		|	
-|		|	
-|**Packages**	|										
-|		|						
-|**Examples**	|
-	
-	
-	
-	
-	
-	
-	
-|**Synopsis**	|****								
-|:--------------|:-------------- 						
-|**Description**| 								
-|		|								
-|**Options**	|		
-|		| 	
-|		|	
-|		|
-|		|
-|**Dependencies**|								
-|		|	
-|		|	
-|**Packages**	|										
-|		|						
-|**Examples**	|
-	
-	
-	
-	
-	
-	
-|**Synopsis**	|****								
-|:--------------|:-------------- 						
-|**Description**| 								
-|		|								
-|**Options**	|		
-|		| 	
-|		|	
-|		|
-|		|
-|**Dependencies**|								
-|		|	
-|		|	
-|**Packages**	|										
-|		|						
-|**Examples**	|
-	
-	
-	
-	
-	
-	
-|**Synopsis**	|****								
-|:--------------|:-------------- 						
-|**Description**| 								
-|		|								
-|**Options**	|		
-|		| 	
-|		|	
-|		|
-|		|
-|**Dependencies**|								
-|		|	
-|		|	
-|**Packages**	|										
-|		|						
-|**Examples**	|
-	
-	
-	
-	
-	
-	
-|**Synopsis**	|****								
-|:--------------|:-------------- 						
-|**Description**| 								
-|		|								
-|**Options**	|		
-|		| 	
-|		|	
-|		|
-|		|
-|**Dependencies**|								
-|		|	
-|		|	
-|**Packages**	|										
-|		|						
-|**Examples**	|
-	
-	
-	
-	
-|**Synopsis**	|****								
-|:--------------|:-------------- 						
-|**Description**| 								
-|		|								
-|**Options**	|		
-|		| 	
-|		|	
-|		|
-|		|
-|**Dependencies**|								
-|		|	
-|		|	
-|**Packages**	|										
-|		|						
-|**Examples**	|
-	
-	
-	
-	
-	
-	
-	
-|**Synopsis**	|****								
-|:--------------|:-------------- 						
-|**Description**| 								
-|		|								
-|**Options**	|		
-|		| 	
-|		|	
-|		|
-|		|
-|**Dependencies**|								
-|		|	
-|		|	
-|**Packages**	|										
-|		|						
-|**Examples**	|
-	
-	
-	
-	
-	
-	
-|**Synopsis**	|****								
-|:--------------|:-------------- 						
-|**Description**| 								
-|		|								
-|**Options**	|		
-|		| 	
-|		|	
-|		|
-|		|
-|**Dependencies**|								
-|		|	
-|		|	
-|**Packages**	|										
-|		|						
-|**Examples**	|
-	
-	
-	
-	
-	
-	
-|**Synopsis**	|****								
-|:--------------|:-------------- 						
-|**Description**| 								
-|		|								
-|**Options**	|		
-|		| 	
-|		|	
-|		|
-|		|
-|**Dependencies**|								
-|		|	
-|		|	
-|**Packages**	|										
-|		|						
-|**Examples**	|
-	
-	
-	
-	
-	
-	
-	
-|**Synopsis**	|****								
-|:--------------|:-------------- 						
-|**Description**| 								
-|		|								
-|**Options**	|		
-|		| 	
-|		|	
-|		|
-|		|
-|**Dependencies**|								
-|		|	
-|		|	
-|**Packages**	|										
-|		|						
-|**Examples**	|
-	
-	
-	
-	
+				auth:
 	
 	
 |**Synopsis**	|****								
@@ -899,7 +878,6 @@ IV - Software tools and usages
 	
 	
 	
-	
 |**Synopsis**	|****								
 |:--------------|:-------------- 						
 |**Description**| 								
@@ -915,6 +893,7 @@ IV - Software tools and usages
 |**Packages**	|										
 |		|						
 |**Examples**	|
+	
 	
 	
 	
@@ -943,127 +922,8 @@ IV - Software tools and usages
 	
 	
 
-|**Synopsis**	|****								
-|:--------------|:-------------- 						
-|**Description**| 								
-|		|								
-|**Options**	|		
-|		| 	
-|		|	
-|		|
-|		|
-|**Dependencies**|								
-|		|	
-|		|	
-|**Packages**	|										
-|		|						
-|**Examples**	|
 	
 	
-	
-	
-
-|**Synopsis**	|****								
-|:--------------|:-------------- 						
-|**Description**| 								
-|		|								
-|**Options**	|		
-|		| 	
-|		|	
-|		|
-|		|
-|**Dependencies**|								
-|		|	
-|		|	
-|**Packages**	|										
-|		|						
-|**Examples**	|
-	
-	
-	
-	
-	
-	
-	
-|**Synopsis**	|****								
-|:--------------|:-------------- 						
-|**Description**| 								
-|		|								
-|**Options**	|		
-|		| 	
-|		|	
-|		|
-|		|
-|**Dependencies**|								
-|		|	
-|		|	
-|**Packages**	|										
-|		|						
-|**Examples**	|
-	
-	
-	
-	
-	
-	
-	
-|**Synopsis**	|****								
-|:--------------|:-------------- 						
-|**Description**| 								
-|		|								
-|**Options**	|		
-|		| 	
-|		|	
-|		|
-|		|
-|**Dependencies**|								
-|		|	
-|		|	
-|**Packages**	|										
-|		|						
-|**Examples**	|
-	
-	
-	
-	
-	
-	
-	
-|**Synopsis**	|****								
-|:--------------|:-------------- 						
-|**Description**| 								
-|		|								
-|**Options**	|		
-|		| 	
-|		|	
-|		|
-|		|
-|**Dependencies**|								
-|		|	
-|		|	
-|**Packages**	|										
-|		|						
-|**Examples**	|
-	
-	
-	
-	
-	
-|**Synopsis**	|****								
-|:--------------|:-------------- 						
-|**Description**| 								
-|		|								
-|**Options**	|		
-|		| 	
-|		|	
-|		|
-|		|
-|**Dependencies**|								
-|		|	
-|		|	
-|**Packages**	|										
-|		|						
-|**Examples**	|
 	
 	
 	
