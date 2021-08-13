@@ -227,9 +227,11 @@ IV - Software tools and usages
 |		|	
 |**Packages**	|										
 |		|						
-|**Examples**	|
-	
-	
+|**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129373542-31a7ba77-a5f4-410f-893f-20645962c8cc.png)|
+|		|![image](https://user-images.githubusercontent.com/84356922/129373599-e7a0cbbe-e82f-45e6-b35d-9f618ef2af7f.png)|
+|		|
+|		|
+		
 						pm.sh:
 	
 	
@@ -247,9 +249,11 @@ IV - Software tools and usages
 |		|	
 |**Packages**	|										
 |		|						
-|**Examples**	|
-	
-	
+|**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129373659-46741c18-90c8-4e2e-83b5-3d6ff4998080.png)|
+|		|![image](https://user-images.githubusercontent.com/84356922/129373708-60936214-984d-402f-a30c-969ebbd8f4d0.png)|
+|		|![image](https://user-images.githubusercontent.com/84356922/129373744-344dd800-47b5-46d0-8983-f72a5a5429ab.png)|
+|		|
+
 						minus_operation.sh:
 
 |**Synopsis**	|****								
@@ -266,9 +270,10 @@ IV - Software tools and usages
 |		|	
 |**Packages**	|										
 |		|						
-|**Examples**	|
-	
-	
+|**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129373821-88269777-4dc1-4e97-bcc6-2ef238206a5c.png)|
+|		|![image](https://user-images.githubusercontent.com/84356922/129373872-88a85d42-68cc-4ff7-aa4c-d4a134404e0e.png)|
+|		|
+
 						lac_batch.sh:
 	
 	
@@ -286,7 +291,9 @@ IV - Software tools and usages
 |		|	
 |**Packages**	|										
 |		|						
-|**Examples**	|
+|**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129373955-ec9522da-bedc-4c5b-9248-0b4dd2b23bc2.png)|
+|		|![image](https://user-images.githubusercontent.com/84356922/129373975-e1779d5d-0541-40ac-b595-7c475cd18ed6.png)|
+
 	
 						upload.sh:
 	
@@ -305,7 +312,9 @@ IV - Software tools and usages
 |		|	
 |**Packages**	|										
 |		|						
-|**Examples**	|
+|**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129374017-16a9a92e-74f3-4194-b0d7-58adf03f6dc9.png)|
+|		|![image](https://user-images.githubusercontent.com/84356922/129374065-b0163239-650f-4d95-aee5-68659f3a2ad0.png)|
+|		|
 	
 	
 						lac_adf.sh:
@@ -325,8 +334,10 @@ IV - Software tools and usages
 |		|	
 |**Packages**	|										
 |		|						
-|**Examples**	|
-	
+|**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129374128-fd49791c-c692-4a53-8627-e3eddfd5a1f9.png)|
+|		|![image](https://user-images.githubusercontent.com/84356922/129374187-e6d76152-9ea3-448a-9034-ce1b86aeed2d.png)|
+|		|
+
 						stats2.sh:
 	
 	
@@ -344,8 +355,11 @@ IV - Software tools and usages
 |		|	
 |**Packages**	|										
 |		|						
-|**Examples**	|
-	
+|**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129374263-aa111dc9-939f-4520-8d1f-b85270045946.png)|
+|		|![image](https://user-images.githubusercontent.com/84356922/129374326-7375d4d9-230f-446f-8f9a-5d80b420c14e.png)|
+|		|![image](https://user-images.githubusercontent.com/84356922/129374368-49df4f53-584d-49ad-a3be-3526e38e56db.png)|
+|		|
+		
 	
 						stats2_web.sh:
 	
