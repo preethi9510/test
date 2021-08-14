@@ -201,10 +201,10 @@ IV - Software tools and usages
 |		|
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129371484-132d33b4-8e09-4295-9e8f-1b9f09d8271a.png)	
 	
-	<pre>batch.sh:</pre>
+						batch.sh:
 	
 	
-|**Synopsis**	|****								
+|**Synopsis**	|**./batch.sh \<apk\-directory\> [ install \| uninstall \| remove \| signup \| login \| delete \| manual ]**			
 |:--------------|:-------------- 						
 |**Description**| 								
 |		|								
