@@ -531,7 +531,7 @@ IV - Software tools and usages
 	
 						parallel.sh:
 	
-|**Synopsis**	|**./parallel.sh [ \<apk-directory\> \| \<web\-directory\> ] \<max\-num-\of\-cores\>**			
+|**Synopsis**	|**./parallel.sh [ \<apk-directory\> \| \<web\-directory\> ] \<max\-num\-of\-cores\>**			
 |:--------------|:-------------- 						
 |**Description**|an efficient way to run adf.sh in a multiprocessing environment					
 |		|								
@@ -553,34 +553,34 @@ IV - Software tools and usages
 |		|![image](https://user-images.githubusercontent.com/84356922/129377955-00344443-433b-4942-ac3a-1da6efb3a275.png)|
 		
 		
-		
-	
 	
 	
 	
 						adf_fp.sh:
 
-|**Synopsis**	|****								
+|**Synopsis**	|**./adf_fp.sh [ \<apkfile\> \| \<website\> ]**								
 |:--------------|:-------------- 						
-|**Description**| 								
+|**Description**|find not account deletion strings (not-ad) for an apk or a website using natural language processing	
 |		|								
-|**Options**	|		
-|		| 	
-|		|	
-|		|
-|		|
-|**Dependencies**|								
-|		|	
-|		|	
-|**Packages**	|										
-|		|						
+|**Options**	|\<apkfile\>		
+|		|An apk file	
+|		|\<website\>
+|		|A website which is downloaded as a webpage complete from google chrome
+|		|if not-ad is found, the script will save it in not_ad_strings.txt for an equivalent apk or website in output directory. Otherwise, it will output nothing	
+|**Dependencies**|grep							
+|		|sed
+|		|xargs	
+|		|semantics.py
+|**Packages**	|analyzer										
+|		|analyzer_web	
+|**Notes**	|Must run adf.sh or paralle.sh first before running this script.
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129378045-40b6d4da-018f-46c1-91ef-6f2975421c30.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129378111-b969d7ab-eaeb-4a9a-b6bf-5bbd7a32bddc.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129378200-28215678-fe00-4a54-acab-0fe6cebc9efb.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129378248-9d247f60-4f32-43c9-8726-ace1d1e7a270.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129378418-b78717bd-ce5d-4507-9767-b8607572c4da.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129378624-dfbf1e39-303d-436a-94da-66a1ad003b9e.png)|
-|		|
+		
 	
 	
 						parallel_fp.sh:
