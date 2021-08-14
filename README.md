@@ -563,10 +563,10 @@ IV - Software tools and usages
 |**Description**|find not account deletion strings (not-ad) for an apk or a website using natural language processing	
 |		|								
 |**Options**	|\<apkfile\>		
-|		|An apk file	
+|		|&nbsp;&nbsp;&nbsp;&nbsp;An apk file	
 |		|\<website\>
-|		|A website which is downloaded as a webpage complete from google chrome
-|		|if not-ad is found, the script will save it in not_ad_strings.txt for an equivalent apk or website in output directory. Otherwise, it will output nothing	
+|		|&nbsp;&nbsp;&nbsp;&nbsp;A website which is downloaded as a webpage complete from google chrome
+|		|If not-ad is found, the script will save it in not_ad_strings.txt for an equivalent apk or website in output directory. Otherwise, it will output nothing	
 |**Dependencies**|grep							
 |		|sed
 |		|xargs	
@@ -586,41 +586,54 @@ IV - Software tools and usages
 						parallel_fp.sh:
 	
 	
-|**Synopsis**	|****								
+|**Synopsis**	|**./parallel.sh [ \<apk\-directory\> \| \<web\-directory\> ] \<max\-num\-of\-cores\>**			
 |:--------------|:-------------- 						
-|**Description**| 								
+|**Description**|an efficient way to run adf_fp.sh in a multiprocessing environment					
 |		|								
-|**Options**	|		
-|		| 	
+|**Options**	|\<apk\-directory\>	
+|		|&nbsp;&nbsp;&nbsp;&nbsp;a directory which contains all downloaded apk files	
+|		|\<web\-directory\>
+|		|&nbsp;&nbsp;&nbsp;&nbsp;a directory which contains all downloaded websites
+|		|\<max\-num\-of\-cores\>
+|		|&nbsp;&nbsp;&nbsp;&nbsp;a maximum number of cpu cores assigned to run this task in parallel
+|**Dependencies**|adf.sh								
+|		|xargs
 |		|	
-|		|
-|		|
-|**Dependencies**|								
-|		|	
-|		|	
-|**Packages**	|										
-|		|						
+|**Packages**	|analyzer									
+|		|analyzer_web	
+|**Notes**	|\<max\-num\-of\-cores\> must be less than or equal to the actual number of cpu cores the server has
+|		|This tool is similar to parallel.sh
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129378975-c842b5c2-9a2e-446f-894f-41afef80a315.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129379282-97e8d696-53b2-432d-8747-9adcad9a6f0f.png)|
-|		|
+		
 	
 						stats.sh:
 	
 	
-|**Synopsis**	|****								
+|**Synopsis**	|**./stats.sh [ time \| dot \| svg \| fp ]**								
 |:--------------|:-------------- 						
-|**Description**| 								
+|**Description**|a tool to extract statistical information from log files						
 |		|								
-|**Options**	|		
-|		| 	
-|		|	
-|		|
-|		|
-|**Dependencies**|								
-|		|	
-|		|	
-|**Packages**	|										
-|		|						
+|**Options**	|time		
+|		|&nbsp;&nbsp;&nbsp;&nbsp;output time in seconds for each app (apk or website)
+|		|dot	
+|		|&nbsp;&nbsp;&nbsp;&nbsp;copy all valid mapping_models.dot files to analyses/dot directory (see adf.sh for more information)
+|		|svg
+|		|&nbsp;&nbsp;&nbsp;&nbsp;convert those mapping_model.dot files to svg files
+|		|fp		
+|		|&nbsp;&nbsp;&nbsp;&nbsp;copy all not_ad_strings.txt files to analyses/fp directory (see adf_fp.sh for more information)
+|**Dependencies**|find								
+|		|sed
+|		|tail
+|		|grep
+|		|dot
+|		|wc	
+|**Packages**	|analyzer									
+|		|analyzer_web
+|		|lai (deprecated)
+|		|lai_web (deprecated)
+|**Notes**	|Must run adf.sh or parallel.sh or adf_fp.sh or parallel_fp.sh first before running this script
+|		|Time outputs can be redirected to a csv file and export to Microsoft Excel for further analyses
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129380546-df785a8c-f7c9-4e07-bda8-8157b8b7b124.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129380662-0a0ddf7c-709f-40ae-834a-33f1bf374708.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129380701-58619dd1-2431-4bca-b639-9ab085c712dc.png)|
