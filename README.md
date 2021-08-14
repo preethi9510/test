@@ -169,7 +169,7 @@ IV - Software tools and usages
 						auto.sh:
 
 
-|**Synopsis**	|./auto.sh \[\<apklist-directory\>\<server-username\> \<server-password\> \<wait\-time\-in\-secs\> collect  \| \<apkdir\> apk2web \]
+|**Synopsis**	|**./auto.sh \[\<apklist-directory\>\<server-username\> \<server-password\> \<wait\-time\-in\-secs\> collect  \| \<apkdir\> apk2web \]**
 |:--------------|-------------- 						
 |**Description**| an automatic script to collect apks and websites without any manual intervention							
 |		|								
@@ -359,11 +359,11 @@ IV - Software tools and usages
 	
 	
 |**Synopsis**	|**./lac_batch.sh [  \<gmail\> \<gpassword\> minus**
-|		|&nbsp;&nbsp;&nbsp;&nbsp;**\<./minus\/laXX\> install**
-|               |&nbsp;&nbsp;&nbsp;&nbsp;**\| \<package\-name\> \<app\-email\> \<app\-password\> clean**
-|               |&nbsp;&nbsp;&nbsp;&nbsp;**\| pull**
-|               |&nbsp;&nbsp;&nbsp;&nbsp;**\| uninstall**
-|               |&nbsp;&nbsp;&nbsp;&nbsp;**\| \<./minus/laXX\> remove ]**								
+		 &nbsp;&nbsp;&nbsp;&nbsp;**\<./minus\/laXX\> install**
+                 &nbsp;&nbsp;&nbsp;&nbsp;**\| \<package\-name\> \<app\-email\> \<app\-password\> clean**
+                 &nbsp;&nbsp;&nbsp;&nbsp;**\| pull**
+                 &nbsp;&nbsp;&nbsp;&nbsp;**\| uninstall**
+                 &nbsp;&nbsp;&nbsp;&nbsp;**\| \<./minus/laXX\> remove ]**								
 |:--------------|:-------------- 						
 |**Description**| 								
 |		|								
