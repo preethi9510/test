@@ -340,9 +340,9 @@ IV - Software tools and usages
 |:--------------|:-------------- 						
 |**Description**|auto login google play store website (My apps page) and calculate the difference between all the android packages listed there versus all the android packages listed in the mobile phone						
 |		|								
-|**Options**	|<gmail>
+|**Options**	|\<gmail\>
 |            	|&nbsp;&nbsp;&nbsp;&nbsp;google email address to login play store
-|		|<gpassword>
+|		|\<gpassword\>
 |             	|&nbsp;&nbsp;&nbsp;&nbsp;google password to login play store		
 |		|
 |**Dependencies**|my_apps.py				
@@ -353,12 +353,17 @@ IV - Software tools and usages
 |		|						
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129373821-88269777-4dc1-4e97-bcc6-2ef238206a5c.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129373872-88a85d42-68cc-4ff7-aa4c-d4a134404e0e.png)|
-|		|
+		
 
 						lac_batch.sh:
 	
 	
-|**Synopsis**	|****								
+|**Synopsis**	|**./lac_batch.sh [  \<gmail\> \<gpassword\> minus
+|		|&nbsp;&nbsp;&nbsp;&nbsp;\<./minus\/laXX\> install
+|               |&nbsp;&nbsp;&nbsp;&nbsp;\| \<package\-name\> \<app\-email\> \<app\-password\> clean 
+|               |&nbsp;&nbsp;&nbsp;&nbsp;\| pull 
+|               |&nbsp;&nbsp;&nbsp;&nbsp;\| uninstall 
+|               |&nbsp;&nbsp;&nbsp;&nbsp;\| \<./minus/laXX\> remove ]**								
 |:--------------|:-------------- 						
 |**Description**| 								
 |		|								
