@@ -488,7 +488,7 @@ IV - Software tools and usages
 				
 						adf.sh:
 	
-|**Synopsis**	|**./adf.sh [ \<apkfile\> | \<website\> ]**								
+|**Synopsis**	|**./adf.sh [ \<apkfile\> \| \<website\> ]**								
 |:--------------|:-------------- 						
 |**Description**|build a strings-to-screen mapping model to determine whether a given apk file has user account deletion functionality 		
 |		|
