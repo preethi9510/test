@@ -204,12 +204,6 @@ IV - Software tools and usages
 
 	
 	
-	The action of every agent <br />
-  into the world <br />
-starts <br />
-  from their physical selves. <br />
-	
-	
 						batch.sh:
 	
 	
@@ -218,24 +212,24 @@ starts <br />
 |**Description**| a tool for testers to work with a directory containing apk files (working in batch mode)				
 |		|								
 |**Options**	|\<apk-directory\> 	
-|		|	a directory which contains apk files
+|		|&nbsp;&nbsp;&nbsp;&nbsp;a directory which contains apk files
 |		|
-|		| choose one of the following options:
-|          	|	install
-|               |    		install all the apk files in the directory on the android mobile phone
-|          	|	uninstall
-|               |    		uninstall all the apk files in the directory from the android mobile phone
-|          	|	remove
-|               |    		remove the <apk-directory> and all the output directories _out and error directories \_err, ready for 			 	   |        	   |	           next batch
-|          	|	signup
-|               |    		automatically signup a user account for each of the apk file in \<apk-directory\>
-|          	|	login
-|               |    		automatically login the user account for each of the apk file in \<apk-directory\>
-|          	|	delete
-|               |    		automatically delete the user account for each of the apk file in \<apk-directory\>
-|          	|	manual
-|               |    		manual intervention from testers, break into ipdb console and finish any of the options above
-|               |    		testers can also use function dump\_text builtin the tool to do screen scraping on the android phone	
+|		|Choose one of the following options:
+|          	|&nbsp;&nbsp;&nbsp;&nbsp;install
+|               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;install all the apk files in the directory on the android mobile phone
+|          	|&nbsp;&nbsp;&nbsp;&nbsp;uninstall
+|               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;uninstall all the apk files in the directory from the android mobile phone
+|          	|&nbsp;&nbsp;&nbsp;&nbsp;remove
+|               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;remove the <apk-directory> and all the output directories _out and error directories \_err, ready |		   |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for next batch
+|          	|&nbsp;&nbsp;&nbsp;&nbsp;signup
+|               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;automatically signup a user account for each of the apk file in \<apk-directory\>
+|          	|&nbsp;&nbsp;&nbsp;&nbsp;login
+|               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;automatically login the user account for each of the apk file in \<apk-directory\>
+|          	|&nbsp;&nbsp;&nbsp;&nbsp;delete
+|               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;automatically delete the user account for each of the apk file in \<apk-directory\>
+|          	|&nbsp;&nbsp;&nbsp;&nbsp;manual
+|               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;manual intervention from testers, break into ipdb console and finish any of the options above
+|               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;testers can also use function dump\_text builtin the tool to do screen scraping on the android phone	
 |		|		
 |**Dependencies**|adb
 |		|aapt
