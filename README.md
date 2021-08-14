@@ -177,28 +177,28 @@ IV - Software tools and usages
 |		|						
 |		|								
 |**Options**	|collect 
-           		automatically go to google play store, download apks, and upload them to a dedicated server
-           		<apklist-directory> 
-                         	a directory which contains files whose contents are android package names
-           		<server-username> 
-                         	ssh username
-           		<server-password> 
-                         	ssh password
-           		<wait-time-in-secs>
-                         	time to wait between each batch of apk files finish uploading to the server
-
-		 apk2web
-           		automatically find equivalent websites from a directory containing all apk files pulled from the mobile phone 
-	
-|		| 	
-|		|	
+|          	|	automatically go to google play store, download apks, and upload them to a dedicated server
+|          	|	<apklist-directory> 
+|               |        	a directory which contains files whose contents are android package names
+|          	|	<server-username> 
+|               |        	ssh username
+|          	|	<server-password> 
+|               |        	ssh password
+|          	|	<wait-time-in-secs>
+|               |        	time to wait between each batch of apk files finish uploading to the server
+|		|apk2web
+|          	|	automatically find equivalent websites from a directory containing all apk files pulled from the mobile phone 
+|		|<apkdir>	
+|		|	a directory which contains all apk files pulled from the android mobile phone
 |		|
-|		|
-|**Dependencies**|								
-|		|	
-|		|	
-|**Packages**	|										
+**Dependencies**|lac_batch.sh 
+|		|upload.sh
+|		|apk2web.sh
 |		|						
+|**Packages**	|lai_web										
+|		|
+|** Notes**	|Appium is required to run the script
+|		|
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129371484-132d33b4-8e09-4295-9e8f-1b9f09d8271a.png)	
 	
 						batch.sh:
