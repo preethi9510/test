@@ -171,12 +171,25 @@ IV - Software tools and usages
 
 |**Synopsis**	|./auto.sh [\<apklist-directory\>\<server-username\> \<server-password\> \<wait\-time\-in\-secs\> collect  \| \<apkdir\> apk2web \]
 |:--------------|-------------- 						
-|**Description**| ./auto.sh  
+|**Description**| an automatic script to collect apks and websites without any manual intervention
 |		|	    	 
 |               | 	     
 |		|						
 |		|								
-|**Options**	|		
+|**Options**	|collect 
+           automatically go to google play store, download apks, and upload them to a dedicated server
+           <apklist-directory> 
+                         a directory which contains files whose contents are android package names
+           <server-username> 
+                         ssh username
+           <server-password> 
+                         ssh password
+           <wait-time-in-secs>
+                         time to wait between each batch of apk files finish uploading to the server
+
+apk2web
+           automatically find equivalent websites from a directory containing all apk files pulled from the mobile phone 
+	
 |		| 	
 |		|	
 |		|
