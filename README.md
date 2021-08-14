@@ -531,20 +531,21 @@ IV - Software tools and usages
 	
 						parallel.sh:
 	
-|**Synopsis**	|****								
+|**Synopsis**	|**./parallel.sh [ \<apk-directory\> \| \<web\-directory\> ] \<max\-num-\of\-cores\>**			
 |:--------------|:-------------- 						
-|**Description**| 								
+|**Description**|an efficient way to run adf.sh in a multiprocessing environment					
 |		|								
-|**Options**	|		
-|		| 	
-|		|	
-|		|
-|		|
-|**Dependencies**|								
-|		|	
-|		|	
-|**Packages**	|										
-|		|						
+|**Options**	|\<apk\-directory\>		
+|		|&nbsp;&nbsp;&nbsp;&nbsp;a directory which contains all downloaded apk files	
+|		|\<web\-directory\>
+|		|&nbsp;&nbsp;&nbsp;&nbsp;a directory which contains all downloaded websites
+|		|\<max\-num\-of\-cores\>
+|		|&nbsp;&nbsp;&nbsp;&nbsp;a maximum number of cpu cores assigned to run this task in parallel
+|**Dependencies**|adf.sh							
+|		|xargs	
+|**Packages**	|analyzer										
+|		|analyzer_web	
+|**Notes**	|\<max\-num\-of\-cores\> must be less than or equal to the actual number of cpu cores the server has
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129377413-5fa96bd3-2e3b-4634-8efd-4f49270cc49c.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129377520-5aa59dc3-ed5e-4482-b32d-320792606d69.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129377574-2ddeee9e-c9ed-4ff2-bda9-6ca205de2b57.png)|
