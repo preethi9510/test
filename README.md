@@ -219,7 +219,7 @@ IV - Software tools and usages
 |          	|	uninstall
 |               |    		uninstall all the apk files in the directory from the android mobile phone
 |          	|	remove
-|               |    		remove the <apk-directory> and all the output directories _out and error directories \_err, ready for next batch
+|               |    		remove the <apk-directory> and all the output directories _out and error directories \_err, ready for 	|		 |		 next batch
 |          	|	signup
 |               |    		automatically signup a user account for each of the apk file in \<apk-directory\>
 |          	|	login
