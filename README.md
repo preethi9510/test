@@ -490,12 +490,14 @@ IV - Software tools and usages
 	
 |**Synopsis**	|**./adf.sh [ \<apkfile\> | \<website\> ]**								
 |:--------------|:-------------- 						
-|**Description**|build a strings-to-screen mapping model to determine whether a given apk file has user account deletion functionality 				
+|**Description**|build a strings-to-screen mapping model to determine whether a given apk file has user account deletion functionality 		
+|		|
 |**Options**	|\<apkfile\>
 |               |&nbsp;&nbsp;&nbsp;&nbsp;an apk file
 |		|\<website\>
 |               |&nbsp;&nbsp;&nbsp;&nbsp;a website which is downloaded as a webpage complete from google chrome
 |		|the script returns a mapping_model.dot file for the corresponding apk or website in output directory for further analyses
+|		|
 |**Dependencies**|apktool							
 |		|find
 |		|awk
@@ -504,6 +506,7 @@ IV - Software tools and usages
 |		|grep
 |		|sed
 |		|semantics.py
+|		|
 |**Packages**	|analyzer
 |		|analyzer_web
 |		|	
@@ -511,6 +514,7 @@ IV - Software tools and usages
 |		|The script depends on tesseract to convert images to text
 |		|The script depends on semantics.py which use natural language processing to check the semantics of a phrase
 |		|Further analysis can be performed on mapping_model.dot file by using stats.sh script
+|		|
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129375266-9457d6ab-447e-4e4d-9de8-76d5cbe8d905.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129375329-57bbe8c5-df8b-490e-ad84-e304a59e7c35.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129375427-4d299895-5a6e-408c-aa16-37b64aeaed12.png)|
