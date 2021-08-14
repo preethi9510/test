@@ -364,21 +364,21 @@ IV - Software tools and usages
 |		|
 |**Options**	|minus
 |             	|&nbsp;&nbsp;&nbsp;&nbsp;see minus_operation.sh
-|           	|&nbsp;&nbsp;&nbsp;&nbsp;<gmail>
+|           	|&nbsp;&nbsp;&nbsp;&nbsp;\<gmail\>
 |             	|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;google email address to login play store
-|            	|&nbsp;&nbsp;&nbsp;&nbsp;<gpassword>
+|            	|&nbsp;&nbsp;&nbsp;&nbsp;\<gpassword\>
 |            	|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;google password to login play store
 |		|install
 |            	|&nbsp;&nbsp;&nbsp;&nbsp;automatically searching the play store for packages provided in <./minus/laXX> and install them on android phone
-|          	|&nbsp;&nbsp;&nbsp;&nbsp;<./minus/laXX>
+|          	|&nbsp;&nbsp;&nbsp;&nbsp;\<./minus\/laXX\>
 |               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a text file which contains a list of android package names
 |		|clean
-|            	|&nbsp;&nbsp;&nbsp;&nbsp;given <app-email> and <app-password>, this will automatically delete the user account on a given <package-name>
-|            	|&nbsp;&nbsp;&nbsp;&nbsp;<package-name>
-|               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the package-name of an app currently residing on android phone
-|            	|&nbsp;&nbsp;&nbsp;&nbsp;<app-email>                             
+|            	|&nbsp;&nbsp;&nbsp;&nbsp;given \<app\-email\> and \<app\-password\>, this will automatically delete the user account on a given <package-name>
+|            	|&nbsp;&nbsp;&nbsp;&nbsp;\<package\-name\>
+|               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the package\-name of an app currently residing on android phone
+|            	|&nbsp;&nbsp;&nbsp;&nbsp;\<app\-email\>                             
 |		|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the email that user has provided when signing up with an app on android |phone
-|             	|&nbsp;&nbsp;&nbsp;&nbsp;<app-password>
+|             	|&nbsp;&nbsp;&nbsp;&nbsp;\<app\-password\>
 |               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the password that user has provided when signing up with an app on android phone
 |		|pull
 |             	|&nbsp;&nbsp;&nbsp;&nbsp;see pm.sh
@@ -386,8 +386,8 @@ IV - Software tools and usages
 |             	|&nbsp;&nbsp;&nbsp;&nbsp;see pm.sh
 |		|remove
 |            	|&nbsp;&nbsp;&nbsp;&nbsp;remove all log directories _out and _err, ready for the next batch
-|            	|&nbsp;&nbsp;&nbsp;&nbsp;<./minus/laXX>
-|               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a text file which contains a list of android package n	|
+|            	|&nbsp;&nbsp;&nbsp;&nbsp;\<./minus\/laXX\>
+|               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a text file which contains a list of android package names
 |		|
 |**Dependencies**|minus_operation.sh							
 |		|gsplit
