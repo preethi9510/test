@@ -692,8 +692,8 @@ IV - Software tools and usages
 |		|\__DEV\__\=1 is optional\:
 |		|&nbsp;&nbsp;&nbsp;&nbsp;if present, a constituent tree will be printed and vice versa
 |		|the script will return:
-|		|&nbsp;&nbsp;&nbsp;&nbsp;(‘TP’, ‘’) means the paragraph’s true meaning has been understood as intended by regex .*<verb>.*<noun>.*
-|		|&nbsp;&nbsp;&nbsp;&nbsp;(‘FP’, some reason) means the paragraph’s true meaning has not been understood by regex .*<verb>.*<noun>.*
+|		|&nbsp;&nbsp;&nbsp;&nbsp;(‘TP’, ‘’) means the paragraph’s true meaning has been understood as intended by regex .\*\<verb\>.\*\<noun\>.\*
+|		|&nbsp;&nbsp;&nbsp;&nbsp;(‘FP’, some reason) means the paragraph’s true meaning has not been understood by regex .\*\<verb\>.\*\<noun\>.\*
 |**Dependencies**|pystatparser							
 |		|nltk
 |		|	
@@ -707,19 +707,22 @@ IV - Software tools and usages
 	
 						context.py:
 	
-|**Synopsis**	|****								
+|**Synopsis**	|**python context.py \<document\>**								
 |:--------------|:-------------- 						
-|**Description**| 								
+|**Description**|an attempt to classify a document content on the difficulty levels of the user account deletion process using natural language processing techniques								
 |		|								
-|**Options**	|		
-|		| 	
+|**Options**	|\<document\>	
+|		|&nbsp;&nbsp;&nbsp;&nbsp;A text file
+|		|the script should return one of the following values in increasing difficulty order:
+|		|&nbsp;&nbsp;&nbsp;&nbsp;-1: no context match
+|		|&nbsp;&nbsp;&nbsp;&nbsp;0: there is an account deletion function
+|		|&nbsp;&nbsp;&nbsp;&nbsp;1: the account deletion function asks for reasons
+|		|&nbsp;&nbsp;&nbsp;&nbsp;2: the account deletion function asks to enter some inputs
+|		|&nbsp;&nbsp;&nbsp;&nbsp;3: the account deletion function asks to confirm email address
+|		|&nbsp;&nbsp;&nbsp;&nbsp;4: the account deletion function asks to contact customer service
+|**Dependencies**|semantics.py							
 |		|	
-|		|
-|		|
-|**Dependencies**|								
-|		|	
-|		|	
-|**Packages**	|										
+|**Packages**	|nlp									
 |		|						
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129381501-53f68cd9-813d-4684-8f8f-b69c8c42d95b.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129381544-73aef7d9-29c8-4d07-a7e3-e80546b538a9.png)|
