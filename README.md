@@ -490,7 +490,7 @@ IV - Software tools and usages
 	
 |**Synopsis**	|**./adf.sh [ \<apkfile\> | \<website\> ]**								
 |:--------------|:-------------- 						
-|**Description**|build a strings-to-screen mapping model to determine whether a given apk file has user account deletion functionality 															
+|**Description**|build a strings-to-screen mapping model to determine whether a given apk file has user account deletion functionality 				
 |**Options**	|\<apkfile\>
 |               |&nbsp;&nbsp;&nbsp;&nbsp;an apk file
 |		|\<website\>
@@ -518,7 +518,7 @@ IV - Software tools and usages
 |		|![image](https://user-images.githubusercontent.com/84356922/129375570-2963318d-740b-40ba-967a-4757c72d7287.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129375652-992d187b-52e5-41ae-8fb1-213eb80d59f0.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129375730-0a4af2e0-e4eb-46fb-8a25-0aa05a48b817.png)|
-|		|
+	
 
 	
 	
