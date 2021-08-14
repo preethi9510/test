@@ -358,8 +358,7 @@ IV - Software tools and usages
 						lac_batch.sh:
 	
 	
-|**Synopsis**	|./lac_batch.sh [  \<gmail\> \<gpassword\>  minus
-				| <./minus/laXX> install![Uploading image.png…]()
+|**Synopsis**	|./lac_batch.sh [  \<gmail\> \<gpassword\>  minus\| \<./minus\/laXX\> install
 
 |:--------------|:-------------- 						
 |**Description**| 								
