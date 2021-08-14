@@ -128,7 +128,7 @@ IV - Software tools and usages
 |:--------------|:-------------- 						
 |**Description**| find the equivalent website address for an apk file by looking into the manifest	
 |		|	
-|**Options**	|\<apkfile\>
+|**Options**	|\<apkfile\> <br \>
 |               |	an apk file <br />
 |               |	given an apk file, the script will return the equivalent website address <br />
 |**Dependencies**|aapt					
@@ -226,7 +226,7 @@ starts <br />
 |          	|	uninstall
 |               |    		uninstall all the apk files in the directory from the android mobile phone
 |          	|	remove
-|               |    		remove the <apk-directory> and all the output directories _out and error directories \_err, ready for 	|		 |		 next batch
+|               |    		remove the <apk-directory> and all the output directories _out and error directories \_err, ready for 			 	   |        	   |	           next batch
 |          	|	signup
 |               |    		automatically signup a user account for each of the apk file in \<apk-directory\>
 |          	|	login
