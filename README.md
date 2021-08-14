@@ -336,7 +336,7 @@ IV - Software tools and usages
 
 						minus_operation.sh:
 
-|**Synopsis**	|**./minus_operation.sh <gmail> <gpassword>**								
+|**Synopsis**	|**./minus_operation.sh \<gmail\> \<gpassword\>**								
 |:--------------|:-------------- 						
 |**Description**|auto login google play store website (My apps page) and calculate the difference between all the android packages listed there versus all the android packages listed in the mobile phone						
 |		|								
@@ -358,12 +358,12 @@ IV - Software tools and usages
 						lac_batch.sh:
 	
 	
-|**Synopsis**	|**.\/lac_batch.sh \[  \<gmail\> \<gpassword\> minus**
-|		|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**\<./minus\/laXX\> install**
-|               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**\| \<package\-name\> \<app\-email\> \<app\-password\> clean**
-|               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**\| pull**
-|               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**\| uninstall**
-|               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**\| \<./minus/laXX\> remove ]**								
+|**Synopsis**	|./lac_batch.sh [  \<gmail\> \<gpassword\> minus
+|		|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<./minus\/laXX\> install
+|               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\| \<package\-name\> \<app\-email\> \<app\-password\> clean
+|               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\| pull
+|               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\| uninstall
+|               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\| \<./minus/laXX\> remove ]							
 |:--------------|:-------------- 						
 |**Description**| 								
 |		|								
