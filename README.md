@@ -124,13 +124,13 @@ IV - Software tools and usages
 
 			apk2web.sh:
 	
-|**Synopsis**	|**./apk2web.sh**							
+|**Synopsis**	|**./apk2web.sh \<apkfile\>**							
 |:--------------|:-------------- 						
 |**Description**| find the equivalent website address for an apk file by looking into the manifest	
 |		|	
-|**Options**	|<pre>\<apkfile\> 
+|**Options**	|&nbsp;\<apkfile\> 
 |               |	an apk file 
-|               |	given an apk file, the script will return the equivalent website address </pre>
+|               |	given an apk file, the script will return the equivalent website address 
 |**Dependencies**|aapt					
 |		|dos2unix
 |		|grep
