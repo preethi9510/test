@@ -360,10 +360,9 @@ IV - Software tools and usages
 	
 |**Synopsis**	|./lac_batch.sh [  \<gmail\> \<gpassword\>  minus \| \<./minus\/laXX\> install \| \<package\-name\> \<app\-email\> \<app\-password\> clean \| pull \| uninstall \| \<./minus\/laXX\> remove ]
 |:--------------|:-------------- 						
-|**Description**| 								
-|		|								
+|**Description**|When users uninstall apps on their android phones, they may have forgotten to delete their user accounts for those apps,the script can help to   |               |automatically cleanup those accounts, it also other functions to manage apk files							
 |**Options**	|		
-|		| 	
+|	    	| 	
 |		|	
 |		|
 |		|
