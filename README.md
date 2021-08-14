@@ -358,7 +358,7 @@ IV - Software tools and usages
 						lac_batch.sh:
 	
 	
-|**Synopsis**	|./lac_batch.sh [  \<gmail\> \<gpassword\>  minus\| \<./minus\/laXX\> install
+|**Synopsis**	|./lac_batch.sh [  \<gmail\> \<gpassword\>  minus \| \<./minus\/laXX\> install \| \<package\-name\> \<app\-email\> \<app\-password\> clean 
 |:--------------|:-------------- 						
 |**Description**| 								
 |		|								
