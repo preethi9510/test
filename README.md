@@ -197,7 +197,7 @@ IV - Software tools and usages
 |		|						
 |**Packages**	|lai_web										
 |		|
-|** Notes**	|Appium is required to run the script
+|**Notes**	|Appium is required to run the script
 |		|
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129371484-132d33b4-8e09-4295-9e8f-1b9f09d8271a.png)
 |		|![image](https://user-images.githubusercontent.com/84356922/129457194-5a75fc5c-fda1-4f2f-8823-8a556f8452ee.png)
@@ -243,7 +243,7 @@ IV - Software tools and usages
 |		|lai_web
 |		|
 |**Notes**	|Appium is required to run the script	
-|		|Depending on the chosen option, the tool will save log files into _out and _err directories, from which statistical 	|		 |analysis can be performed
+|		|Depending on the chosen option, the tool will save log files into _out and _err directories, from which statistical analysis can be performed
 |		|	
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129371636-c6f40773-5d93-4bf8-8361-adc093df83ff.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129371735-03612142-8ca7-4097-b8aa-3a81bde55fd4.png)|
@@ -255,7 +255,7 @@ IV - Software tools and usages
 						single.sh:
 	
 	
-|**Synopsis**	|****								
+|**Synopsis**	|**./single.sh \<apkfile\> [ download \| signup \| install \| uninstall \| login \| delete \| launch \| search \| manual ]**	
 |:--------------|:-------------- 						
 |**Description**| 								
 |		|								
