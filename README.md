@@ -128,9 +128,9 @@ IV - Software tools and usages
 |:--------------|:-------------- 						
 |**Description**| find the equivalent website address for an apk file by looking into the manifest	
 |		|	
-|**Options**	|\<apkfile\> <br />
-|               |	an apk file <br />
-|               |	given an apk file, the script will return the equivalent website address <br />
+|**Options**	|<pre>\<apkfile\> 
+|               |	an apk file 
+|               |	given an apk file, the script will return the equivalent website address </pre>
 |**Dependencies**|aapt					
 |		|dos2unix
 |		|grep
