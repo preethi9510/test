@@ -650,48 +650,56 @@ IV - Software tools and usages
 						concat.sh:
 	
 	
-|**Synopsis**	|****								
+|**Synopsis**	|**./concat.sh \<apk\-dot\-directory\> \<website\-dot\-directory\>**					
 |:--------------|:-------------- 						
-|**Description**| 								
+|**Description**|combine adf results from apks and websites together							
 |		|								
-|**Options**	|		
-|		| 	
-|		|	
-|		|
-|		|
-|**Dependencies**|								
-|		|	
-|		|	
-|**Packages**	|										
-|		|						
+|**Options**	|\<apk\-dot\-directory\>		
+|		|&nbsp;&nbsp;&nbsp;&nbsp;the directory which contains all the dot files for apks after running adf.sh or parallel.sh tools in package analyzer
+|		|\<website\-dot\-directory\>
+|		|&nbsp;&nbsp;&nbsp;&nbsp;the directory which contains all the dot files for websites after running adf.sh or parallel.sh tools in package analyzer_web
+|		|after combining dot files, the script will convert them into svg files, also it saves the common dot files into both.txt
+|**Dependencies**|head							
+|		|tail
+|		|sed
+|		|cp
+|		|dot
+|**Packages**	|analyzer_combiner	
+|**Notes**	|Must run adf.sh or parallel.sh first before running this script (in both package analyzer and analyzer_web)
+|		|In svg graph, dotted lines represent paths coming from the website, normal lines are from the apk
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129381042-de305981-fd64-40f5-b0f5-ffe1a9bf7b93.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129381137-0c7dcc29-eb0a-485e-97b2-8494be950eb0.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129381178-68318b4c-f996-4225-b1da-aed106a26641.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129381211-8e7f736e-d566-4c89-9284-62888d84ded1.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129381245-8992edb6-b644-42b0-88d5-d59f997bc77c.png)|
-|		|
+	
 
 	
-						
-	
+				
 	
 						semantics.py:
 
 	
-|**Synopsis**	|****								
+|**Synopsis**	|**\__DEV\__\=1 python semantics.py \<paragraph\> .\*\<verb\>.\*<noun\>.\***				
 |:--------------|:-------------- 						
-|**Description**| 								
-|		|								
-|**Options**	|		
-|		| 	
+|**Description**|Check the semantics of a paragraph against a special regular expression using natural language processing techniques							
+|**Options**	|\<paragraph\>							
+|		|&nbsp;&nbsp;&nbsp;&nbsp;A collection of sentences preferred to be in English	
+|		|\<verb\>	
+|		|&nbsp;&nbsp;&nbsp;&nbsp;An English verb
+|		|\<noun\>
+|		|&nbsp;&nbsp;&nbsp;&nbsp;An English noun
+|		|\__DEV\__\=1 is optional\:
+|		|&nbsp;&nbsp;&nbsp;&nbsp;if present, a constituent tree will be printed and vice versa
+|		|the script will return:
+|		|&nbsp;&nbsp;&nbsp;&nbsp;(‘TP’, ‘’) means the paragraph’s true meaning has been understood as intended by regex .*<verb>.*<noun>.*
+|		|&nbsp;&nbsp;&nbsp;&nbsp;(‘FP’, some reason) means the paragraph’s true meaning has not been understood by regex .*<verb>.*<noun>.*
+|**Dependencies**|pystatparser							
+|		|nltk
 |		|	
-|		|
-|		|
-|**Dependencies**|								
-|		|	
-|		|	
-|**Packages**	|										
-|		|						
+|**Packages**	|nlp
+|**Notes**	|on linux or unix system, it is highly recommended to set PATH variable pointing to this package so that the command can be used through the system and as a dependency to other scripts
+|		|currently the lab server file /etc/bash.bashrc is set up as : export PATH=$PATH:/home/hoang/Documents/Achilles/py					
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129381408-c0ac30a8-5a17-4609-9c72-10aadb8cd599.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129381444-f625d032-e98f-42ca-bc98-60d99cc392e4.png)|
 
