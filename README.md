@@ -128,7 +128,7 @@ IV - Software tools and usages
 |:--------------|:-------------- 						
 |**Description**| find the equivalent website address for an apk file by looking into the manifest	
 |		|	
-|**Options**	||<apkfile>
+|**Options**	|\<apkfile\>
 |               |	an apk file
 |               |	given an apk file, the script will return the equivalent website address
 |**Dependencies**|aapt					
@@ -149,7 +149,7 @@ IV - Software tools and usages
 |:--------------|:-------------- 						
 |**Description**| find the equivalent website address for for a list of android package names via google	
 |		|	
-|**Options**	|<packagelist>
+|**Options**	|\<packagelist\>
 |		|		a text file containing android package names
 |		|the auto flag is optional:
 |               |		if present, the script will automatically pick the first website address from google candidate search results		
@@ -169,7 +169,7 @@ IV - Software tools and usages
 						auto.sh:
 
 
-|**Synopsis**	|./auto.sh [\<apklist-directory\>\<server-username\> \<server-password\> \<wait\-time\-in\-secs\> collect  \| \<apkdir\> apk2web \]
+|**Synopsis**	|./auto.sh \[\<apklist-directory\>\<server-username\> \<server-password\> \<wait\-time\-in\-secs\> collect  \| \<apkdir\> apk2web \]
 |:--------------|-------------- 						
 |**Description**| an automatic script to collect apks and websites without any manual intervention
 |		|	    	 
@@ -178,17 +178,17 @@ IV - Software tools and usages
 |		|								
 |**Options**	|collect 
 |          	|	automatically go to google play store, download apks, and upload them to a dedicated server
-|          	|	<apklist-directory> 
+|          	|	\<apklist\-directory\> 
 |               |        	a directory which contains files whose contents are android package names
-|          	|	<server-username> 
+|          	|	\<server\-username\> 
 |               |        	ssh username
-|          	|	<server-password> 
+|          	|	\<server\-password\> 
 |               |        	ssh password
-|          	|	<wait-time-in-secs>
+|          	|	\<wait\-time\-in\-secs\>
 |               |        	time to wait between each batch of apk files finish uploading to the server
 |		|apk2web
 |          	|	automatically find equivalent websites from a directory containing all apk files pulled from the mobile phone 
-|		|<apkdir>	
+|		|\<apkdir\>	
 |		|	a directory which contains all apk files pulled from the android mobile phone
 |		|
 **Dependencies**|lac_batch.sh 
