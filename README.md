@@ -316,11 +316,11 @@ IV - Software tools and usages
 |               |&nbsp;&nbsp;&nbsp;&nbsp;count the number of packages after pulling
 |		|search
 |               |&nbsp;&nbsp;&nbsp;&nbsp;automatically search for android packages via google browser in the phone
-|               |&nbsp;&nbsp;&nbsp;&nbsp;<package-file> 
+|               |&nbsp;&nbsp;&nbsp;&nbsp;\<package\-file\> 
 |               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a text file which contain android packages
 |		|pull
 |             	|&nbsp;&nbsp;&nbsp;&nbsp;pull a specific package from the android phone to your laptop
-|               |&nbsp;&nbsp;&nbsp;&nbsp;<package-name>
+|               |&nbsp;&nbsp;&nbsp;&nbsp;\<package\-name\>
 |               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;an android package
 |		|
 |**Dependencies**|dos2unix						
@@ -336,19 +336,20 @@ IV - Software tools and usages
 
 						minus_operation.sh:
 
-|**Synopsis**	|****								
+|**Synopsis**	|**./minus_operation.sh <gmail> <gpassword>**								
 |:--------------|:-------------- 						
-|**Description**| 								
+|**Description**|auto login google play store website (My apps page) and calculate the difference between all the android packages listed there versus all the android packages listed in the mobile phone						
 |		|								
-|**Options**	|		
-|		| 	
-|		|	
+|**Options**	|<gmail>
+|            	|&nbsp;&nbsp;&nbsp;&nbsp;google email address to login play store
+|		|<gpassword>
+|             	|&nbsp;&nbsp;&nbsp;&nbsp;google password to login play store		
 |		|
-|		|
-|**Dependencies**|								
-|		|	
-|		|	
-|**Packages**	|										
+|**Dependencies**|my_apps.py				
+|		|awk
+|		|dos2unix	
+|**Packages**	|lai_web	
+|**Notes**	|A compatible chromedriver is required for using with Chrome web browser
 |		|						
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129373821-88269777-4dc1-4e97-bcc6-2ef238206a5c.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129373872-88a85d42-68cc-4ff7-aa4c-d4a134404e0e.png)|
