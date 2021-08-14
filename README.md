@@ -171,10 +171,7 @@ IV - Software tools and usages
 
 |**Synopsis**	|./auto.sh \[\<apklist-directory\>\<server-username\> \<server-password\> \<wait\-time\-in\-secs\> collect  \| \<apkdir\> apk2web \]
 |:--------------|-------------- 						
-|**Description**| an automatic script to collect apks and websites without any manual intervention
-|		|	    	 
-|               | 	     
-|		|						
+|**Description**| an automatic script to collect apks and websites without any manual intervention							
 |		|								
 |**Options**	|collect 
 |          	|&nbsp;&nbsp;&nbsp;&nbsp;automatically go to google play store, download apks, and upload them to a dedicated server
@@ -305,19 +302,32 @@ IV - Software tools and usages
 						pm.sh:
 	
 	
-|**Synopsis**	|****								
+|**Synopsis**	|**./pm.sh [ pull \| uninstall \| list \| count \| \<package\-file\> search \| <package-name\> pull ]**		
 |:--------------|:-------------- 						
-|**Description**| 								
+|**Description**|a package manager tool to help testers manage android packages efficiently						
 |		|								
-|**Options**	|		
-|		| 	
-|		|	
+|**Options**	|pull
+|              	|&nbsp;&nbsp;&nbsp;&nbsp;pull all non-system packages from the android phone to your laptop
+|		|uninstall
+|               |&nbsp;&nbsp;&nbsp;&nbsp;uninstall all non-system packages currently residing in the android phone
+|		|list
+|		|&nbsp;&nbsp;&nbsp;&nbsp;list all non-system packages in the android phone
+|		|count
+|               |&nbsp;&nbsp;&nbsp;&nbsp;count the number of packages after pulling
+|		|search
+|               |&nbsp;&nbsp;&nbsp;&nbsp;automatically search for android packages via google browser in the phone
+|               |&nbsp;&nbsp;&nbsp;&nbsp;<package-file> 
+|               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a text file which contain android packages
+|		|pull
+|             	|&nbsp;&nbsp;&nbsp;&nbsp;pull a specific package from the android phone to your laptop
+|               |&nbsp;&nbsp;&nbsp;&nbsp;<package-name>
+|               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;an android package
 |		|
-|		|
-|**Dependencies**|								
-|		|	
-|		|	
-|**Packages**	|										
+|**Dependencies**|dos2unix						
+|		|sed
+|		|cut
+|		|adb
+|**Packages**	|lai								
 |		|						
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129373659-46741c18-90c8-4e2e-83b5-3d6ff4998080.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129373708-60936214-984d-402f-a30c-969ebbd8f4d0.png)|
