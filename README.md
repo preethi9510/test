@@ -257,17 +257,45 @@ IV - Software tools and usages
 	
 |**Synopsis**	|**./single.sh \<apkfile\> [ download \| signup \| install \| uninstall \| login \| delete \| launch \| search \| manual ]**	
 |:--------------|:-------------- 						
-|**Description**| 								
+|**Description**| a tool for testers to work with one single apk file						
 |		|								
-|**Options**	|		
+|**Options**	|\<apkfile\> 	
+|		|&nbsp;&nbsp;&nbsp;&nbsp;an apk file
+|		|
+|		|Choose one of the following options:
+|          	|&nbsp;&nbsp;&nbsp;&nbsp;download
+|               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;download the \<apkfile\> from the server
+|		|&nbsp;&nbsp;&nbsp;&nbsp;signup
+|               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;automatically signup a user account for each of the apk file in \<apk-directory\>	
+|          	|&nbsp;&nbsp;&nbsp;&nbsp;install
+|               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;install the \<apkfile\> from the android mobile phone
+|		|&nbsp;&nbsp;&nbsp;&nbsp;uninstall
+|               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;uninstall the \<apkfile\> from the android mobile phone
+|          	|&nbsp;&nbsp;&nbsp;&nbsp;login
+|               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;automatically login the user account of the \<apkfile\>
+|          	|&nbsp;&nbsp;&nbsp;&nbsp;delete
+|               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;automatically delete the user account of the \<apkfile\>
+|		|&nbsp;&nbsp;&nbsp;&nbsp;launch
+|               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;launch the <apkfile> and fire random events with monkey tool
+|      		|&nbsp;&nbsp;&nbsp;&nbsp;search
+|               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;automatically search apk file for a given android package name by automating google web browser
+|          	|&nbsp;&nbsp;&nbsp;&nbsp;manual
+|               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;manual intervention from testers, break into ipdb console and finish any of the options above
+|               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;testers can also use function dump\_text builtin the tool to do screen scraping on the android phone	
 |		| 	
+|**Dependencies**|adb						
+|		|monkey
+|		|scp
+|		|signup.py	
+|		|manual.py
+|		|delete.py	
+|		|login.py
+|**Packages**	|lai
+|		|lai_web
 |		|	
-|		|
-|		|
-|**Dependencies**|								
-|		|	
-|		|	
-|**Packages**	|										
+|**Notes**	|Appium is required to run the script	
+|		|This script is similar to batch.sh except it works on only 1 apk file at a time, can be used in tandem with batch.sh
+|		|It also provides some extra commands not in batch.sh
 |		|						
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129373542-31a7ba77-a5f4-410f-893f-20645962c8cc.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129373599-e7a0cbbe-e82f-45e6-b35d-9f618ef2af7f.png)|
