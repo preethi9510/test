@@ -418,7 +418,7 @@ IV - Software tools and usages
 |**Dependencies**|sshpass							
 |		|		
 |**Packages**	|lai_web	
-|**Notes**	|a pull directory which contains all apk files must exist before running this script (e.g., after running pm.sh pull	
+|**Notes**	|a pull directory which contains all apk files must exist before running this script (e.g., after running pm.sh pull)	
 |		|						
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129374017-16a9a92e-74f3-4194-b0d7-58adf03f6dc9.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129374065-b0163239-650f-4d95-aee5-68659f3a2ad0.png)|
@@ -488,20 +488,29 @@ IV - Software tools and usages
 				
 						adf.sh:
 	
-|**Synopsis**	|****								
+|**Synopsis**	|**./adf.sh [ \<apkfile\> | \<website\> ]**								
 |:--------------|:-------------- 						
-|**Description**| 								
-|		|								
-|**Options**	|		
-|		| 	
+|**Description**|build a strings-to-screen mapping model to determine whether a given apk file has user account deletion functionality 															
+|**Options**	|\<apkfile\>
+|               |&nbsp;&nbsp;&nbsp;&nbsp;an apk file
+|		|\<website\>
+|               |&nbsp;&nbsp;&nbsp;&nbsp;a website which is downloaded as a webpage complete from google chrome
+|		|the script returns a mapping_model.dot file for the corresponding apk or website in output directory for further analyses
+|**Dependencies**|apktool							
+|		|find
+|		|awk
+|		|xargs
+|		|tesseract
+|		|grep
+|		|sed
+|		|semantics.py
+|**Packages**	|analyzer
+|		|analyzer_web
 |		|	
-|		|
-|		|
-|**Dependencies**|								
-|		|	
-|		|	
-|**Packages**	|										
-|		|						
+|**Notes**	|Options are available depending on which package the script is running from
+|		|The script depends on tesseract to convert images to text
+|		|The script depends on semantics.py which use natural language processing to check the semantics of a phrase
+|		|Further analysis can be performed on mapping_model.dot file by using stats.sh script
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129375266-9457d6ab-447e-4e4d-9de8-76d5cbe8d905.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129375329-57bbe8c5-df8b-490e-ad84-e304a59e7c35.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129375427-4d299895-5a6e-408c-aa16-37b64aeaed12.png)|
@@ -537,7 +546,7 @@ IV - Software tools and usages
 |		|![image](https://user-images.githubusercontent.com/84356922/129377574-2ddeee9e-c9ed-4ff2-bda9-6ca205de2b57.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129377910-5c4c8c5e-a654-470b-bc9d-0c1d63c1a9fd.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129377955-00344443-433b-4942-ac3a-1da6efb3a275.png)|
-|		|
+		
 		
 		
 	
