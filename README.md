@@ -199,33 +199,58 @@ IV - Software tools and usages
 |		|
 |** Notes**	|Appium is required to run the script
 |		|
-|**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129371484-132d33b4-8e09-4295-9e8f-1b9f09d8271a.png)	
+|**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129371484-132d33b4-8e09-4295-9e8f-1b9f09d8271a.png)
+|		|![image](https://user-images.githubusercontent.com/84356922/129457194-5a75fc5c-fda1-4f2f-8823-8a556f8452ee.png)
+
 	
 						batch.sh:
 	
 	
 |**Synopsis**	|**./batch.sh \<apk\-directory\> [ install \| uninstall \| remove \| signup \| login \| delete \| manual ]**			
 |:--------------|:-------------- 						
-|**Description**| 								
+|**Description**| a tool for testers to work with a directory containing apk files (working in batch mode)				
 |		|								
-|**Options**	|		
-|		| 	
-|		|	
+|**Options**	|\<apk-directory\> 	
+|		|	a directory which contains apk files
 |		|
+|		| choose one of the following options:
+|          	|	install
+|               |    		install all the apk files in the directory on the android mobile phone
+|          	|	uninstall
+|               |    		uninstall all the apk files in the directory from the android mobile phone
+|          	|	remove
+|               |    		remove the <apk-directory> and all the output directories _out and error directories \_err, ready for next batch
+|          	|	signup
+|               |    		automatically signup a user account for each of the apk file in \<apk-directory\>
+|          	|	login
+|               |    		automatically login the user account for each of the apk file in \<apk-directory\>
+|          	|	delete
+|               |    		automatically delete the user account for each of the apk file in \<apk-directory\>
+|          	|	manual
+|               |    		manual intervention from testers, break into ipdb console and finish any of the options above
+|               |    		testers can also use function dump\_text builtin the tool to do screen scraping on the android phone	
+|		|		
+|**Dependencies**|adb
+|		|aapt
+|		|grep
+|		|manual.py
+|		|delete.py
+		|login.py
+|		|signup.py
 |		|
-|**Dependencies**|								
+|**Packages**	|lai										
+|		|lai_web
+|		|
+|**Notes**	|Appium is required to run the script	
+|		|Depending on the chosen option, the tool will save log files into _out and _err directories, from which statistical 	|		 |analysis can be performed
 |		|	
-|		|	
-|**Packages**	|										
-|		|						
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129371636-c6f40773-5d93-4bf8-8361-adc093df83ff.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129371735-03612142-8ca7-4097-b8aa-3a81bde55fd4.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129371810-1d785c9b-8a87-4776-ba2f-7eba097da5e1.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129371883-6114ed53-bd8d-42ab-bba2-1d1cd00ea7b4.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129371941-7766664d-5a7f-4191-8989-30838288f396.png)|
 
-|		|
-|		|
+
 						single.sh:
 	
 	
