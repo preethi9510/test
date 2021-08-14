@@ -177,19 +177,19 @@ IV - Software tools and usages
 |		|						
 |		|								
 |**Options**	|collect 
-|          	|	automatically go to google play store, download apks, and upload them to a dedicated server
-|          	|	\<apklist\-directory\> 
-|               |        	a directory which contains files whose contents are android package names
-|          	|	\<server\-username\> 
-|               |        	ssh username
-|          	|	\<server\-password\> 
-|               |        	ssh password
-|          	|	\<wait\-time\-in\-secs\>
-|               |        	time to wait between each batch of apk files finish uploading to the server
+|          	|&nbsp;&nbsp;&nbsp;&nbsp;automatically go to google play store, download apks, and upload them to a dedicated server
+|          	|&nbsp;&nbsp;&nbsp;&nbsp;\<apklist\-directory\> 
+|               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a directory which contains files whose contents are android package names
+|          	|&nbsp;&nbsp;&nbsp;&nbsp;\<server\-username\> 
+|               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ssh username
+|          	|&nbsp;&nbsp;&nbsp;&nbsp;\<server\-password\> 
+|               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ssh password
+|          	|&nbsp;&nbsp;&nbsp;&nbsp;\<wait\-time\-in\-secs\>
+|               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;time to wait between each batch of apk files finish uploading to the server
 |		|apk2web
-|          	|	automatically find equivalent websites from a directory containing all apk files pulled from the mobile phone 
+|          	|&nbsp;&nbsp;&nbsp;&nbsp;automatically find equivalent websites from a directory containing all apk files pulled from the mobile phone 
 |		|\<apkdir\>	
-|		|	a directory which contains all apk files pulled from the android mobile phone
+|		|&nbsp;&nbsp;&nbsp;&nbsp;a directory which contains all apk files pulled from the android mobile phone
 |		|
 **Dependencies**|lac_batch.sh 
 |		|upload.sh
