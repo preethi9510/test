@@ -360,8 +360,35 @@ IV - Software tools and usages
 	
 |**Synopsis**	|./lac_batch.sh [  \<gmail\> \<gpassword\>  minus \| \<./minus\/laXX\> install \| \<package\-name\> \<app\-email\> \<app\-password\> clean \| pull \| uninstall \| \<./minus\/laXX\> remove ]
 |:--------------|:-------------- 						
-|**Description**|When users uninstall apps on their android phones, they may have forgotten to delete their user accounts for those apps,the script can help to   |               |automatically cleanup those accounts, it also other functions to manage apk files							
-|**Options**	|		
+|**Description**|When users uninstall apps on their android phones, they may have forgotten to delete their user accounts for those apps,the script can help to   automatically cleanup those accounts, it also other functions to manage apk files	
+|		|
+|**Options**	|minus
+             	see minus_operation.sh
+             <gmail>
+                            google email address to login play store
+             <gpassword>
+                            google password to login play store
+install
+             automatically searching the play store for packages provided in <./minus/laXX> and install them on android phone
+             <./minus/laXX>
+                             a text file which contains a list of android package names
+clean
+             given <app-email> and <app-password>, this will automatically delete the user account on a given <package-name>
+             <package-name>
+                             the package-name of an app currently residing on android phone
+             <app-email>
+                             the email that user has provided when signing up with an app on android phone
+             <app-password>
+                             the password that user has provided when signing up with an app on android phone
+pull
+             see pm.sh
+uninstall
+             see pm.sh
+remove
+             remove all log directories _out and _err, ready for the next batch
+             <./minus/laXX>
+                              a text file which contains a list of android package names
+	
 |	    	| 	
 |		|	
 |		|
