@@ -235,7 +235,7 @@ IV - Software tools and usages
 |		|grep
 |		|manual.py
 |		|delete.py
-		|login.py
+|		|login.py
 |		|signup.py
 |		|
 |**Packages**	|lai										
