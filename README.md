@@ -407,19 +407,18 @@ IV - Software tools and usages
 						upload.sh:
 	
 	
-|**Synopsis**	|****								
+|**Synopsis**	|**./upload.sh \<ssh\-username\> \<ssh\-password\>**							
 |:--------------|:-------------- 						
-|**Description**| 								
+|**Description**|this little snippet will upload all apk files in pull directory and upload to a specific directory on the dedicated server, it can replace FileZilla							
 |		|								
-|**Options**	|		
-|		| 	
-|		|	
-|		|
-|		|
-|**Dependencies**|								
-|		|	
-|		|	
-|**Packages**	|										
+|**Options**	|\<ssh\-username\>
+|               |&nbsp;&nbsp;&nbsp;&nbsp;ssh username to login the dedicated server
+|		|\<ssh\-password\>
+|               |&nbsp;&nbsp;&nbsp;&nbsp;ssh password to login the dedicated server		
+|**Dependencies**|sshpass							
+|		|		
+|**Packages**	|lai_web	
+|**Notes**	|a pull directory which contains all apk files must exist before running this script (e.g., after running pm.sh pull	
 |		|						
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129374017-16a9a92e-74f3-4194-b0d7-58adf03f6dc9.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129374065-b0163239-650f-4d95-aee5-68659f3a2ad0.png)|
@@ -429,19 +428,22 @@ IV - Software tools and usages
 						lac_adf.sh:
 	
 	
-|**Synopsis**	|****								
+|**Synopsis**	|**./lac_adf \<package\-name\>**								
 |:--------------|:-------------- 						
-|**Description**| 								
+|**Description**|Check on-the-fly whether an existing package on the android mobile device has user account deletion function or not(without using any natural language processing technique)								
 |		|								
-|**Options**	|		
-|		| 	
-|		|	
+|**Options**	|\<package\-name\>
+|             	|&nbsp;&nbsp;&nbsp;&nbsp;an android package on the mobile device
 |		|
-|		|
-|**Dependencies**|								
-|		|	
-|		|	
-|**Packages**	|										
+|		|The script will return:
+|              	|&nbsp;&nbsp;&nbsp;&nbsp;AD means account deletion
+|              	|&nbsp;&nbsp;&nbsp;&nbsp;Not AD means not account deletion		|
+|**Dependencies**|adb						
+|		|dos2unix
+|		|grep
+|		|sed
+|**Packages**	|lai_web
+|**Notes**	|To know which packages are currently installed on the device, see pm.sh
 |		|						
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129374128-fd49791c-c692-4a53-8627-e3eddfd5a1f9.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129374187-e6d76152-9ea3-448a-9034-ce1b86aeed2d.png)|
@@ -450,19 +452,16 @@ IV - Software tools and usages
 						stats2.sh:
 	
 	
-|**Synopsis**	|****								
+|**Synopsis**	|**./stats2.sh \<log\-directory\>**								
 |:--------------|:-------------- 						
-|**Description**| 								
+|**Description**|gather statistics for each android app after running batch.sh script					
 |		|								
-|**Options**	|		
-|		| 	
-|		|	
-|		|
-|		|
-|**Dependencies**|								
-|		|	
-|		|	
-|**Packages**	|										
+|**Options**	|\<log\-directory\>
+|               |&nbsp;&nbsp;&nbsp;&nbsp;a directory which contains all the log files stored under _out and _err directories
+|**Dependencies**|grep							
+|		|		
+|**Packages**	|lai
+|**Notes**	|Make sure to run batch.sh before running this script. The results can be redirected to a csv file and export to ms excel for further analyses
 |		|						
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129374263-aa111dc9-939f-4520-8d1f-b85270045946.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129374326-7375d4d9-230f-446f-8f9a-5d80b420c14e.png)|
@@ -472,24 +471,20 @@ IV - Software tools and usages
 	
 						stats2_web.sh:
 	
-|**Synopsis**	|****								
+|**Synopsis**	|**./stats2_web.sh \<weblog\-directory\>**								
 |:--------------|:-------------- 						
-|**Description**| 								
-|		|								
-|**Options**	|		
-|		| 	
-|		|	
+|**Description**|gather statistics for each website after running batch.sh script					
+|**Options**	|\<weblog\-directory\>
+|             	|&nbsp;&nbsp;&nbsp;&nbsp;A directory which contains all the log files for websites after running adf.sh script
 |		|
-|		|
-|**Dependencies**|								
-|		|	
-|		|	
-|**Packages**	|										
-|		|						
+|**Dependencies**|grep							
+|		|			
+|**Packages**	|lai										
+|**Notes**	|Make sure to run adf.sh for the web first before running this script. The results can be redirected to a csv file and export to ms excel for further analyses					
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129374950-1889937e-1b98-4f7d-bd40-a12c673c77fb.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129375030-23aa567d-1997-424a-bf4d-7cf59b345a7e.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129375094-7b98d440-0650-41d1-a34f-fa7b595b84d2.png)|
-|		|
+		
 				
 						adf.sh:
 	
