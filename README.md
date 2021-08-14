@@ -103,7 +103,7 @@ IV - Software tools and usages
 
 			#apkdl.sh:
 	
-|**Synopsis**	|**./apkdl.sh**							|
+|**Synopsis**	|./apkdl.sh							|
 |:--------------|:-------------- 						|
 |**Description**| scrape all the android package names from a website		|
 |		|								|
