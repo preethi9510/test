@@ -363,41 +363,43 @@ IV - Software tools and usages
 |**Description**|When users uninstall apps on their android phones, they may have forgotten to delete their user accounts for those apps,the script can help to   automatically cleanup those accounts, it also other functions to manage apk files	
 |		|
 |**Options**	|minus
-             	see minus_operation.sh
-             <gmail>
-                            google email address to login play store
-             <gpassword>
-                            google password to login play store
-install
-             automatically searching the play store for packages provided in <./minus/laXX> and install them on android phone
-             <./minus/laXX>
-                             a text file which contains a list of android package names
-clean
-             given <app-email> and <app-password>, this will automatically delete the user account on a given <package-name>
-             <package-name>
-                             the package-name of an app currently residing on android phone
-             <app-email>
-                             the email that user has provided when signing up with an app on android phone
-             <app-password>
-                             the password that user has provided when signing up with an app on android phone
-pull
-             see pm.sh
-uninstall
-             see pm.sh
-remove
-             remove all log directories _out and _err, ready for the next batch
-             <./minus/laXX>
-                              a text file which contains a list of android package names
-	
-|	    	| 	
-|		|	
+|             	|&nbsp;&nbsp;&nbsp;&nbsp;see minus_operation.sh
+|           	|&nbsp;&nbsp;&nbsp;&nbsp;<gmail>
+|             	|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;google email address to login play store
+|            	|&nbsp;&nbsp;&nbsp;&nbsp;<gpassword>
+|            	|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;google password to login play store
+|		|install
+|            	|&nbsp;&nbsp;&nbsp;&nbsp;automatically searching the play store for packages provided in <./minus/laXX> and install them on android phone
+|          	|&nbsp;&nbsp;&nbsp;&nbsp;<./minus/laXX>
+|               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a text file which contains a list of android package names
+|		|clean
+|            	|&nbsp;&nbsp;&nbsp;&nbsp;given <app-email> and <app-password>, this will automatically delete the user account on a given <package-name>
+|            	|&nbsp;&nbsp;&nbsp;&nbsp;<package-name>
+|               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the package-name of an app currently residing on android phone
+|            	|&nbsp;&nbsp;&nbsp;&nbsp;<app-email>                             
+|		|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the email that user has provided when signing up with an app on android |phone
+|             	|&nbsp;&nbsp;&nbsp;&nbsp;<app-password>
+|               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the password that user has provided when signing up with an app on android phone
+|		|pull
+|             	|&nbsp;&nbsp;&nbsp;&nbsp;see pm.sh
+|		|uninstall
+|             	|&nbsp;&nbsp;&nbsp;&nbsp;see pm.sh
+|		|remove
+|            	|&nbsp;&nbsp;&nbsp;&nbsp;remove all log directories _out and _err, ready for the next batch
+|            	|&nbsp;&nbsp;&nbsp;&nbsp;<./minus/laXX>
+|               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a text file which contains a list of android package n	|
 |		|
-|		|
-|**Dependencies**|								
-|		|	
-|		|	
-|**Packages**	|										
-|		|						
+|**Dependencies**|minus_operation.sh							
+|		|gsplit
+|		|store.py
+|		|dos2unix
+|		|adb
+|		|grep
+|		|lac_adf.sh
+|		|cleanup.py
+|**Packages**	|lai									
+|		|lai_web	
+|**Notes**	|Appium is required to run the script	
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129373955-ec9522da-bedc-4c5b-9248-0b4dd2b23bc2.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129373975-e1779d5d-0541-40ac-b595-7c475cd18ed6.png)|
 
