@@ -679,7 +679,7 @@ IV - Software tools and usages
 						semantics.py:
 
 	
-|**Synopsis**	|**\__DEV\__\=1 python semantics.py \<paragraph\> .\*\<verb\>.\*<noun\>.\***				
+|**Synopsis**	|**__DEV__\=1 python semantics.py \<paragraph\> .\*\<verb\>.\*<noun\>.\***				
 |:--------------|:-------------- 						
 |**Description**|Check the semantics of a paragraph against a special regular expression using natural language processing techniques							
 |**Options**	|\<paragraph\>							
@@ -688,7 +688,7 @@ IV - Software tools and usages
 |		|&nbsp;&nbsp;&nbsp;&nbsp;An English verb
 |		|\<noun\>
 |		|&nbsp;&nbsp;&nbsp;&nbsp;An English noun
-|		|\__DEV\__\=1 is optional\:
+|		|__DEV__\=1 is optional\:
 |		|&nbsp;&nbsp;&nbsp;&nbsp;if present, a constituent tree will be printed and vice versa
 |		|the script will return:
 |		|&nbsp;&nbsp;&nbsp;&nbsp;(‘TP’, ‘’) means the paragraph’s true meaning has been understood as intended by regex .\*\<verb\>.\*\<noun\>.\*
