@@ -804,7 +804,7 @@ adb pull /data/app/com.mercariapp.mercari-1/base.apk  /Users/preethis/Desktop
 	
 				store.py:
 	
-|**Synopsis**	|**python store.py \<android\-package\-names\-via\-stdin\>**						
+|**Synopsis**	|python store.py \<android\-package\-names\-via\-stdin\>						
 |:--------------|:-------------- 						
 |**Description**|automatically goes to google play store, search for apks and install them to the android phone		
 |		|								
@@ -825,19 +825,21 @@ adb pull /data/app/com.mercariapp.mercari-1/base.apk  /Users/preethis/Desktop
 				my_apps.py:
 	
 	
-|**Synopsis**	|****								
+|**Synopsis**	|**python my_apps.py \<gmail\> \<gpassword\>**								
 |:--------------|:-------------- 						
-|**Description**| 								
+|**Description**|automatically navigate and scrape html from My apps page on google play store website via chrome browser
 |		|								
-|**Options**	|		
-|		| 	
-|		|	
+|**Options**	|\<gmail\>
+|		|&nbsp;&nbsp;&nbsp;&nbsp;google account email to login play store	
+|		|\<password\>
+|		|&nbsp;&nbsp;&nbsp;&nbsp;google account passowrd to login play store
+|		|The script will scrape all html content from My apps page of google play store
 |		|
-|		|
-|**Dependencies**|								
-|		|	
-|		|	
-|**Packages**	|										
+|**Dependencies**|common_web.py							
+|		|python selenium
+|		|chrome driver
+|**Packages**	|lai_web
+|**Notes**	|Make sure to install python selenium, chrome driver, chrome browser before running this script
 |		|						
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129381879-4ca4f3f8-f446-4935-bdae-042d9920e356.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129381925-495a508e-8fef-4458-93d8-9bff2a1eb276.png)|
@@ -849,20 +851,22 @@ adb pull /data/app/com.mercariapp.mercari-1/base.apk  /Users/preethis/Desktop
 				manual.py:
 	
 	
-|**Synopsis**	|****								
+|**Synopsis**	|**python manual.py [ \<apkfile\> \| \<website\-address\> ]**					
 |:--------------|:-------------- 						
-|**Description**| 								
+|**Description**|Automatically launch an apkfile or a website then break into its ipdb console for manual intervention tasks
 |		|								
-|**Options**	|		
-|		| 	
-|		|	
+|**Options**	|\<apkfile\>		
+|		|&nbsp;&nbsp;&nbsp;&nbsp; An apk file
+|		|\<website\-address\>
+|		|&nbsp;&nbsp;&nbsp;&nbsp;A website address
 |		|
-|		|
-|**Dependencies**|								
-|		|	
-|		|	
-|**Packages**	|										
-|		|						
+|**Dependencies**|commons.py							
+|		|commons_web.py
+|		|ipdb
+|**Packages**	|lai									
+|		|lai_web
+|**Notes**	|Appium is required if running the script from package lai
+|		|Selenium, chrome driver, and chrome browser are required if running the script from package lai_web
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129382101-131e5dfe-18c9-4550-bdb8-6fc1223c7e4a.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129382135-3ef4bd0b-5563-4ada-933f-afb9a34e6f86.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129382169-5449a08f-b4f9-4365-bf3b-0a59a7507d04.png)|
@@ -874,20 +878,22 @@ adb pull /data/app/com.mercariapp.mercari-1/base.apk  /Users/preethis/Desktop
 				signup.py:
 	
 	
-|**Synopsis**	|****								
+|**Synopsis**	|**python signup.py [ \<apkfile\> \| \<website\-address\> ]**						
 |:--------------|:-------------- 						
-|**Description**| 								
-|		|								
-|**Options**	|		
-|		| 	
+|**Description**|an attempt to automatically signup a user account via the android application or its equivalent website|	
+|**Options**	|\<apkfile\>					
+|		|&nbsp;&nbsp;&nbsp;&nbsp; An apk file
+|		|\<website\-address\>
+|		|&nbsp;&nbsp;&nbsp;&nbsp; A website address
 |		|	
-|		|
-|		|
-|**Dependencies**|								
+|**Dependencies**|commons.py								
+|		|commons_web.py
 |		|	
-|		|	
-|**Packages**	|										
-|		|						
+|**Packages**	|lai								
+|		|lai_web	
+|**Notes**	|Appium is required if running the script from package lai
+|		|Selenium, chrome driver, and chrome browser are required if running the script from package lai_web
+|		|User account information is hardcoded in commons.py or commons_web.py
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129382236-a18a1516-b6dc-4063-8308-e068adcbc693.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129382277-1fe0660e-6fe7-45f0-9b16-b36c28866ae3.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129382316-36408fea-4f34-4128-89ed-bbdbcc0789d5.png)|
@@ -899,20 +905,23 @@ adb pull /data/app/com.mercariapp.mercari-1/base.apk  /Users/preethis/Desktop
 	
 	
 	
-|**Synopsis**	|****								
+|**Synopsis**	|**python login.py [ \<apkfile\> \| \<website\-address\> ]**						
 |:--------------|:-------------- 						
-|**Description**| 								
+|**Description**|an attempt to automatically login a user account via the android application or its equivalent website	
 |		|								
-|**Options**	|		
-|		| 	
-|		|	
+|**Options**	|\<apkfile\>	
+|		|&nbsp;&nbsp;&nbsp;&nbsp; An apk file
+|		|\<website\-address\>
+|		|&nbsp;&nbsp;&nbsp;&nbsp;A website address
 |		|
-|		|
-|**Dependencies**|								
+|**Dependencies**|commons.py							
+|		|commons_web.py
 |		|	
-|		|	
-|**Packages**	|										
-|		|						
+|**Packages**	|lai										
+|		|lai_web	
+|**Notes**	|Appium is required if running the script from package lai
+|		|Selenium, chrome driver, and chrome browser are required if running the script from package lai_web
+|		|User account information is hardcoded in commons.py or commons_web.py
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129382396-6e65efc8-8c4d-4e5d-83b9-25dca527309d.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129382440-ea582a01-69d4-4eb1-b0a8-b7c5aa04f4a5.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129382484-033fa7c2-06c6-42d0-af4f-0d55b3295765.png)|
@@ -924,20 +933,24 @@ adb pull /data/app/com.mercariapp.mercari-1/base.apk  /Users/preethis/Desktop
 				delete.py:
 	
 	
-|**Synopsis**	|****								
+|**Synopsis**	|**python delete.py [ \<apkfile\> \<dotfile\> \| \<website\-address\> ]**			
 |:--------------|:-------------- 						
-|**Description**| 								
-|		|								
-|**Options**	|		
-|		| 	
+|**Description**|an attempt to automatically delete a user account via the android application or its equivalent website														
+|**Options**	|\<apkfile\>	
+|		|&nbsp;&nbsp;&nbsp;&nbsp;An apk file
+|		|\<dotfile\>
+|		|&nbsp;&nbsp;&nbsp;&nbsp;A dot file generated by adf.sh to guarantee that the account deletion functionlity exists on the apk
+|		|\<website\-address\>
+|		|&nbsp;&nbsp;&nbsp;&nbsp;A website address
+|**Dependencies**|commons.py							
+|		|commons_web.py
 |		|	
-|		|
-|		|
-|**Dependencies**|								
-|		|	
-|		|	
-|**Packages**	|										
-|		|						
+|**Packages**	|lai								
+|		|lai_web	
+|**Notes**	|First make sure that there exists a user account with an android application or its equivalent website, possibly by running signup.py
+|		|Appium is required if running the script from package lai, also must run adf.sh or parallel.sh first to have dot files
+|		|Selenium, chrome driver, and chrome browser are required if running the script from package lai_web
+|		|User account information is hardcoded in commons.py or commons_web.py
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129382542-41bf787d-46f4-4476-9505-04ed0c029420.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129382579-3013b12d-d2ae-4fa5-a346-c73f30bb088a.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129382630-e77b924e-a8d5-41ef-a186-a7e51ae6bf81.png)|
@@ -948,20 +961,21 @@ adb pull /data/app/com.mercariapp.mercari-1/base.apk  /Users/preethis/Desktop
 				cleanup.py:
 	
 	
-|**Synopsis**	|****								
+|**Synopsis**	|**python cleanup.py \<package\-name\> \<app\-email\> \<app\-password\>**			
 |:--------------|:-------------- 						
-|**Description**| 								
-|		|								
-|**Options**	|		
-|		| 	
+|**Description**|An attempt to automatically cleanup a user account for a certain android app when the user uninstalls it but forgets to do so														
+|**Options**	|\<package\-name\>	
+|		|&nbsp;&nbsp;&nbsp;&nbsp;The android package name which currently resides on the android device	
+|		|\<app\-email\>
+|		|&nbsp;&nbsp;&nbsp;&nbsp;The user email which the user uses to login the app
+|		|\<app\-password\>
+|		|&nbsp;&nbsp;&nbsp;&nbsp;The user password which the users uses to login the app  
+|**Dependencies**|commons.py							
 |		|	
-|		|
-|		|
-|**Dependencies**|								
-|		|	
-|		|	
-|**Packages**	|										
-|		|						
+|**Packages**	|lai									
+|		|lai_web
+|**Notes**	|Appium is required to run the script
+|		|Make sure that the <package-name> exists on the device, this can be checked by using pm.sh
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129382773-a6ce567c-233f-4684-8cf1-7932b73d8436.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129382825-8979ea11-7161-47b2-861d-6401046142e2.png)|
 
@@ -971,60 +985,123 @@ adb pull /data/app/com.mercariapp.mercari-1/base.apk  /Users/preethis/Desktop
 				commons.py:
 	
 	
-|**Synopsis**	|****								
+|**Synopsis**	|**from commons import \<some\-functionality\>**							
 |:--------------|:-------------- 						
-|**Description**| 								
+|**Description**|A python library to interact with the android mobile device via appium					
 |		|								
-|**Options**	|		
-|		| 	
-|		|	
-|		|
-|		|
-|**Dependencies**|								
-|		|	
-|		|	
-|**Packages**	|										
-|		|						
-|**Examples**	|
+|**Options**	|\<some\-functionality\> can be one of the followings:		
+|		|external constants
+|		|&nbsp;&nbsp;&nbsp;&nbsp;UNINSTALL_FLAG, EMAIL, PASSWORD, USERNAME, BIRTHDAY, FIRSTNAME, LASTNAME,PHONENUMBER, HEIGHT, WEIGHT, AGE, GENDER, LOCATION, ZIPCODE, SSN, DLN, CREDITCARD	
+|		|external variable
+|		|&nbsp;&nbsp;&nbsp;&nbsp;session
+|		|functions:
+|		|&nbsp;&nbsp;&nbsp;&nbsp;init
+|		|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;deprecated
+|		|&nbsp;&nbsp;&nbsp;&nbsp;init2
+|		|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;auto launch an android app using the apk file and get a session ready
+|		|&nbsp;&nbsp;&nbsp;&nbsp;init3
+|		|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;auto launch an android app using the package name and get a session ready
+|		|&nbsp;&nbsp;&nbsp;&nbsp;uninstall
+|		|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;uninstall the android app by using the apk file
+|		|&nbsp;&nbsp;&nbsp;&nbsp;find
+|		|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;find a widget by its text
+|		|&nbsp;&nbsp;&nbsp;&nbsp;find_edits
+|		|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;find all the editable widgets
+|		|&nbsp;&nbsp;&nbsp;&nbsp;find_clickable_textviews
+|		|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;find all the textview widgets which are clickable
+|		|&nbsp;&nbsp;&nbsp;&nbsp;scroll_to
+|		|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;scroll to a specific widget identified matching its text
+|		|&nbsp;&nbsp;&nbsp;&nbsp;getClickableWidgets
+|		|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;get all clickable widgets on the screen
+|		|&nbsp;&nbsp;&nbsp;&nbsp;filterClass
+|		|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;deprecated
+|		|&nbsp;&nbsp;&nbsp;&nbsp;filterKeyword
+|		|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;deprecated
+|		|&nbsp;&nbsp;&nbsp;&nbsp;checkWidgetCount
+|		|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;deprecated
+|		|&nbsp;&nbsp;&nbsp;&nbsp;Init
+|		|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;deprecated
+|		|&nbsp;&nbsp;&nbsp;&nbsp;swipe_up
+|		|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;auto swiping up the screen
+|		|&nbsp;&nbsp;&nbsp;&nbsp;swipe_left
+|		|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;auto swiping to the left of the screen
+|		|&nbsp;&nbsp;&nbsp;&nbsp;dump_text
+|		|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dump all the textual information of current active screen
+|**Dependencies**|appium							
+|		|time
+|		|re
+|		|csv
+|		|os
+|		|selenium
+|**Packages**	|lai									
+|		|lai_web						
+|**Notes**	|none
 	
 	
 				commons_web.py:
 	
 	
 	
-|**Synopsis**	|****								
+|**Synopsis**	|**from commons_web import \<some\-functionality\>**							
 |:--------------|:-------------- 						
-|**Description**| 								
+|**Description**|A python library to interact with the android mobile device via Selenium	
+\<some\-functionality\> can be one of the followings:		
+|		|external constants
+|		|&nbsp;&nbsp;&nbsp;&nbsp;UNINSTALL_FLAG, EMAIL, PASSWORD, USERNAME, BIRTHDAY, FIRSTNAME, LASTNAME,PHONENUMBER, HEIGHT, WEIGHT, AGE, GENDER, LOCATION, ZIPCODE, SSN, DLN, CREDITCARD	
+|		|external variable
+|		|&nbsp;&nbsp;&nbsp;&nbsp;session
+|		|functions:
+|		|&nbsp;&nbsp;&nbsp;&nbsp;init
+|		|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;auto launch a website address (url) and get the session ready
+|		|&nbsp;&nbsp;&nbsp;&nbsp;dump_text
+|		|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dump all textual information of a webpage
+|		|&nbsp;&nbsp;&nbsp;&nbsp;dump_html
+|		|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dump all html information of a webpage
+|		|&nbsp;&nbsp;&nbsp;&nbsp;find_clickable
+|		|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;find a clickable widget if its text matches a specific regular expression pattern
+|		|&nbsp;&nbsp;&nbsp;&nbsp;find_editables
+|		|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;find all editable widgets on current webpage
+|		|&nbsp;&nbsp;&nbsp;&nbsp;fill_edits
+|		|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;automatically fill all editable widgets with information provided via a dictionary data type
+|		|&nbsp;&nbsp;&nbsp;&nbsp;nicely_quit
+|		|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;nicely quit the web session
+|		|&nbsp;&nbsp;&nbsp;&nbsp;signal_handler
+|		|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;nicely handle external signals
+|		|&nbsp;&nbsp;&nbsp;&nbsp;click
+|		|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;click on provided web element
+|		|&nbsp;&nbsp;&nbsp;&nbsp;shutdown
+|		|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;shutdown the session
+|		|&nbsp;&nbsp;&nbsp;&nbsp;save_as
+|		|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mimic the save as functionality of a chrome web browser
+|		|&nbsp;&nbsp;&nbsp;&nbsp;scroll_infinite
+|		|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;automatically scroll the webpage until its end is reached
 |		|								
-|**Options**	|		
-|		| 	
-|		|	
-|		|
-|		|
-|**Dependencies**|								
-|		|	
-|		|	
-|**Packages**	|										
-|		|						
-|**Examples**	|
+|**Options**	|selenium	
+|		|time
+|		|html2text
+|		|re
+|		|sys	
+|		|pyautogui
+|**Dependencies**|lai_web							
+|		|		
+|**Notes**	|none									
+
 	
 	
 				random_scraper.py:
 	
-|**Synopsis**	|****								
+|**Synopsis**	|**python random_scraper.py \<apkfile\>**								
 |:--------------|:-------------- 						
-|**Description**| 								
+|**Description**|a tool which triggers random events on the android app and scrape all the screen textual information
 |		|								
-|**Options**	|		
-|		| 	
-|		|	
+|**Options**	|\<apkfile\>		
+|		|&nbsp;&nbsp;&nbsp;&nbsp;An apk file 
 |		|
-|		|
-|**Dependencies**|								
-|		|	
-|		|	
-|**Packages**	|										
-|		|						
+|**Dependencies**|commons.py			
+|		|monkey
+|**Packages**	|lai	
+|**Notes**	|Appium is required to run the script, must set --relaxed-security option
+|		|the number of events and iteration to be fired are hardcoded in the script
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129382951-dc50da23-145a-4ae9-b254-8b9be2f74bcd.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129382988-ba8f55ce-4a14-439f-8e53-be175891f4d0.png)|
 
@@ -1035,19 +1112,18 @@ adb pull /data/app/com.mercariapp.mercari-1/base.apk  /Users/preethis/Desktop
 				capture.py:
 	
 	
-|**Synopsis**	|****								
+|**Synopsis**	|**python capture.py \<website\-address\>**								
 |:--------------|:-------------- 						
-|**Description**| 								
+|**Description**|A tool which mimics the save as function in google chrome web browser 					
 |		|								
-|**Options**	|		
-|		| 	
+|**Options**	|\<website\-address\>		
+|		|&nbsp;&nbsp;&nbsp;&nbsp;A website address
 |		|	
-|		|
-|		|
-|**Dependencies**|								
-|		|	
-|		|	
-|**Packages**	|										
+|**Dependencies**|commons_web.py							
+|		|		
+|**Packages**	|lai_web
+|**Notes**	|Selenium, web driver, and chrome browser are required before running this script
+|		|Make sure to have pyautogui library installed
 |		|						
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129383034-71a953b6-72d4-4ded-ab6e-5d928475d668.png)|
 
@@ -1057,19 +1133,15 @@ adb pull /data/app/com.mercariapp.mercari-1/base.apk  /Users/preethis/Desktop
 				DefUseChain.java:
 	
 	
-|**Synopsis**	|****								
+|**Synopsis**	|**see examples**								
 |:--------------|:-------------- 						
-|**Description**| 								
+|**Description**|a tool for def-use-chain analysis using Soot Framework							
 |		|								
-|**Options**	|		
-|		| 	
-|		|	
+|**Options**	|see examples		
 |		|
-|		|
-|**Dependencies**|								
-|		|	
-|		|	
-|**Packages**	|										
+|**Dependencies**|see examples								
+|**Packages**	|see examples	
+|**Notes**	|Eclipse (Keepler) is currently used for running this script
 |		|						
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129383075-ff10838f-5662-4f0f-a7ed-d239e889e30b.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129383118-b5439d03-82d4-47f5-b341-503538ec32a5.png)|
@@ -1080,19 +1152,15 @@ adb pull /data/app/com.mercariapp.mercari-1/base.apk  /Users/preethis/Desktop
 				pystatparser:
 	
 	
-|**Synopsis**	|****								
+|**Synopsis**	|**from stat_parser import Parser**								
 |:--------------|:-------------- 						
-|**Description**| 								
+|**Description**|A python package for parsing natural languages								
 |		|								
-|**Options**	|		
-|		| 	
-|		|	
+|**Options**	|none	
 |		|
-|		|
-|**Dependencies**|								
-|		|	
-|		|	
-|**Packages**	|										
+|**Dependencies**|github							
+|**Packages**	|pystatparser		
+|**Notes**	|This open-source python package has been readjusted to wokr properly with python 2.7
 |		|						
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129383340-9b05828d-979c-4e33-945b-813e67ed939e.png)|
 
@@ -1103,19 +1171,23 @@ adb pull /data/app/com.mercariapp.mercari-1/base.apk  /Users/preethis/Desktop
 				auth:
 	
 	
-|**Synopsis**	|****								
+|**Synopsis**	|**\#include \“auth.h\”**								
 |:--------------|:-------------- 						
-|**Description**| 								
+|**Description**|A small c-library built with curl to bypass basic authorization 				
 |		|								
-|**Options**	|		
-|		| 	
-|		|	
+|**Options**	|functions:		
+|		|&nbsp;&nbsp;&nbsp;&nbsp;basic_auth
+|		|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bypass basic authorization
+|		|&nbsp;&nbsp;&nbsp;&nbsp;basic_get
+|		|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;simulate a GET request bypassing basic authorization
 |		|
-|		|
-|**Dependencies**|								
-|		|	
-|		|	
-|**Packages**	|										
+|**Dependencies**|curl							
+|		|Base64Encode
+|		|Base64Decode
+|		|crypto
+|**Packages**	|clang	
+|**Notes**	|At the time of writing, httrack was a popular opensource website copier but it did not pass basic authorization
+|		|This library can be compiled as a dynamic library .so to be used in complement with httrack
 |		|						
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129383387-6cc7b996-3cc8-4795-a97f-def17d55778f.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129383418-792976f5-89bd-4c86-bb14-7443bb5c2556.png)|
