@@ -125,8 +125,7 @@ IV - Software tools and usages
 	
 |**Synopsis**	|./apkdl.sh							|
 |:--------------|:-------------- 						|
-|**Description**| scrape all the android package names from a website		|
-|		|								|
+|**Description**| scrape all the android package names from a website		|								|
 |**Options**	|the input website is already hardcoded as apk-dl.com		|
 |		| the script will return a list of android package names
 |**Dependencies**|curl								|
@@ -142,17 +141,14 @@ IV - Software tools and usages
 	
 |**Synopsis**	|**./apk2web.sh \<apkfile\>**							
 |:--------------|:-------------- 						
-|**Description**| find the equivalent website address for an apk file by looking into the manifest	
-|		|	
+|**Description**| find the equivalent website address for an apk file by looking into the manifest		
 |**Options**	|\<apkfile\> 
 |               |&nbsp;&nbsp;&nbsp;&nbsp;an apk file 
 |               |&nbsp;&nbsp;&nbsp;&nbsp;given an apk file, the script will return the equivalent website address 
 |**Dependencies**|aapt					
 |		|dos2unix
 |		|grep
-|		|
 |**Packages**   |lai_web								
-|		|	
 |		|	
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129247712-19fa98e7-659f-4151-9fb1-23c1f84bf347.png)
 							
@@ -163,19 +159,14 @@ IV - Software tools and usages
 	
 |**Synopsis**	|**./apk2url.sh \<packagelist\> auto**							
 |:--------------|:-------------- 						
-|**Description**| find the equivalent website address for for a list of android package names via google	
-|		|	
+|**Description**| find the equivalent website address for for a list of android package names via google		
 |**Options**	|\<packagelist\>
 |		|&nbsp;&nbsp;&nbsp;&nbsp;a text file containing android package names
 |		|the auto flag is optional:
 |               |&nbsp;&nbsp;&nbsp;&nbsp;if present, the script will automatically pick the first website address from google candidate search results		
 |               |&nbsp;&nbsp;&nbsp;&nbsp;if not present, the script will let testers pick a website manually from the google candidate search results		
 |**Dependencies**|url.py					
-|		|
-|		|
-|		|
-|**Packages**   |lai_web								
-|		|	
+|**Packages**   |lai_web									
 |		|	
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129269450-1bae1183-f101-4d18-b716-e80b1ea36bd6.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129270158-b7cd68c3-1a1f-46dc-8a5f-48b6cee3e966.png)|
@@ -187,8 +178,7 @@ IV - Software tools and usages
 
 |**Synopsis**	|**./auto.sh \[\<apklist-directory\>\<server-username\> \<server-password\> \<wait\-time\-in\-secs\> collect  \| \<apkdir\> apk2web \]**
 |:--------------|-------------- 						
-|**Description**| an automatic script to collect apks and websites without any manual intervention							
-|		|								
+|**Description**| an automatic script to collect apks and websites without any manual intervention								
 |**Options**	|collect 
 |          	|&nbsp;&nbsp;&nbsp;&nbsp;automatically go to google play store, download apks, and upload them to a dedicated server
 |          	|&nbsp;&nbsp;&nbsp;&nbsp;\<apklist\-directory\> 
@@ -203,13 +193,10 @@ IV - Software tools and usages
 |          	|&nbsp;&nbsp;&nbsp;&nbsp;automatically find equivalent websites from a directory containing all apk files pulled from the mobile phone 
 |		|\<apkdir\>	
 |		|&nbsp;&nbsp;&nbsp;&nbsp;a directory which contains all apk files pulled from the android mobile phone
-|		|
 **Dependencies**|lac_batch.sh 
 |		|upload.sh
-|		|apk2web.sh
-|		|						
+|		|apk2web.sh						
 |**Packages**	|lai_web										
-|		|
 |**Notes**	|Appium is required to run the script
 |		|
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129371484-132d33b4-8e09-4295-9e8f-1b9f09d8271a.png)
@@ -222,11 +209,9 @@ IV - Software tools and usages
 	
 |**Synopsis**	|**./batch.sh \<apk\-directory\> [ install \| uninstall \| remove \| signup \| login \| delete \| manual ]**			
 |:--------------|:-------------- 						
-|**Description**| a tool for testers to work with a directory containing apk files (working in batch mode)				
-|		|								
+|**Description**| a tool for testers to work with a directory containing apk files (working in batch mode)							
 |**Options**	|\<apk-directory\> 	
 |		|&nbsp;&nbsp;&nbsp;&nbsp;a directory which contains apk files
-|		|
 |		|Choose one of the following options:
 |          	|&nbsp;&nbsp;&nbsp;&nbsp;install
 |               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;install all the apk files in the directory on the android mobile phone
@@ -242,8 +227,7 @@ IV - Software tools and usages
 |               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;automatically delete the user account for each of the apk file in \<apk-directory\>
 |          	|&nbsp;&nbsp;&nbsp;&nbsp;manual
 |               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;manual intervention from testers, break into ipdb console and finish any of the options above
-|               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Testers can also use function dump\_text builtin the tool to do screen scraping on the android phone	
-|		|		
+|               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Testers can also use function dump\_text builtin the tool to do screen scraping on the android phone		
 |**Dependencies**|adb
 |		|aapt
 |		|grep
@@ -251,10 +235,8 @@ IV - Software tools and usages
 |		|delete.py
 |		|login.py
 |		|signup.py
-|		|
 |**Packages**	|lai										
 |		|lai_web
-|		|
 |**Notes**	|Appium is required to run the script	
 |		|Depending on the chosen option, the tool will save log files into _out and _err directories, from which statistical analysis can be performed
 |		|	
@@ -270,8 +252,7 @@ IV - Software tools and usages
 	
 |**Synopsis**	|**./single.sh \<apkfile\> [ download \| signup \| install \| uninstall \| login \| delete \| launch \| search \| manual ]**	
 |:--------------|:-------------- 						
-|**Description**| a tool for testers to work with one single apk file						
-|		|								
+|**Description**| a tool for testers to work with one single apk file												
 |**Options**	|\<apkfile\> 	
 |		|&nbsp;&nbsp;&nbsp;&nbsp;an apk file
 |		|
@@ -294,7 +275,6 @@ IV - Software tools and usages
 |               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Automatically search apk file for a given android package name by automating google web browser
 |          	|&nbsp;&nbsp;&nbsp;&nbsp;manual
 |               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Manual intervention from testers, break into ipdb console and finish any of the options above
-|		| 	
 |**Dependencies**|adb						
 |		|monkey
 |		|scp
@@ -303,24 +283,20 @@ IV - Software tools and usages
 |		|delete.py	
 |		|login.py
 |**Packages**	|lai
-|		|lai_web
-|		|	
+|		|lai_web	
 |**Notes**	|Appium is required to run the script	
 |		|This script is similar to batch.sh except it works on only 1 apk file at a time, can be used in tandem with batch.sh
 |		|It also provides some extra commands not in batch.sh
 |		|						
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129373542-31a7ba77-a5f4-410f-893f-20645962c8cc.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129373599-e7a0cbbe-e82f-45e6-b35d-9f618ef2af7f.png)|
-|		|
-|		|
 		
 						pm.sh:
 	
 	
 |**Synopsis**	|**./pm.sh [ pull \| uninstall \| list \| count \| \<package\-file\> search \| <package-name\> pull ]**		
 |:--------------|:-------------- 						
-|**Description**|a package manager tool to help testers manage android packages efficiently						
-|		|								
+|**Description**|a package manager tool to help testers manage android packages efficiently									
 |**Options**	|pull
 |              	|&nbsp;&nbsp;&nbsp;&nbsp;pull all non-system packages from the android phone to your laptop
 |		|uninstall
@@ -337,7 +313,6 @@ IV - Software tools and usages
 |             	|&nbsp;&nbsp;&nbsp;&nbsp;pull a specific package from the android phone to your laptop
 |               |&nbsp;&nbsp;&nbsp;&nbsp;\<package\-name\>
 |               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;an android package
-|		|
 |**Dependencies**|dos2unix						
 |		|sed
 |		|cut
@@ -347,7 +322,7 @@ IV - Software tools and usages
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129373659-46741c18-90c8-4e2e-83b5-3d6ff4998080.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129373708-60936214-984d-402f-a30c-969ebbd8f4d0.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129373744-344dd800-47b5-46d0-8983-f72a5a5429ab.png)|
-|		|
+
 
 						minus_operation.sh:
 
@@ -359,7 +334,6 @@ IV - Software tools and usages
 |            	|&nbsp;&nbsp;&nbsp;&nbsp;google email address to login play store
 |		|\<gpassword\>
 |             	|&nbsp;&nbsp;&nbsp;&nbsp;google password to login play store		
-|		|
 |**Dependencies**|my_apps.py				
 |		|awk
 |		|dos2unix	
@@ -376,7 +350,6 @@ IV - Software tools and usages
 |**Synopsis**	|./lac_batch.sh [  \<gmail\> \<gpassword\>  minus \| \<./minus\/laXX\> install \| \<package\-name\> \<app\-email\> \<app\-password\> clean \| pull \| uninstall \| \<./minus\/laXX\> remove ]
 |:--------------|:-------------- 						
 |**Description**|When users uninstall apps on their android phones, they may have forgotten to delete their user accounts for those apps,the script can help to   automatically cleanup those accounts, it also other functions to manage apk files	
-|		|
 |**Options**	|minus
 |             	|&nbsp;&nbsp;&nbsp;&nbsp;see minus_operation.sh
 |           	|&nbsp;&nbsp;&nbsp;&nbsp;\<gmail\>
@@ -403,7 +376,6 @@ IV - Software tools and usages
 |            	|&nbsp;&nbsp;&nbsp;&nbsp;remove all log directories _out and _err, ready for the next batch
 |            	|&nbsp;&nbsp;&nbsp;&nbsp;\<./minus\/laXX\>
 |               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a text file which contains a list of android package names
-|		|
 |**Dependencies**|minus_operation.sh							
 |		|gsplit
 |		|store.py
@@ -415,6 +387,7 @@ IV - Software tools and usages
 |**Packages**	|lai									
 |		|lai_web	
 |**Notes**	|Appium is required to run the script	
+|		|
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129373955-ec9522da-bedc-4c5b-9248-0b4dd2b23bc2.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129373975-e1779d5d-0541-40ac-b595-7c475cd18ed6.png)|
 
@@ -424,20 +397,18 @@ IV - Software tools and usages
 	
 |**Synopsis**	|**./upload.sh \<ssh\-username\> \<ssh\-password\>**							
 |:--------------|:-------------- 						
-|**Description**|this little snippet will upload all apk files in pull directory and upload to a specific directory on the dedicated server, it can replace FileZilla							
-|		|								
+|**Description**|this little snippet will upload all apk files in pull directory and upload to a specific directory on the dedicated server, it can replace FileZilla														
 |**Options**	|\<ssh\-username\>
 |               |&nbsp;&nbsp;&nbsp;&nbsp;ssh username to login the dedicated server
 |		|\<ssh\-password\>
 |               |&nbsp;&nbsp;&nbsp;&nbsp;ssh password to login the dedicated server		
-|**Dependencies**|sshpass							
-|		|		
+|**Dependencies**|sshpass								
 |**Packages**	|lai_web	
 |**Notes**	|a pull directory which contains all apk files must exist before running this script (e.g., after running pm.sh pull)	
 |		|						
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129374017-16a9a92e-74f3-4194-b0d7-58adf03f6dc9.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129374065-b0163239-650f-4d95-aee5-68659f3a2ad0.png)|
-|		|
+
 	
 	
 								lac_adf.sh:
@@ -445,8 +416,7 @@ IV - Software tools and usages
 	
 |**Synopsis**	|**./lac_adf \<package\-name\>**								
 |:--------------|:-------------- 						
-|**Description**|Check on-the-fly whether an existing package on the android mobile device has user account deletion function or not(without using any natural language processing technique)								
-|		|								
+|**Description**|Check on-the-fly whether an existing package on the android mobile device has user account deletion function or not(without using any natural language processing technique)																
 |**Options**	|\<package\-name\>
 |             	|&nbsp;&nbsp;&nbsp;&nbsp;an android package on the mobile device
 |		|
@@ -462,26 +432,24 @@ IV - Software tools and usages
 |		|						
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129374128-fd49791c-c692-4a53-8627-e3eddfd5a1f9.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129374187-e6d76152-9ea3-448a-9034-ce1b86aeed2d.png)|
-|		|
+
 
 								stats2.sh:
 	
 	
 |**Synopsis**	|**./stats2.sh \<log\-directory\>**								
 |:--------------|:-------------- 						
-|**Description**|gather statistics for each android app after running batch.sh script					
-|		|								
+|**Description**|gather statistics for each android app after running batch.sh script										
 |**Options**	|\<log\-directory\>
 |               |&nbsp;&nbsp;&nbsp;&nbsp;a directory which contains all the log files stored under _out and _err directories
-|**Dependencies**|grep							
-|		|		
+|**Dependencies**|grep								
 |**Packages**	|lai
 |**Notes**	|Make sure to run batch.sh before running this script. The results can be redirected to a csv file and export to ms excel for further analyses
 |		|						
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129374263-aa111dc9-939f-4520-8d1f-b85270045946.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129374326-7375d4d9-230f-446f-8f9a-5d80b420c14e.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129374368-49df4f53-584d-49ad-a3be-3526e38e56db.png)|
-|		|
+
 		
 	
 								stats2_web.sh:
@@ -491,11 +459,10 @@ IV - Software tools and usages
 |**Description**|gather statistics for each website after running batch.sh script					
 |**Options**	|\<weblog\-directory\>
 |             	|&nbsp;&nbsp;&nbsp;&nbsp;A directory which contains all the log files for websites after running adf.sh script
-|		|
-|**Dependencies**|grep							
-|		|			
+|**Dependencies**|grep										
 |**Packages**	|lai										
-|**Notes**	|Make sure to run adf.sh for the web first before running this script. The results can be redirected to a csv file and export to ms excel for further analyses					
+|**Notes**	|Make sure to run adf.sh for the web first before running this script. The results can be redirected to a csv file and export to ms excel for further analyses	
+|		|
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129374950-1889937e-1b98-4f7d-bd40-a12c673c77fb.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129375030-23aa567d-1997-424a-bf4d-7cf59b345a7e.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129375094-7b98d440-0650-41d1-a34f-fa7b595b84d2.png)|
@@ -506,13 +473,11 @@ IV - Software tools and usages
 |**Synopsis**	|**./adf.sh [ \<apkfile\> \| \<website\> ]**								
 |:--------------|:-------------- 						
 |**Description**|build a strings-to-screen mapping model to determine whether a given apk file has user account deletion functionality 		
-|		|
 |**Options**	|\<apkfile\>
 |               |&nbsp;&nbsp;&nbsp;&nbsp;an apk file
 |		|\<website\>
 |               |&nbsp;&nbsp;&nbsp;&nbsp;a website which is downloaded as a webpage complete from google chrome
 |		|the script returns a mapping_model.dot file for the corresponding apk or website in output directory for further analyses
-|		|
 |**Dependencies**|apktool							
 |		|find
 |		|awk
@@ -521,10 +486,8 @@ IV - Software tools and usages
 |		|grep
 |		|sed
 |		|semantics.py
-|		|
 |**Packages**	|analyzer
 |		|analyzer_web
-|		|	
 |**Notes**	|Options are available depending on which package the script is running from
 |		|The script depends on tesseract to convert images to text
 |		|The script depends on semantics.py which use natural language processing to check the semantics of a phrase
@@ -548,8 +511,7 @@ IV - Software tools and usages
 	
 |**Synopsis**	|**./parallel.sh [ \<apk-directory\> \| \<web\-directory\> ] \<max\-num\-of\-cores\>**			
 |:--------------|:-------------- 						
-|**Description**|an efficient way to run adf.sh in a multiprocessing environment					
-|		|								
+|**Description**|an efficient way to run adf.sh in a multiprocessing environment										
 |**Options**	|\<apk\-directory\>		
 |		|&nbsp;&nbsp;&nbsp;&nbsp;a directory which contains all downloaded apk files	
 |		|\<web\-directory\>
@@ -575,8 +537,7 @@ IV - Software tools and usages
 
 |**Synopsis**	|**./adf_fp.sh [ \<apkfile\> \| \<website\> ]**								
 |:--------------|:-------------- 						
-|**Description**|find not account deletion strings (not-ad) for an apk or a website using natural language processing	
-|		|								
+|**Description**|find not account deletion strings (not-ad) for an apk or a website using natural language processing						
 |**Options**	|\<apkfile\>		
 |		|&nbsp;&nbsp;&nbsp;&nbsp;An apk file	
 |		|\<website\>
@@ -589,6 +550,7 @@ IV - Software tools and usages
 |**Packages**	|analyzer										
 |		|analyzer_web	
 |**Notes**	|Must run adf.sh or paralle.sh first before running this script.
+|		|
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129378045-40b6d4da-018f-46c1-91ef-6f2975421c30.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129378111-b969d7ab-eaeb-4a9a-b6bf-5bbd7a32bddc.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129378200-28215678-fe00-4a54-acab-0fe6cebc9efb.png)|
@@ -603,8 +565,7 @@ IV - Software tools and usages
 	
 |**Synopsis**	|**./parallel.sh [ \<apk\-directory\> \| \<web\-directory\> ] \<max\-num\-of\-cores\>**			
 |:--------------|:-------------- 						
-|**Description**|an efficient way to run adf_fp.sh in a multiprocessing environment					
-|		|								
+|**Description**|an efficient way to run adf_fp.sh in a multiprocessing environment										
 |**Options**	|\<apk\-directory\>	
 |		|&nbsp;&nbsp;&nbsp;&nbsp;a directory which contains all downloaded apk files	
 |		|\<web\-directory\>
@@ -613,11 +574,11 @@ IV - Software tools and usages
 |		|&nbsp;&nbsp;&nbsp;&nbsp;a maximum number of cpu cores assigned to run this task in parallel
 |**Dependencies**|adf.sh								
 |		|xargs
-|		|	
 |**Packages**	|analyzer									
 |		|analyzer_web	
 |**Notes**	|\<max\-num\-of\-cores\> must be less than or equal to the actual number of cpu cores the server has
 |		|This tool is similar to parallel.sh
+|		|
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129378975-c842b5c2-9a2e-446f-894f-41afef80a315.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129379282-97e8d696-53b2-432d-8747-9adcad9a6f0f.png)|
 		
@@ -627,8 +588,7 @@ IV - Software tools and usages
 	
 |**Synopsis**	|**./stats.sh [ time \| dot \| svg \| fp ]**								
 |:--------------|:-------------- 						
-|**Description**|a tool to extract statistical information from log files						
-|		|								
+|**Description**|a tool to extract statistical information from log files											
 |**Options**	|time		
 |		|&nbsp;&nbsp;&nbsp;&nbsp;output time in seconds for each app (apk or website)
 |		|dot	
@@ -649,6 +609,7 @@ IV - Software tools and usages
 |		|lai_web (deprecated)
 |**Notes**	|Must run adf.sh or parallel.sh or adf_fp.sh or parallel_fp.sh first before running this script
 |		|Time outputs can be redirected to a csv file and export to Microsoft Excel for further analyses
+|		|
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129380546-df785a8c-f7c9-4e07-bda8-8157b8b7b124.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129380662-0a0ddf7c-709f-40ae-834a-33f1bf374708.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129380701-58619dd1-2431-4bca-b639-9ab085c712dc.png)|
@@ -656,7 +617,7 @@ IV - Software tools and usages
 |		|![image](https://user-images.githubusercontent.com/84356922/129380806-6c8b4f00-69cf-4643-966d-5645f6619e1f.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129380850-6b3906cb-82ef-477e-831e-01ce8bd056a2.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129380910-4d44cca0-03ae-4a45-855e-8b4faf8f3ce3.png)|
-|		|
+
 	
 	
 	
@@ -667,8 +628,7 @@ IV - Software tools and usages
 	
 |**Synopsis**	|**./concat.sh \<apk\-dot\-directory\> \<website\-dot\-directory\>**					
 |:--------------|:-------------- 						
-|**Description**|combine adf results from apks and websites together							
-|		|								
+|**Description**|combine adf results from apks and websites together												
 |**Options**	|\<apk\-dot\-directory\>		
 |		|&nbsp;&nbsp;&nbsp;&nbsp;the directory which contains all the dot files for apks after running adf.sh or parallel.sh tools in package analyzer
 |		|\<website\-dot\-directory\>
@@ -682,6 +642,7 @@ IV - Software tools and usages
 |**Packages**	|analyzer_combiner	
 |**Notes**	|Must run adf.sh or parallel.sh first before running this script (in both package analyzer and analyzer_web)
 |		|In svg graph, dotted lines represent paths coming from the website, normal lines are from the apk
+|		|
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129381042-de305981-fd64-40f5-b0f5-ffe1a9bf7b93.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129381137-0c7dcc29-eb0a-485e-97b2-8494be950eb0.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129381178-68318b4c-f996-4225-b1da-aed106a26641.png)|
@@ -711,7 +672,6 @@ IV - Software tools and usages
 |		|&nbsp;&nbsp;&nbsp;&nbsp;(‘FP’, some reason) means the paragraph’s true meaning has not been understood by regex .\*\<verb\>.\*\<noun\>.\*
 |**Dependencies**|pystatparser							
 |		|nltk
-|		|	
 |**Packages**	|nlp
 |**Notes**	|on linux or unix system, it is highly recommended to set PATH variable pointing to this package so that the command can be used through the system and as a dependency to other scripts
 |		|currently the lab server file /etc/bash.bashrc is set up as : export PATH=$PATH:/home/hoang/Documents/Achilles/py					
@@ -724,8 +684,7 @@ IV - Software tools and usages
 	
 |**Synopsis**	|**python context.py \<document\>**								
 |:--------------|:-------------- 						
-|**Description**|an attempt to classify a document content on the difficulty levels of the user account deletion process using natural language processing techniques								
-|		|								
+|**Description**|an attempt to classify a document content on the difficulty levels of the user account deletion process using natural language processing techniques															
 |**Options**	|\<document\>	
 |		|&nbsp;&nbsp;&nbsp;&nbsp;A text file
 |		|the script should return one of the following values in increasing difficulty order:
@@ -736,7 +695,6 @@ IV - Software tools and usages
 |		|&nbsp;&nbsp;&nbsp;&nbsp;3: the account deletion function asks to confirm email address
 |		|&nbsp;&nbsp;&nbsp;&nbsp;4: the account deletion function asks to contact customer service
 |**Dependencies**|semantics.py							
-|		|	
 |**Packages**	|nlp									
 |		|						
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129381501-53f68cd9-813d-4684-8f8f-b69c8c42d95b.png)|
@@ -766,12 +724,9 @@ adb pull /data/app/com.mercariapp.mercari-1/base.apk  /Users/preethis/Desktop
 	
 |**Synopsis**	|python py.py (Change corresponding app folder names in the source code and run)					
 |:--------------|:-------------- 						
-|**Description**| A program to extract retention period patterns							
-|		|								
-|**Options**	|None
-|		| 	
+|**Description**| A program to extract retention period patterns												
+|**Options**	|None	
 |**Dependencies**|semantics.py, apktool							
-|		|	
 |**Packages**	|none	
 |		|						
 |**Notes**	|This program converts or reverse engineer’s apk files to decoded form and creates an output directory containing decoded folders and uses ‘strings.xml’ file to extract retention period patterns
@@ -782,12 +737,9 @@ adb pull /data/app/com.mercariapp.mercari-1/base.apk  /Users/preethis/Desktop
 	
 |**Synopsis**	|python testing.py \<foldername.apk\>								
 |:--------------|:-------------- 						
-|**Description**|A program to extract retention period patterns								
-|		|								
+|**Description**|A program to extract retention period patterns												
 |**Options**	|None		
-|		| 	
-|**Dependencies**|semantics.py							
-|		|	
+|**Dependencies**|semantics.py								
 |**Packages**	|none									
 |		|						
 |**Notes**	|This program converts folder containing webpages to texts and creates an output directory containing converted text folders, then uses these files to extract retention period patterns
@@ -799,13 +751,11 @@ adb pull /data/app/com.mercariapp.mercari-1/base.apk  /Users/preethis/Desktop
 	
 |**Synopsis**	|python url.py \<android\-package\-file\>							
 |:--------------|:-------------- 						
-|**Description**|A little snippet to help testers pick the equivalent websites for android packages by listing the top ten results from google							
-|		|								
+|**Description**|A little snippet to help testers pick the equivalent websites for android packages by listing the top ten results from google		
 |**Options**	|\<android\-package\-file\>		
 |		|&nbsp;&nbsp;&nbsp;&nbsp;a text file containing android package names 	
 |**Dependencies**|urlparse						
 |		|googlesearch
-|		|	
 |**Packages**	|lai_web	
 |**Notes**	|Output results will be saved in an csv file and can export to excel for further analysis
 |		|						
@@ -820,16 +770,14 @@ adb pull /data/app/com.mercariapp.mercari-1/base.apk  /Users/preethis/Desktop
 	
 |**Synopsis**	|python store.py \<android\-package\-names\-via\-stdin\>						
 |:--------------|:-------------- 						
-|**Description**|automatically goes to google play store, search for apks and install them to the android phone		
-|		|								
+|**Description**|automatically goes to google play store, search for apks and install them to the android phone							
 |**Options**	|\<android\-package\-names\-via\-stdin\>		
 |		|&nbsp;&nbsp;&nbsp;&nbsp;A list of android package names seperated by new line \n from stdin
-|		|
-|**Dependencies**|commons.py							
-|		|	
+|**Dependencies**|commons.py								
 |**Packages**	|lai_web
 |**Notes**	|\<android\-package\-names\-via\-stdin\> can be replaced by a redirection from cat command
-|		|&nbsp;&nbsp;&nbsp;&nbsp;Appium is required to run the script					
+|		|&nbsp;&nbsp;&nbsp;&nbsp;Appium is required to run the script	
+|		|
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129381743-f50a5714-55c0-48af-b096-8936243ceb83.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129381783-aa093d3d-c245-45df-8cb9-429fa6f1d4bd.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129381820-389e7b5b-ae6f-4a46-a32e-9c13c71e4345.png)|
@@ -841,14 +789,12 @@ adb pull /data/app/com.mercariapp.mercari-1/base.apk  /Users/preethis/Desktop
 	
 |**Synopsis**	|**python my_apps.py \<gmail\> \<gpassword\>**								
 |:--------------|:-------------- 						
-|**Description**|automatically navigate and scrape html from My apps page on google play store website via chrome browser
-|		|								
+|**Description**|automatically navigate and scrape html from My apps page on google play store website via chrome browser					
 |**Options**	|\<gmail\>
 |		|&nbsp;&nbsp;&nbsp;&nbsp;google account email to login play store	
 |		|\<password\>
 |		|&nbsp;&nbsp;&nbsp;&nbsp;google account passowrd to login play store
 |		|The script will scrape all html content from My apps page of google play store
-|		|
 |**Dependencies**|common_web.py							
 |		|python selenium
 |		|chrome driver
@@ -867,13 +813,11 @@ adb pull /data/app/com.mercariapp.mercari-1/base.apk  /Users/preethis/Desktop
 	
 |**Synopsis**	|**python manual.py [ \<apkfile\> \| \<website\-address\> ]**					
 |:--------------|:-------------- 						
-|**Description**|Automatically launch an apkfile or a website then break into its ipdb console for manual intervention tasks
-|		|								
+|**Description**|Automatically launch an apkfile or a website then break into its ipdb console for manual intervention tasks			
 |**Options**	|\<apkfile\>		
 |		|&nbsp;&nbsp;&nbsp;&nbsp; An apk file
 |		|\<website\-address\>
 |		|&nbsp;&nbsp;&nbsp;&nbsp;A website address
-|		|
 |**Dependencies**|commons.py							
 |		|commons_web.py
 |		|ipdb
@@ -881,6 +825,7 @@ adb pull /data/app/com.mercariapp.mercari-1/base.apk  /Users/preethis/Desktop
 |		|lai_web
 |**Notes**	|Appium is required if running the script from package lai
 |		|Selenium, chrome driver, and chrome browser are required if running the script from package lai_web
+|		|
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129382101-131e5dfe-18c9-4550-bdb8-6fc1223c7e4a.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129382135-3ef4bd0b-5563-4ada-933f-afb9a34e6f86.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129382169-5449a08f-b4f9-4365-bf3b-0a59a7507d04.png)|
@@ -899,15 +844,14 @@ adb pull /data/app/com.mercariapp.mercari-1/base.apk  /Users/preethis/Desktop
 |		|&nbsp;&nbsp;&nbsp;&nbsp; An apk file
 |		|\<website\-address\>
 |		|&nbsp;&nbsp;&nbsp;&nbsp; A website address
-|		|	
 |**Dependencies**|commons.py								
 |		|commons_web.py
-|		|	
 |**Packages**	|lai								
 |		|lai_web	
 |**Notes**	|Appium is required if running the script from package lai
 |		|Selenium, chrome driver, and chrome browser are required if running the script from package lai_web
 |		|User account information is hardcoded in commons.py or commons_web.py
+|		|
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129382236-a18a1516-b6dc-4063-8308-e068adcbc693.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129382277-1fe0660e-6fe7-45f0-9b16-b36c28866ae3.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129382316-36408fea-4f34-4128-89ed-bbdbcc0789d5.png)|
@@ -921,21 +865,19 @@ adb pull /data/app/com.mercariapp.mercari-1/base.apk  /Users/preethis/Desktop
 	
 |**Synopsis**	|**python login.py [ \<apkfile\> \| \<website\-address\> ]**						
 |:--------------|:-------------- 						
-|**Description**|an attempt to automatically login a user account via the android application or its equivalent website	
-|		|								
+|**Description**|an attempt to automatically login a user account via the android application or its equivalent website						
 |**Options**	|\<apkfile\>	
 |		|&nbsp;&nbsp;&nbsp;&nbsp; An apk file
 |		|\<website\-address\>
 |		|&nbsp;&nbsp;&nbsp;&nbsp;A website address
-|		|
 |**Dependencies**|commons.py							
 |		|commons_web.py
-|		|	
 |**Packages**	|lai										
 |		|lai_web	
 |**Notes**	|Appium is required if running the script from package lai
 |		|Selenium, chrome driver, and chrome browser are required if running the script from package lai_web
 |		|User account information is hardcoded in commons.py or commons_web.py
+|		|
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129382396-6e65efc8-8c4d-4e5d-83b9-25dca527309d.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129382440-ea582a01-69d4-4eb1-b0a8-b7c5aa04f4a5.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129382484-033fa7c2-06c6-42d0-af4f-0d55b3295765.png)|
@@ -949,7 +891,7 @@ adb pull /data/app/com.mercariapp.mercari-1/base.apk  /Users/preethis/Desktop
 	
 |**Synopsis**	|**python delete.py [ \<apkfile\> \<dotfile\> \| \<website\-address\> ]**			
 |:--------------|:-------------- 						
-|**Description**|an attempt to automatically delete a user account via the android application or its equivalent website														
+|**Description**|an attempt to automatically delete a user account via the android application or its equivalent website					
 |**Options**	|\<apkfile\>	
 |		|&nbsp;&nbsp;&nbsp;&nbsp;An apk file
 |		|\<dotfile\>
@@ -958,13 +900,13 @@ adb pull /data/app/com.mercariapp.mercari-1/base.apk  /Users/preethis/Desktop
 |		|&nbsp;&nbsp;&nbsp;&nbsp;A website address
 |**Dependencies**|commons.py							
 |		|commons_web.py
-|		|	
 |**Packages**	|lai								
 |		|lai_web	
 |**Notes**	|First make sure that there exists a user account with an android application or its equivalent website, possibly by running signup.py
 |		|Appium is required if running the script from package lai, also must run adf.sh or parallel.sh first to have dot files
 |		|Selenium, chrome driver, and chrome browser are required if running the script from package lai_web
 |		|User account information is hardcoded in commons.py or commons_web.py
+|		|
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129382542-41bf787d-46f4-4476-9505-04ed0c029420.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129382579-3013b12d-d2ae-4fa5-a346-c73f30bb088a.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129382630-e77b924e-a8d5-41ef-a186-a7e51ae6bf81.png)|
@@ -977,7 +919,7 @@ adb pull /data/app/com.mercariapp.mercari-1/base.apk  /Users/preethis/Desktop
 	
 |**Synopsis**	|**python cleanup.py \<package\-name\> \<app\-email\> \<app\-password\>**			
 |:--------------|:-------------- 						
-|**Description**|An attempt to automatically cleanup a user account for a certain android app when the user uninstalls it but forgets to do so														
+|**Description**|An attempt to automatically cleanup a user account for a certain android app when the user uninstalls it but forgets to do so			
 |**Options**	|\<package\-name\>	
 |		|&nbsp;&nbsp;&nbsp;&nbsp;The android package name which currently resides on the android device	
 |		|\<app\-email\>
@@ -985,11 +927,11 @@ adb pull /data/app/com.mercariapp.mercari-1/base.apk  /Users/preethis/Desktop
 |		|\<app\-password\>
 |		|&nbsp;&nbsp;&nbsp;&nbsp;The user password which the users uses to login the app  
 |**Dependencies**|commons.py							
-|		|	
 |**Packages**	|lai									
 |		|lai_web
 |**Notes**	|Appium is required to run the script
 |		|Make sure that the <package-name> exists on the device, this can be checked by using pm.sh
+|		|
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129382773-a6ce567c-233f-4684-8cf1-7932b73d8436.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129382825-8979ea11-7161-47b2-861d-6401046142e2.png)|
 
@@ -1001,8 +943,7 @@ adb pull /data/app/com.mercariapp.mercari-1/base.apk  /Users/preethis/Desktop
 	
 |**Synopsis**	|**from commons import \<some\-functionality\>**							
 |:--------------|:-------------- 						
-|**Description**|A python library to interact with the android mobile device via appium					
-|		|								
+|**Description**|A python library to interact with the android mobile device via appium										
 |**Options**	|\<some\-functionality\> can be one of the followings:		
 |		|external constants
 |		|&nbsp;&nbsp;&nbsp;&nbsp;UNINSTALL_FLAG, EMAIL, PASSWORD, USERNAME, BIRTHDAY, FIRSTNAME, LASTNAME,PHONENUMBER, HEIGHT, WEIGHT, AGE, GENDER, LOCATION, ZIPCODE, SSN, DLN, CREDITCARD	
@@ -1096,8 +1037,7 @@ adb pull /data/app/com.mercariapp.mercari-1/base.apk  /Users/preethis/Desktop
 |		|re
 |		|sys	
 |		|pyautogui
-|**Packages**	|lai_web							
-|		|		
+|**Packages**	|lai_web								
 |**Notes**	|none									
 
 	
@@ -1106,16 +1046,15 @@ adb pull /data/app/com.mercariapp.mercari-1/base.apk  /Users/preethis/Desktop
 	
 |**Synopsis**	|**python random_scraper.py \<apkfile\>**								
 |:--------------|:-------------- 						
-|**Description**|a tool which triggers random events on the android app and scrape all the screen textual information
-|		|								
+|**Description**|a tool which triggers random events on the android app and scrape all the screen textual information						
 |**Options**	|\<apkfile\>		
 |		|&nbsp;&nbsp;&nbsp;&nbsp;An apk file 
-|		|
 |**Dependencies**|commons.py			
 |		|monkey
 |**Packages**	|lai	
 |**Notes**	|Appium is required to run the script, must set --relaxed-security option
 |		|the number of events and iteration to be fired are hardcoded in the script
+|		|
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129382951-dc50da23-145a-4ae9-b254-8b9be2f74bcd.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129382988-ba8f55ce-4a14-439f-8e53-be175891f4d0.png)|
 
@@ -1128,13 +1067,10 @@ adb pull /data/app/com.mercariapp.mercari-1/base.apk  /Users/preethis/Desktop
 	
 |**Synopsis**	|**python capture.py \<website\-address\>**								
 |:--------------|:-------------- 						
-|**Description**|A tool which mimics the save as function in google chrome web browser 					
-|		|								
+|**Description**|A tool which mimics the save as function in google chrome web browser 										
 |**Options**	|\<website\-address\>		
 |		|&nbsp;&nbsp;&nbsp;&nbsp;A website address
-|		|	
-|**Dependencies**|commons_web.py							
-|		|		
+|**Dependencies**|commons_web.py									
 |**Packages**	|lai_web
 |**Notes**	|Selenium, web driver, and chrome browser are required before running this script
 |		|Make sure to have pyautogui library installed
@@ -1149,10 +1085,8 @@ adb pull /data/app/com.mercariapp.mercari-1/base.apk  /Users/preethis/Desktop
 	
 |**Synopsis**	|**see examples**								
 |:--------------|:-------------- 						
-|**Description**|a tool for def-use-chain analysis using Soot Framework							
-|		|								
+|**Description**|a tool for def-use-chain analysis using Soot Framework												
 |**Options**	|see examples		
-|		|
 |**Dependencies**|see examples								
 |**Packages**	|see examples	
 |**Notes**	|Eclipse (Keepler) is currently used for running this script
@@ -1168,10 +1102,8 @@ adb pull /data/app/com.mercariapp.mercari-1/base.apk  /Users/preethis/Desktop
 	
 |**Synopsis**	|**from stat_parser import Parser**								
 |:--------------|:-------------- 						
-|**Description**|A python package for parsing natural languages								
-|		|								
+|**Description**|A python package for parsing natural languages													
 |**Options**	|none	
-|		|
 |**Dependencies**|github							
 |**Packages**	|pystatparser		
 |**Notes**	|This open-source python package has been readjusted to work properly with python 2.7
@@ -1186,14 +1118,12 @@ adb pull /data/app/com.mercariapp.mercari-1/base.apk  /Users/preethis/Desktop
 	
 |**Synopsis**	|**\#include “auth.h”**								
 |:--------------|:-------------- 						
-|**Description**|A small c-library built with curl to bypass basic authorization 				
-|		|								
+|**Description**|A small c-library built with curl to bypass basic authorization 										
 |**Options**	|functions:		
 |		|&nbsp;&nbsp;&nbsp;&nbsp;basic_auth
 |		|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bypass basic authorization
 |		|&nbsp;&nbsp;&nbsp;&nbsp;basic_get
 |		|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;simulate a GET request bypassing basic authorization
-|		|
 |**Dependencies**|curl							
 |		|Base64Encode
 |		|Base64Decode
