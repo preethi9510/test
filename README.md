@@ -40,7 +40,7 @@ I - Pre-requisites for setting up a programing environment
 	- Make sure to turn on Developer Mode
 	- Have a Google Play Store account with gmail and password
 
-Notes
+Notes:
 	- Make sure Bash version is at least 4.0
 	- Make sure the following GNU commands are available from the Bash command prompt: 
 	   find, grep, awk, sed, dos2unix, dot, curl, wget, adb, aapt, scp, apktool, split, sshpass, tesseract, html2text, uiautomatorviewer…
