@@ -1045,7 +1045,7 @@ adb pull /data/app/com.mercariapp.mercari-1/base.apk  /Users/preethis/Desktop
 |**Synopsis**	|**from commons_web import \<some\-functionality\>**							
 |:--------------|:-------------- 						
 |**Description**|A python library to interact with the android mobile device via Selenium	
-\<some\-functionality\> can be one of the followings:		
+|**Options**	|\<some\-functionality\> can be one of the followings:		
 |		|external constants
 |		|&nbsp;&nbsp;&nbsp;&nbsp;UNINSTALL_FLAG, EMAIL, PASSWORD, USERNAME, BIRTHDAY, FIRSTNAME, LASTNAME,PHONENUMBER, HEIGHT, WEIGHT, AGE, GENDER, LOCATION, ZIPCODE, SSN, DLN, CREDITCARD	
 |		|external variable
@@ -1076,13 +1076,13 @@ adb pull /data/app/com.mercariapp.mercari-1/base.apk  /Users/preethis/Desktop
 |		|&nbsp;&nbsp;&nbsp;&nbsp;scroll_infinite
 |		|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;automatically scroll the webpage until its end is reached
 |		|								
-|**Options**	|selenium	
+|**Dependencies**|selenium	
 |		|time
 |		|html2text
 |		|re
 |		|sys	
 |		|pyautogui
-|**Dependencies**|lai_web							
+|**Packages**	|lai_web							
 |		|		
 |**Notes**	|none									
 
