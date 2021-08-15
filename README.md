@@ -121,7 +121,7 @@ III – Notations
 	
 IV - Software tools and usages	
 
-				apkdl.sh
+					apkdl.sh
 	
 |**Synopsis**	|./apkdl.sh							|
 |:--------------|:-------------- 						|
@@ -142,7 +142,7 @@ IV - Software tools and usages
 
 
 
-				apk2web.sh:
+							apk2web.sh:
 	
 |**Synopsis**	|**./apk2web.sh \<apkfile\>**							
 |:--------------|:-------------- 						
@@ -161,7 +161,7 @@ IV - Software tools and usages
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129247712-19fa98e7-659f-4151-9fb1-23c1f84bf347.png)
 							
 
-			apk2url.sh:
+								apk2url.sh:
 	
 	
 	
@@ -186,7 +186,7 @@ IV - Software tools and usages
 
 
 
-						auto.sh:
+								auto.sh:
 
 
 |**Synopsis**	|**./auto.sh \[\<apklist-directory\>\<server-username\> \<server-password\> \<wait\-time\-in\-secs\> collect  \| \<apkdir\> apk2web \]**
@@ -221,7 +221,7 @@ IV - Software tools and usages
 
 	
 	
-						batch.sh:
+								batch.sh:
 	
 	
 |**Synopsis**	|**./batch.sh \<apk\-directory\> [ install \| uninstall \| remove \| signup \| login \| delete \| manual ]**			
@@ -269,7 +269,7 @@ IV - Software tools and usages
 |		|![image](https://user-images.githubusercontent.com/84356922/129371941-7766664d-5a7f-4191-8989-30838288f396.png)|
 
 
-						single.sh:
+								single.sh:
 	
 	
 |**Synopsis**	|**./single.sh \<apkfile\> [ download \| signup \| install \| uninstall \| login \| delete \| launch \| search \| manual ]**	
@@ -318,7 +318,7 @@ IV - Software tools and usages
 |		|
 |		|
 		
-						pm.sh:
+								pm.sh:
 	
 	
 |**Synopsis**	|**./pm.sh [ pull \| uninstall \| list \| count \| \<package\-file\> search \| <package-name\> pull ]**		
@@ -353,7 +353,7 @@ IV - Software tools and usages
 |		|![image](https://user-images.githubusercontent.com/84356922/129373744-344dd800-47b5-46d0-8983-f72a5a5429ab.png)|
 |		|
 
-						minus_operation.sh:
+								minus_operation.sh:
 
 |**Synopsis**	|**./minus_operation.sh \<gmail\> \<gpassword\>**								
 |:--------------|:-------------- 						
@@ -374,7 +374,7 @@ IV - Software tools and usages
 |		|![image](https://user-images.githubusercontent.com/84356922/129373872-88a85d42-68cc-4ff7-aa4c-d4a134404e0e.png)|
 		
 
-						lac_batch.sh:
+								lac_batch.sh:
 	
 	
 |**Synopsis**	|./lac_batch.sh [  \<gmail\> \<gpassword\>  minus \| \<./minus\/laXX\> install \| \<package\-name\> \<app\-email\> \<app\-password\> clean \| pull \| uninstall \| \<./minus\/laXX\> remove ]
@@ -423,7 +423,7 @@ IV - Software tools and usages
 |		|![image](https://user-images.githubusercontent.com/84356922/129373975-e1779d5d-0541-40ac-b595-7c475cd18ed6.png)|
 
 	
-						upload.sh:
+								upload.sh:
 	
 	
 |**Synopsis**	|**./upload.sh \<ssh\-username\> \<ssh\-password\>**							
@@ -444,7 +444,7 @@ IV - Software tools and usages
 |		|
 	
 	
-						lac_adf.sh:
+								lac_adf.sh:
 	
 	
 |**Synopsis**	|**./lac_adf \<package\-name\>**								
@@ -468,7 +468,7 @@ IV - Software tools and usages
 |		|![image](https://user-images.githubusercontent.com/84356922/129374187-e6d76152-9ea3-448a-9034-ce1b86aeed2d.png)|
 |		|
 
-						stats2.sh:
+								stats2.sh:
 	
 	
 |**Synopsis**	|**./stats2.sh \<log\-directory\>**								
@@ -488,7 +488,7 @@ IV - Software tools and usages
 |		|
 		
 	
-						stats2_web.sh:
+								stats2_web.sh:
 	
 |**Synopsis**	|**./stats2_web.sh \<weblog\-directory\>**								
 |:--------------|:-------------- 						
@@ -505,7 +505,7 @@ IV - Software tools and usages
 |		|![image](https://user-images.githubusercontent.com/84356922/129375094-7b98d440-0650-41d1-a34f-fa7b595b84d2.png)|
 		
 				
-						adf.sh:
+								adf.sh:
 	
 |**Synopsis**	|**./adf.sh [ \<apkfile\> \| \<website\> ]**								
 |:--------------|:-------------- 						
@@ -548,7 +548,7 @@ IV - Software tools and usages
 	
 	
 	
-						parallel.sh:
+								parallel.sh:
 	
 |**Synopsis**	|**./parallel.sh [ \<apk-directory\> \| \<web\-directory\> ] \<max\-num\-of\-cores\>**			
 |:--------------|:-------------- 						
@@ -575,7 +575,7 @@ IV - Software tools and usages
 	
 	
 	
-						adf_fp.sh:
+								adf_fp.sh:
 
 |**Synopsis**	|**./adf_fp.sh [ \<apkfile\> \| \<website\> ]**								
 |:--------------|:-------------- 						
@@ -602,7 +602,7 @@ IV - Software tools and usages
 		
 	
 	
-						parallel_fp.sh:
+								parallel_fp.sh:
 	
 	
 |**Synopsis**	|**./parallel.sh [ \<apk\-directory\> \| \<web\-directory\> ] \<max\-num\-of\-cores\>**			
@@ -626,7 +626,7 @@ IV - Software tools and usages
 |		|![image](https://user-images.githubusercontent.com/84356922/129379282-97e8d696-53b2-432d-8747-9adcad9a6f0f.png)|
 		
 	
-						stats.sh:
+								stats.sh:
 	
 	
 |**Synopsis**	|**./stats.sh [ time \| dot \| svg \| fp ]**								
@@ -666,7 +666,7 @@ IV - Software tools and usages
 	
 	
 	
-						concat.sh:
+								concat.sh:
 	
 	
 |**Synopsis**	|**./concat.sh \<apk\-dot\-directory\> \<website\-dot\-directory\>**					
@@ -696,7 +696,7 @@ IV - Software tools and usages
 	
 				
 	
-						semantics.py:
+								semantics.py:
 
 	
 |**Synopsis**	|**__DEV__\=1 python semantics.py \<paragraph\> .\*\<verb\>.\*<noun\>.\***				
@@ -724,7 +724,7 @@ IV - Software tools and usages
 
 	
 	
-						context.py:
+								context.py:
 	
 |**Synopsis**	|**python context.py \<document\>**								
 |:--------------|:-------------- 						
@@ -747,7 +747,7 @@ IV - Software tools and usages
 |		|![image](https://user-images.githubusercontent.com/84356922/129381544-73aef7d9-29c8-4d07-a7e3-e80546b538a9.png)|
 
 
-To pull single apks manually from android device to computer:
+**To pull single apks manually from android device to computer:**
 
 1.	Firstly find the path of packages:
 
@@ -765,7 +765,7 @@ package:/data/app/com.multibrains.taxi.passenger.tirhal-1/base.apk=com.multibrai
 adb pull /data/app/com.mercariapp.mercari-1/base.apk  /Users/preethis/Desktop
 
 	
-				apktool to extract retention period from apps:
+						apktool to extract retention period from apps:
 	
 	
 |**Synopsis**	|python py.py (Change corresponding app folder names in the source code and run)					
@@ -782,7 +782,7 @@ adb pull /data/app/com.mercariapp.mercari-1/base.apk  /Users/preethis/Desktop
 	
 	
 	
-				Web tool to extract retention period from websites:
+						Web tool to extract retention period from websites:
 	
 |**Synopsis**	|python testing.py \<foldername.apk\>								
 |:--------------|:-------------- 						
@@ -799,7 +799,7 @@ adb pull /data/app/com.mercariapp.mercari-1/base.apk  /Users/preethis/Desktop
 	
 	
 	
-				url.py:
+								url.py:
 	
 |**Synopsis**	|python url.py \<android\-package\-file\>							
 |:--------------|:-------------- 						
@@ -820,7 +820,7 @@ adb pull /data/app/com.mercariapp.mercari-1/base.apk  /Users/preethis/Desktop
 	
 	
 	
-				store.py:
+								store.py:
 	
 |**Synopsis**	|python store.py \<android\-package\-names\-via\-stdin\>						
 |:--------------|:-------------- 						
@@ -840,7 +840,7 @@ adb pull /data/app/com.mercariapp.mercari-1/base.apk  /Users/preethis/Desktop
 
 	
 	
-				my_apps.py:
+								my_apps.py:
 	
 	
 |**Synopsis**	|**python my_apps.py \<gmail\> \<gpassword\>**								
@@ -866,7 +866,7 @@ adb pull /data/app/com.mercariapp.mercari-1/base.apk  /Users/preethis/Desktop
 	
 	
 	
-				manual.py:
+								manual.py:
 	
 	
 |**Synopsis**	|**python manual.py [ \<apkfile\> \| \<website\-address\> ]**					
@@ -893,7 +893,7 @@ adb pull /data/app/com.mercariapp.mercari-1/base.apk  /Users/preethis/Desktop
 	
 	
 	
-				signup.py:
+								signup.py:
 	
 	
 |**Synopsis**	|**python signup.py [ \<apkfile\> \| \<website\-address\> ]**						
@@ -919,7 +919,7 @@ adb pull /data/app/com.mercariapp.mercari-1/base.apk  /Users/preethis/Desktop
 
 	
 	
-				login.py:
+								login.py:
 	
 	
 	
@@ -948,7 +948,7 @@ adb pull /data/app/com.mercariapp.mercari-1/base.apk  /Users/preethis/Desktop
 	
 	
 	
-				delete.py:
+								delete.py:
 	
 	
 |**Synopsis**	|**python delete.py [ \<apkfile\> \<dotfile\> \| \<website\-address\> ]**			
@@ -976,7 +976,7 @@ adb pull /data/app/com.mercariapp.mercari-1/base.apk  /Users/preethis/Desktop
 	
 	
 	
-				cleanup.py:
+								cleanup.py:
 	
 	
 |**Synopsis**	|**python cleanup.py \<package\-name\> \<app\-email\> \<app\-password\>**			
@@ -1000,7 +1000,7 @@ adb pull /data/app/com.mercariapp.mercari-1/base.apk  /Users/preethis/Desktop
 	
 	
 	
-				commons.py:
+								commons.py:
 	
 	
 |**Synopsis**	|**from commons import \<some\-functionality\>**							
@@ -1056,7 +1056,7 @@ adb pull /data/app/com.mercariapp.mercari-1/base.apk  /Users/preethis/Desktop
 |**Notes**	|none
 	
 	
-				commons_web.py:
+								commons_web.py:
 	
 	
 	
@@ -1106,7 +1106,7 @@ adb pull /data/app/com.mercariapp.mercari-1/base.apk  /Users/preethis/Desktop
 
 	
 	
-				random_scraper.py:
+							random_scraper.py:
 	
 |**Synopsis**	|**python random_scraper.py \<apkfile\>**								
 |:--------------|:-------------- 						
@@ -1127,7 +1127,7 @@ adb pull /data/app/com.mercariapp.mercari-1/base.apk  /Users/preethis/Desktop
 	
 	
 	
-				capture.py:
+							capture.py:
 	
 	
 |**Synopsis**	|**python capture.py \<website\-address\>**								
@@ -1148,7 +1148,7 @@ adb pull /data/app/com.mercariapp.mercari-1/base.apk  /Users/preethis/Desktop
 	
 	
 	
-				DefUseChain.java:
+							DefUseChain.java:
 	
 	
 |**Synopsis**	|**see examples**								
@@ -1167,7 +1167,7 @@ adb pull /data/app/com.mercariapp.mercari-1/base.apk  /Users/preethis/Desktop
 	
 	
 	
-				pystatparser:
+							pystatparser:
 	
 	
 |**Synopsis**	|**from stat_parser import Parser**								
@@ -1185,8 +1185,7 @@ adb pull /data/app/com.mercariapp.mercari-1/base.apk  /Users/preethis/Desktop
 	
 	
 	
-	
-				auth:
+							auth:
 	
 	
 |**Synopsis**	|**\#include “auth.h”**								
