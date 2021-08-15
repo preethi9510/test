@@ -727,65 +727,73 @@ IV - Software tools and usages
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129381501-53f68cd9-813d-4684-8f8f-b69c8c42d95b.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129381544-73aef7d9-29c8-4d07-a7e3-e80546b538a9.png)|
 
-	
+
+To pull single apks manually from android device to computer:
+
+1.	Firstly find the path of packages:
+
+adb shell pm list packages \-f \-3
+
+Output :
+package:/data/app/com.foap.android-1/base.apk=com.foap.android
+package:/data/app/com.adventure.skyticket-1/base.apk=com.adventure.skyticket
+package:/data/app/com.getsomeheadspace.android-2/base.apk=com.getsomeheadspace.android
+package:/data/app/com.mercariapp.mercari-1/base.apk=com.mercariapp.mercari
+package:/data/app/com.multibrains.taxi.passenger.tirhal-1/base.apk=com.multibrains.taxi.passenger.tirhal
+
+2.	To pull a specific package- Example: com.mercariapp.mercari-1:
+
+adb pull /data/app/com.mercariapp.mercari-1/base.apk  /Users/preethis/Desktop
+
 	
 				apktool to extract retention period from apps:
 	
 	
-|**Synopsis**	|****								
+|**Synopsis**	|**python py.py**
+|		|Change corresponding app folder names in the source code and run					
 |:--------------|:-------------- 						
-|**Description**| 								
+|**Description**| A program to extract retention period patterns							
 |		|								
-|**Options**	|		
+|**Options**	|None
 |		| 	
+|**Dependencies**|semantics.py, apktool							
 |		|	
-|		|
-|		|
-|**Dependencies**|								
-|		|	
-|		|	
-|**Packages**	|										
+|**Packages**	|none	
 |		|						
-|**Examples**	|
+|**Notes**	|This program converts or reverse engineer’s apk files to decoded form and creates an output directory containing decoded folders and uses ‘strings.xml’ file to extract retention period patterns
 	
 	
 	
 				Web tool to extract retention period from websites:
 	
-|**Synopsis**	|****								
+|**Synopsis**	|**python testing.py \<foldername.apk\>**								
 |:--------------|:-------------- 						
-|**Description**| 								
+|**Description**|A program to extract retention period patterns								
 |		|								
-|**Options**	|		
+|**Options**	|None		
 |		| 	
+|**Dependencies**|semantics.py							
 |		|	
-|		|
-|		|
-|**Dependencies**|								
-|		|	
-|		|	
-|**Packages**	|										
+|**Packages**	|none									
 |		|						
-|**Examples**	|
+|**Notes**	|This program converts folder containing webpages to texts and creates an output directory containing converted text folders, then uses these files to extract retention period patterns
 	
 	
 	
 	
 				url.py:
 	
-|**Synopsis**	|****								
+|**Synopsis**	|**python url.py \<android\-package\-file\> **								
 |:--------------|:-------------- 						
-|**Description**| 								
+|**Description**|A little snippet to help testers pick the equivalent websites for android packages by listing the top ten results from google							
 |		|								
-|**Options**	|		
-|		| 	
+|**Options**	|\<android\-package\-file\>		
+|		|&nbsp;&nbsp;&nbsp;&nbsp;a text file containing android package names 	
+|**Dependencies**|urlparse						
+|		|googlesearch
 |		|	
-|		|
-|		|
-|**Dependencies**|								
-|		|	
-|		|	
-|**Packages**	|										
+|**Packages**	|lai_web	
+|**Notes**	|Output results will be saved in an csv file and can export to excel for further analysis
 |		|						
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129381601-08ec15b1-75bc-4aef-a9db-7ce9ede1ce8b.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129381665-6feb2fb0-63f7-4ca2-bc5c-33bf8a6a3558.png)|
@@ -796,20 +804,18 @@ IV - Software tools and usages
 	
 				store.py:
 	
-|**Synopsis**	|****								
+|**Synopsis**	|**python store.py \<android\-package\-names\-via\-stdin\>**						
 |:--------------|:-------------- 						
-|**Description**| 								
+|**Description**|automatically goes to google play store, search for apks and install them to the android phone		
 |		|								
-|**Options**	|		
-|		| 	
-|		|	
+|**Options**	|\<android\-package\-names\-via-\stdin\>		
+|		|&nbsp;&nbsp;&nbsp;&nbsp;A list of android package names seperated by new line \n from stdin
 |		|
-|		|
-|**Dependencies**|								
+|**Dependencies**|commons.py							
 |		|	
-|		|	
-|**Packages**	|										
-|		|						
+|**Packages**	|lai_web
+|**Notes**	|\<android\-package\-names\-via\-stdin\> can be replaced by a redirection from cat command
+|		|&nbsp;&nbsp;&nbsp;&nbsp;Appium is required to run the script					
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129381743-f50a5714-55c0-48af-b096-8936243ceb83.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129381783-aa093d3d-c245-45df-8cb9-429fa6f1d4bd.png)|
 |		|![image](https://user-images.githubusercontent.com/84356922/129381820-389e7b5b-ae6f-4a46-a32e-9c13c71e4345.png)|
