@@ -748,8 +748,7 @@ adb pull /data/app/com.mercariapp.mercari-1/base.apk  /Users/preethis/Desktop
 				apktool to extract retention period from apps:
 	
 	
-|**Synopsis**	|**python py.py**
-|		|Change corresponding app folder names in the source code and run					
+|**Synopsis**	|python py.py (Change corresponding app folder names in the source code and run)					
 |:--------------|:-------------- 						
 |**Description**| A program to extract retention period patterns							
 |		|								
@@ -765,7 +764,7 @@ adb pull /data/app/com.mercariapp.mercari-1/base.apk  /Users/preethis/Desktop
 	
 				Web tool to extract retention period from websites:
 	
-|**Synopsis**	|**python testing.py \<foldername.apk\>**								
+|**Synopsis**	|python testing.py \<foldername.apk\>								
 |:--------------|:-------------- 						
 |**Description**|A program to extract retention period patterns								
 |		|								
@@ -782,7 +781,7 @@ adb pull /data/app/com.mercariapp.mercari-1/base.apk  /Users/preethis/Desktop
 	
 				url.py:
 	
-|**Synopsis**	|**python url.py \<android\-package\-file\> **								
+|**Synopsis**	|python url.py \<android\-package\-file\>							
 |:--------------|:-------------- 						
 |**Description**|A little snippet to help testers pick the equivalent websites for android packages by listing the top ten results from google							
 |		|								
