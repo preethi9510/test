@@ -217,7 +217,7 @@ IV - Software tools and usages
 |          	|&nbsp;&nbsp;&nbsp;&nbsp;uninstall
 |               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;uninstall all the apk files in the directory from the android mobile phone
 |          	|&nbsp;&nbsp;&nbsp;&nbsp;remove
-|               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;remove the \<apk\-directory\> and all the output directories \_out and error directories \_err,  |		  |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ready for next batch signup
+|               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;remove the \<apk\-directory\> and all the output directories \_out and error directories \_err,  ready for next batch signup
 |          	|&nbsp;&nbsp;&nbsp;&nbsp;signup
 |               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;automatically signup a user account for each of the apk file in \<apk-directory\>
 |          	|&nbsp;&nbsp;&nbsp;&nbsp;login
@@ -226,7 +226,7 @@ IV - Software tools and usages
 |               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;automatically delete the user account for each of the apk file in \<apk-directory\>
 |          	|&nbsp;&nbsp;&nbsp;&nbsp;manual
 |               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;manual intervention from testers, break into ipdb console and finish any of the options above
-|               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;testers can also use function dump\_text builtin the tool to do screen scraping on the android phone	
+|               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Testers can also use function dump\_text builtin the tool to do screen scraping on the android phone	
 |		|		
 |**Dependencies**|adb
 |		|aapt
