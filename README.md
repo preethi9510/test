@@ -41,7 +41,9 @@ I - Pre-requisites for setting up a programing environment
 	- Have a Google Play Store account with gmail and password
 
 Notes:
-	* Make sure Bash version is at least 4.0
+- Install Anaconda Python 2.7 (https://www.anaconda.com/distribution/)
+	- Install Apktool (https://ibotpeaches.github.io/Apktool/install/)
+	-Make sure Bash version is at least 4.0
 	*Make sure the following GNU commands are available from the Bash command prompt: 
 	* Make sure the following GNU commands are available from the Bash command prompt: 
 	   find, grep, awk, sed, dos2unix, dot, curl, wget, adb, aapt, scp, apktool, split, sshpass, tesseract, html2text, uiautomatorviewer…
