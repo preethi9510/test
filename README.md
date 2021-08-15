@@ -806,7 +806,7 @@ adb pull /data/app/com.mercariapp.mercari-1/base.apk  /Users/preethis/Desktop
 |:--------------|:-------------- 						
 |**Description**|automatically goes to google play store, search for apks and install them to the android phone		
 |		|								
-|**Options**	|\<android\-package\-names\-via-\stdin\>		
+|**Options**	|\<android\-package\-names\-via\-stdin\>		
 |		|&nbsp;&nbsp;&nbsp;&nbsp;A list of android package names seperated by new line \n from stdin
 |		|
 |**Dependencies**|commons.py							
@@ -1158,7 +1158,7 @@ adb pull /data/app/com.mercariapp.mercari-1/base.apk  /Users/preethis/Desktop
 |		|
 |**Dependencies**|github							
 |**Packages**	|pystatparser		
-|**Notes**	|This open-source python package has been readjusted to wokr properly with python 2.7
+|**Notes**	|This open-source python package has been readjusted to work properly with python 2.7
 |		|						
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129383340-9b05828d-979c-4e33-945b-813e67ed939e.png)|
 
@@ -1169,7 +1169,7 @@ adb pull /data/app/com.mercariapp.mercari-1/base.apk  /Users/preethis/Desktop
 				auth:
 	
 	
-|**Synopsis**	|**\#include \“auth.h\”**								
+|**Synopsis**	|**\#include “auth.h”**								
 |:--------------|:-------------- 						
 |**Description**|A small c-library built with curl to bypass basic authorization 				
 |		|								
