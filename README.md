@@ -41,24 +41,24 @@ I - Pre-requisites for setting up a programing environment
 	- Have a Google Play Store account with gmail and password
 
 Notes
-	\- Make sure Bash version is at least 4.0
-	\- Make sure the following GNU commands are available from the Bash command prompt: 
-	   find, grep, awk, sed, dos2unix, dot, curl, wget, adb, aapt, scp, apktool, split, sshpass, tesseract, html2text,uiautomatorviewer…
-	\- Any text editor is sufficient to develop in Bash and Python
-	\- Eclipse IDE (Keepler) is preferred if developing in Java with Soot framework
-	\- gcc and GNU build system are preferred if developing in C
-	\- Software version control (e.g., git, svn) is highly recommended for serious programmers
-	\- Openssh is recommended if working in a team of at least 2 people
-	\- Database management system can be used but not required
-	\- Graphical softwares (e.g., Adobe products) can be used but not required
-	\- Latex is recommended for serious programers
-	\- FileZilla can be used but not required
-	\- Server secondary-storage should be large if running with thousands of apks
-	\- Apache webserver can be replaced with a more light-weight webserver
-	\- alias server='python -m SimpleHTTPServer' is a very useful snippet for launching a builtin python webserver
-	\- Cisco Anyconnect client can be used for remote access from home to school if necessary
-	\- Screaming Frog and httrack can be used but not required
-	\- lxml can be used but not required
+	- Make sure Bash version is at least 4.0
+	- Make sure the following GNU commands are available from the Bash command prompt: 
+	   find, grep, awk, sed, dos2unix, dot, curl, wget, adb, aapt, scp, apktool, split, sshpass, tesseract, html2text, uiautomatorviewer…
+	- Any text editor is sufficient to develop in Bash and Python
+	- Eclipse IDE (Keepler) is preferred if developing in Java with Soot framework
+	- gcc and GNU build system are preferred if developing in C
+	- Software version control (e.g., git, svn) is highly recommended for serious programmers
+	- Openssh is recommended if working in a team of at least 2 people
+	- Database management system can be used but not required
+	- Graphical softwares (e.g., Adobe products) can be used but not required
+	- Latex is recommended for serious programers
+	- FileZilla can be used but not required
+	- Server secondary-storage should be large if running with thousands of apks
+	- Apache webserver can be replaced with a more light-weight webserver
+	- alias server='python -m SimpleHTTPServer' is a very useful snippet for launching a builtin python webserver
+	- Cisco Anyconnect client can be used for remote access from home to school if necessary
+	- Screaming Frog and httrack can be used but not required
+	- lxml can be used but not required
 
 
 
