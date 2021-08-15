@@ -145,7 +145,7 @@ IV - Software tools and usages
 	
 	
 	
-|**Synopsis**	|**./apk2url.sh <packagelist> auto**							
+|**Synopsis**	|**./apk2url.sh \<packagelist\> auto**							
 |:--------------|:-------------- 						
 |**Description**| find the equivalent website address for for a list of android package names via google	
 |		|	
