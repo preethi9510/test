@@ -41,10 +41,9 @@ I - Pre-requisites for setting up a programing environment
 	- Have a Google Play Store account with gmail and password
 
 Notes:
-	- Install Apktool (https://ibotpeaches.github.io/Apktool/install/)
+- Make sure Bash version is at least 4.0
 	-Make sure Bash version is at least 4.0
-	*Make sure the following GNU commands are available from the Bash command prompt: 
-	* Make sure the following GNU commands are available from the Bash command prompt: 
+	-Make sure the following GNU commands are available from the Bash command prompt: 
 	   find, grep, awk, sed, dos2unix, dot, curl, wget, adb, aapt, scp, apktool, split, sshpass, tesseract, html2text, uiautomatorviewer…
 	- Any text editor is sufficient to develop in Bash and Python
 	- Eclipse IDE (Keepler) is preferred if developing in Java with Soot framework
