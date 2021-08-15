@@ -121,7 +121,7 @@ III – Notations
 	
 IV - Software tools and usages	
 
-					apkdl.sh
+				apkdl.sh
 	
 |**Synopsis**	|./apkdl.sh							|
 |:--------------|:-------------- 						|
@@ -142,7 +142,7 @@ IV - Software tools and usages
 
 
 
-							apk2web.sh:
+				apk2web.sh:
 	
 |**Synopsis**	|**./apk2web.sh \<apkfile\>**							
 |:--------------|:-------------- 						
@@ -161,7 +161,7 @@ IV - Software tools and usages
 |**Examples**	|![image](https://user-images.githubusercontent.com/84356922/129247712-19fa98e7-659f-4151-9fb1-23c1f84bf347.png)
 							
 
-								apk2url.sh:
+							apk2url.sh:
 	
 	
 	
@@ -186,7 +186,7 @@ IV - Software tools and usages
 
 
 
-								auto.sh:
+							auto.sh:
 
 
 |**Synopsis**	|**./auto.sh \[\<apklist-directory\>\<server-username\> \<server-password\> \<wait\-time\-in\-secs\> collect  \| \<apkdir\> apk2web \]**
@@ -221,7 +221,7 @@ IV - Software tools and usages
 
 	
 	
-								batch.sh:
+							batch.sh:
 	
 	
 |**Synopsis**	|**./batch.sh \<apk\-directory\> [ install \| uninstall \| remove \| signup \| login \| delete \| manual ]**			
@@ -269,7 +269,7 @@ IV - Software tools and usages
 |		|![image](https://user-images.githubusercontent.com/84356922/129371941-7766664d-5a7f-4191-8989-30838288f396.png)|
 
 
-								single.sh:
+							single.sh:
 	
 	
 |**Synopsis**	|**./single.sh \<apkfile\> [ download \| signup \| install \| uninstall \| login \| delete \| launch \| search \| manual ]**	
@@ -318,7 +318,7 @@ IV - Software tools and usages
 |		|
 |		|
 		
-								pm.sh:
+						pm.sh:
 	
 	
 |**Synopsis**	|**./pm.sh [ pull \| uninstall \| list \| count \| \<package\-file\> search \| <package-name\> pull ]**		
@@ -353,7 +353,7 @@ IV - Software tools and usages
 |		|![image](https://user-images.githubusercontent.com/84356922/129373744-344dd800-47b5-46d0-8983-f72a5a5429ab.png)|
 |		|
 
-								minus_operation.sh:
+						minus_operation.sh:
 
 |**Synopsis**	|**./minus_operation.sh \<gmail\> \<gpassword\>**								
 |:--------------|:-------------- 						
@@ -374,7 +374,7 @@ IV - Software tools and usages
 |		|![image](https://user-images.githubusercontent.com/84356922/129373872-88a85d42-68cc-4ff7-aa4c-d4a134404e0e.png)|
 		
 
-								lac_batch.sh:
+							lac_batch.sh:
 	
 	
 |**Synopsis**	|./lac_batch.sh [  \<gmail\> \<gpassword\>  minus \| \<./minus\/laXX\> install \| \<package\-name\> \<app\-email\> \<app\-password\> clean \| pull \| uninstall \| \<./minus\/laXX\> remove ]
@@ -423,7 +423,7 @@ IV - Software tools and usages
 |		|![image](https://user-images.githubusercontent.com/84356922/129373975-e1779d5d-0541-40ac-b595-7c475cd18ed6.png)|
 
 	
-								upload.sh:
+							upload.sh:
 	
 	
 |**Synopsis**	|**./upload.sh \<ssh\-username\> \<ssh\-password\>**							
