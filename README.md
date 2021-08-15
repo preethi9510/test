@@ -263,7 +263,7 @@ IV - Software tools and usages
 |          	|&nbsp;&nbsp;&nbsp;&nbsp;download
 |               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;download the \<apkfile\> from the server
 |		|&nbsp;&nbsp;&nbsp;&nbsp;signup
-|               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;automatically signup a user account for each of the apk file in \<apk-directory\>	
+|               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;automatically signup a user account for each of the apk file in \<apkfile\>	
 |          	|&nbsp;&nbsp;&nbsp;&nbsp;install
 |               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;install the \<apkfile\> from the android mobile phone
 |		|&nbsp;&nbsp;&nbsp;&nbsp;uninstall
@@ -273,12 +273,12 @@ IV - Software tools and usages
 |          	|&nbsp;&nbsp;&nbsp;&nbsp;delete
 |               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;automatically delete the user account of the \<apkfile\>
 |		|&nbsp;&nbsp;&nbsp;&nbsp;launch
-|               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;launch the <apkfile> and fire random events with monkey tool
+|               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;launch the \<apkfile\> and fire random events with monkey tool
 |      		|&nbsp;&nbsp;&nbsp;&nbsp;search
-|               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;automatically search apk file for a given android package name by automating google web browser
+|               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Automatically search apk file for a given android package name by automating google web browser
 |          	|&nbsp;&nbsp;&nbsp;&nbsp;manual
-|               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;manual intervention from testers, break into ipdb console and finish any of the options above
-|               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;testers can also use function dump\_text builtin the tool to do screen scraping on the android phone	
+|               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Manual intervention from testers, break into ipdb console and finish any of the options above
+|               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Testers can also use function dump\_text builtin the tool to do screen scraping on the android phone	
 |		| 	
 |**Dependencies**|adb						
 |		|monkey
