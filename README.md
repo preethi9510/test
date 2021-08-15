@@ -372,7 +372,7 @@ IV - Software tools and usages
 |          	|&nbsp;&nbsp;&nbsp;&nbsp;\<./minus\/laXX\>
 |               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a text file which contains a list of android package names
 |		|clean
-|            	|&nbsp;&nbsp;&nbsp;&nbsp;given \<app\-email\> and \<app\-password\>, this will automatically delete the user account on a given <package-name>
+|            	|&nbsp;&nbsp;&nbsp;&nbsp;given \<app\-email\> and \<app\-password\>, this will automatically delete the user account on a given \<package\-name\>
 |            	|&nbsp;&nbsp;&nbsp;&nbsp;\<package\-name\>
 |               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the package\-name of an app currently residing on android phone
 |            	|&nbsp;&nbsp;&nbsp;&nbsp;\<app\-email\>                             
