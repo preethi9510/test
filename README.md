@@ -278,7 +278,6 @@ IV - Software tools and usages
 |               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Automatically search apk file for a given android package name by automating google web browser
 |          	|&nbsp;&nbsp;&nbsp;&nbsp;manual
 |               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Manual intervention from testers, break into ipdb console and finish any of the options above
-|               |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Testers can also use function dump\_text builtin the tool to do screen scraping on the android phone	
 |		| 	
 |**Dependencies**|adb						
 |		|monkey
